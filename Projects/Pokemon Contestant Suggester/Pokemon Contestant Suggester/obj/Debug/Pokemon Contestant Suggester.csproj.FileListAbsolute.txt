@@ -1,0 +1,9 @@
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\bin\Debug\Pokemon Contestant Suggester.exe.config
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\bin\Debug\Pokemon Contestant Suggester.exe
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\bin\Debug\Pokemon Contestant Suggester.pdb
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Debug\Pokemon Contestant Suggester.csprojResolveAssemblyReference.cache
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Debug\Pokemon_Contestant_Suggester.Form1.resources
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Debug\Pokemon_Contestant_Suggester.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Debug\Pokemon Contestant Suggester.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Debug\Pokemon Contestant Suggester.exe
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Debug\Pokemon Contestant Suggester.pdb

@@ -1,0 +1,9 @@
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\bin\Debug\Defuse The Bomb.exe.config
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\bin\Debug\Defuse The Bomb.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\bin\Debug\Defuse The Bomb.pdb
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.csprojResolveAssemblyReference.cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse_The_Bomb.Form1.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse_The_Bomb.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.pdb

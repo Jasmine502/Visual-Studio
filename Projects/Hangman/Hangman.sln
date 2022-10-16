@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.csproj", "{73039EC3-EEC3-4382-9746-AC38F93E461D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73039EC3-EEC3-4382-9746-AC38F93E461D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73039EC3-EEC3-4382-9746-AC38F93E461D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73039EC3-EEC3-4382-9746-AC38F93E461D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73039EC3-EEC3-4382-9746-AC38F93E461D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

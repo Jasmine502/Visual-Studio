@@ -1,0 +1,18 @@
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Digital Clock\Digital Clock\bin\Release\Digital Clock.exe.config
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Digital Clock\Digital Clock\bin\Release\Digital Clock.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Digital Clock\Digital Clock\bin\Release\Digital Clock.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Digital Clock\Digital Clock\obj\Release\Digital Clock.csprojResolveAssemblyReference.cache
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Digital Clock\Digital Clock\obj\Release\Digital_Clock.Form1.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Digital Clock\Digital Clock\obj\Release\Digital_Clock.Properties.Resources.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Digital Clock\Digital Clock\obj\Release\Digital Clock.csproj.GenerateResource.Cache
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Digital Clock\Digital Clock\obj\Release\Digital Clock.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Digital Clock\Digital Clock\obj\Release\Digital Clock.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Digital Clock\Digital Clock\bin\Release\Digital Clock.exe.config
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Digital Clock\Digital Clock\obj\Release\Digital Clock.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Digital Clock\Digital Clock\obj\Release\Digital Clock.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Digital Clock\Digital Clock\bin\Release\Digital Clock.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Digital Clock\Digital Clock\bin\Release\Digital Clock.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Digital Clock\Digital Clock\obj\Release\Digital Clock.csprojResolveAssemblyReference.cache
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Digital Clock\Digital Clock\obj\Release\Digital_Clock.Form1.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Digital Clock\Digital Clock\obj\Release\Digital_Clock.Properties.Resources.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Digital Clock\Digital Clock\obj\Release\Digital Clock.csproj.GenerateResource.Cache

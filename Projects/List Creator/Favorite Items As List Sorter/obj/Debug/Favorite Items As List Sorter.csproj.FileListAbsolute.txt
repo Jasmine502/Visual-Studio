@@ -1,0 +1,9 @@
+c:\users\jason santos\documents\visual studio 2012\Projects\Favorite Items As List Sorter\Favorite Items As List Sorter\bin\Debug\Favorite Items As List Sorter.exe.config
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Favorite Items As List Sorter\Favorite Items As List Sorter\bin\Debug\Favorite Items As List Sorter.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Favorite Items As List Sorter\Favorite Items As List Sorter\bin\Debug\Favorite Items As List Sorter.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Favorite Items As List Sorter\Favorite Items As List Sorter\obj\Debug\Favorite Items As List Sorter.csprojResolveAssemblyReference.cache
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Favorite Items As List Sorter\Favorite Items As List Sorter\obj\Debug\Favorite_Items_As_List_Sorter.Form1.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Favorite Items As List Sorter\Favorite Items As List Sorter\obj\Debug\Favorite_Items_As_List_Sorter.Properties.Resources.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Favorite Items As List Sorter\Favorite Items As List Sorter\obj\Debug\Favorite Items As List Sorter.csproj.GenerateResource.Cache
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Favorite Items As List Sorter\Favorite Items As List Sorter\obj\Debug\Favorite Items As List Sorter.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Favorite Items As List Sorter\Favorite Items As List Sorter\obj\Debug\Favorite Items As List Sorter.pdb

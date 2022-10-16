@@ -1,0 +1,9 @@
+c:\users\jason santos\documents\visual studio 2015\Projects\Old Maid\Old Maid\bin\Debug\Old Maid.exe.config
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Old Maid\Old Maid\bin\Debug\Old Maid.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Old Maid\Old Maid\bin\Debug\Old Maid.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Old Maid\Old Maid\obj\Debug\Old Maid.csprojResolveAssemblyReference.cache
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Old Maid\Old Maid\obj\Debug\Old_Maid.Form1.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Old Maid\Old Maid\obj\Debug\Old_Maid.Properties.Resources.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Old Maid\Old Maid\obj\Debug\Old Maid.csproj.GenerateResource.Cache
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Old Maid\Old Maid\obj\Debug\Old Maid.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Old Maid\Old Maid\obj\Debug\Old Maid.pdb

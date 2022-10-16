@@ -1,0 +1,25 @@
+c:\users\jason santos\documents\visual studio 2012\Projects\RPS\RPS\bin\Debug\RPS.exe.config
+c:\users\jason santos\documents\visual studio 2012\Projects\RPS\RPS\bin\Debug\RPS.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\RPS\RPS\bin\Debug\RPS.pdb
+c:\users\jason santos\documents\visual studio 2012\Projects\RPS\RPS\obj\Debug\RPS.Form1.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\RPS\RPS\obj\Debug\RPS.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\RPS\RPS\obj\Debug\RPS.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2012\Projects\RPS\RPS\obj\Debug\RPS.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\RPS\RPS\obj\Debug\RPS.pdb
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Rock, Paper, Scissors\RPS\bin\Debug\RPS.exe.config
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.exe
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.pdb
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Rock, Paper, Scissors\RPS\bin\Debug\RPS.exe
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Rock, Paper, Scissors\RPS\bin\Debug\RPS.pdb
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.Form1.resources
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.Properties.Resources.resources
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.csproj.GenerateResource.Cache
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Rock, Paper, Scissors\RPS\bin\Debug\RPS.exe.config
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Rock, Paper, Scissors\RPS\bin\Debug\RPS.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Rock, Paper, Scissors\RPS\bin\Debug\RPS.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.csprojResolveAssemblyReference.cache
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.Form1.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.Properties.Resources.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Rock, Paper, Scissors\RPS\obj\Debug\RPS.csproj.GenerateResource.Cache

@@ -1,0 +1,27 @@
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Release\Least Amount Of Coins Calculator.exe.config
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Release\Least Amount Of Coins Calculator.exe
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Release\Least Amount Of Coins Calculator.pdb
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least_Amount_Of_Coins_Calculator.Form1.resources
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least_Amount_Of_Coins_Calculator.Properties.Resources.resources
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.csproj.GenerateResource.Cache
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.exe
+C:\Users\Jason Santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Release\Least Amount Of Coins Calculator.exe.config
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Release\Least Amount Of Coins Calculator.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Release\Least Amount Of Coins Calculator.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least_Amount_Of_Coins_Calculator.Form1.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least_Amount_Of_Coins_Calculator.Properties.Resources.resources
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.csproj.GenerateResource.Cache
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Release\Least Amount Of Coins Calculator.exe.config
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Release\Least Amount Of Coins Calculator.exe
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Release\Least Amount Of Coins Calculator.pdb
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.csprojAssemblyReference.cache
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least_Amount_Of_Coins_Calculator.Form1.resources
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least_Amount_Of_Coins_Calculator.Properties.Resources.resources
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.csproj.GenerateResource.cache
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.exe
+C:\Users\Jason\OneDrive\Documents\Visual Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Release\Least Amount Of Coins Calculator.pdb

@@ -1,0 +1,7 @@
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Sly Foxes\Sly Fox\bin\Debug\Sly Fox.exe.config
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Sly Foxes\Sly Fox\obj\Debug\Sly Fox.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Sly Foxes\Sly Fox\obj\Debug\Sly Fox.pdb
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\obj\Debug\Sly Foxes.csprojResolveAssemblyReference.cache
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\obj\Debug\Sly_Fox.Form1.resources
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\obj\Debug\Sly_Fox.Properties.Resources.resources
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\obj\Debug\Sly Foxes.csproj.GenerateResource.Cache

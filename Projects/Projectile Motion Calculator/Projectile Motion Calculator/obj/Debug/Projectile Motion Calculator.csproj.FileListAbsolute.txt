@@ -1,0 +1,9 @@
+c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\bin\Debug\Projectile Motion Calculator.exe.config
+c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\bin\Debug\Projectile Motion Calculator.exe
+c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\bin\Debug\Projectile Motion Calculator.pdb
+c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Debug\Projectile Motion Calculator.csprojResolveAssemblyReference.cache
+c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Debug\Projectile_Motion_Calculator.Form1.resources
+c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Debug\Projectile_Motion_Calculator.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Debug\Projectile Motion Calculator.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Debug\Projectile Motion Calculator.exe
+c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Debug\Projectile Motion Calculator.pdb

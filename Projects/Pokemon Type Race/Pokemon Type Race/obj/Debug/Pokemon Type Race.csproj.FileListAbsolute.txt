@@ -1,0 +1,9 @@
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\bin\Debug\Pokemon Type Race.exe.config
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\bin\Debug\Pokemon Type Race.exe
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\bin\Debug\Pokemon Type Race.pdb
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\obj\Debug\Pokemon Type Race.csprojResolveAssemblyReference.cache
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\obj\Debug\Pokemon_Type_Race.Form1.resources
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\obj\Debug\Pokemon_Type_Race.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\obj\Debug\Pokemon Type Race.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\obj\Debug\Pokemon Type Race.exe
+c:\users\jason santos\documents\visual studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\obj\Debug\Pokemon Type Race.pdb

@@ -1,0 +1,9 @@
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\bin\Release\Sly Fox.exe.config
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\obj\Release\Sly Fox.exe
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\obj\Release\Sly Fox.pdb
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\obj\Release\Sly_Fox.Form1.resources
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\obj\Release\Sly_Fox.Properties.Resources.resources
+C:\Users\Jason Santos\documents\visual studio 2015\Projects\Sly Foxes\Sly Fox\obj\Release\Sly Foxes.csproj.GenerateResource.Cache
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Sly Foxes\Sly Fox\bin\Release\Sly Fox.exe
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Sly Foxes\Sly Fox\bin\Release\Sly Fox.pdb
+C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Sly Foxes\Sly Fox\obj\Release\Sly Foxes.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+c:\users\jason santos\documents\visual studio 2012\Projects\Arm Wrestle\Arm Wrestle\bin\Debug\Arm Wrestle.exe.config
+c:\users\jason santos\documents\visual studio 2012\Projects\Arm Wrestle\Arm Wrestle\bin\Debug\Arm Wrestle.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Arm Wrestle\Arm Wrestle\bin\Debug\Arm Wrestle.pdb
+c:\users\jason santos\documents\visual studio 2012\Projects\Arm Wrestle\Arm Wrestle\obj\Debug\Arm_Wrestle.Form1.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Arm Wrestle\Arm Wrestle\obj\Debug\Arm_Wrestle.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Arm Wrestle\Arm Wrestle\obj\Debug\Arm Wrestle.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Arm Wrestle\Arm Wrestle\obj\Debug\Arm Wrestle.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Arm Wrestle\Arm Wrestle\obj\Debug\Arm Wrestle.pdb

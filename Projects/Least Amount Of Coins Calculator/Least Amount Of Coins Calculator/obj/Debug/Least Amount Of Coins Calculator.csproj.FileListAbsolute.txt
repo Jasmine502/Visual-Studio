@@ -1,0 +1,9 @@
+c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Debug\Least Amount Of Coins Calculator.exe.config
+c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Debug\Least Amount Of Coins Calculator.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Debug\Least Amount Of Coins Calculator.pdb
+c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.csprojResolveAssemblyReference.cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least_Amount_Of_Coins_Calculator.Form1.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least_Amount_Of_Coins_Calculator.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.pdb

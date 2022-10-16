@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citation Formatting", "Citation Formatting.csproj", "{90720012-9C2E-480D-AD8E-CD9C8DA4670B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Citation Formatting Installer", "..\Citation Formatting Installer\Citation Formatting Installer.vdproj", "{EED1DF54-99D4-4233-AA55-9572C4A097DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90720012-9C2E-480D-AD8E-CD9C8DA4670B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90720012-9C2E-480D-AD8E-CD9C8DA4670B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90720012-9C2E-480D-AD8E-CD9C8DA4670B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90720012-9C2E-480D-AD8E-CD9C8DA4670B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED1DF54-99D4-4233-AA55-9572C4A097DA}.Debug|Any CPU.ActiveCfg = Debug
+		{EED1DF54-99D4-4233-AA55-9572C4A097DA}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62DC7B83-6632-437D-B139-4FEAD2A8F456}
+	EndGlobalSection
+EndGlobal

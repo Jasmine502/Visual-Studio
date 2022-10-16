@@ -1,0 +1,9 @@
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Match Attax Scoring Calculator\Match Attax Scoring Calculator\bin\Debug\Match Attax Scoring Calculator.exe.config
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Match Attax Scoring Calculator\Match Attax Scoring Calculator\bin\Debug\Match Attax Scoring Calculator.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Match Attax Scoring Calculator\Match Attax Scoring Calculator\bin\Debug\Match Attax Scoring Calculator.pdb
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Match Attax Scoring Calculator\Match Attax Scoring Calculator\obj\Debug\Match Attax Scoring Calculator.csprojResolveAssemblyReference.cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Match Attax Scoring Calculator\Match Attax Scoring Calculator\obj\Debug\Match_Attax_Scoring_Calculator.Form1.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Match Attax Scoring Calculator\Match Attax Scoring Calculator\obj\Debug\Match_Attax_Scoring_Calculator.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Match Attax Scoring Calculator\Match Attax Scoring Calculator\obj\Debug\Match Attax Scoring Calculator.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Match Attax Scoring Calculator\Match Attax Scoring Calculator\obj\Debug\Match Attax Scoring Calculator.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Match Attax Scoring Calculator\Match Attax Scoring Calculator\obj\Debug\Match Attax Scoring Calculator.pdb

@@ -1,0 +1,8 @@
+c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\bin\Debug\Guess The Number.exe.config
+c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\bin\Debug\Guess The Number.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\bin\Debug\Guess The Number.pdb
+c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\obj\Debug\Guess_The_Number.Form1.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\obj\Debug\Guess_The_Number.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.pdb
