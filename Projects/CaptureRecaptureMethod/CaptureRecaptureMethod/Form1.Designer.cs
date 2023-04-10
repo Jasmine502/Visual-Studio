@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
-            this.firstCaptureCapturedBox = new System.Windows.Forms.TextBox();
+            this.firstCaptureBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.secondCaptureMarkedBox = new System.Windows.Forms.TextBox();
+            this.markedBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.secondCaptureCapturedBox = new System.Windows.Forms.TextBox();
+            this.secondCaptureBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.calculateButton = new System.Windows.Forms.Button();
@@ -52,14 +52,14 @@
             this.label1.Text = "Captured:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // firstCaptureCapturedBox
+            // firstCaptureBox
             // 
-            this.firstCaptureCapturedBox.Location = new System.Drawing.Point(137, 48);
-            this.firstCaptureCapturedBox.Name = "firstCaptureCapturedBox";
-            this.firstCaptureCapturedBox.Size = new System.Drawing.Size(50, 20);
-            this.firstCaptureCapturedBox.TabIndex = 1;
-            this.firstCaptureCapturedBox.Text = "00";
-            this.firstCaptureCapturedBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.firstCaptureBox.Location = new System.Drawing.Point(137, 48);
+            this.firstCaptureBox.Name = "firstCaptureBox";
+            this.firstCaptureBox.Size = new System.Drawing.Size(50, 20);
+            this.firstCaptureBox.TabIndex = 1;
+            this.firstCaptureBox.Text = "00";
+            this.firstCaptureBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -81,14 +81,14 @@
             this.label3.Text = "Marked:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // secondCaptureMarkedBox
+            // markedBox
             // 
-            this.secondCaptureMarkedBox.Location = new System.Drawing.Point(137, 122);
-            this.secondCaptureMarkedBox.Name = "secondCaptureMarkedBox";
-            this.secondCaptureMarkedBox.Size = new System.Drawing.Size(50, 20);
-            this.secondCaptureMarkedBox.TabIndex = 2;
-            this.secondCaptureMarkedBox.Text = "00";
-            this.secondCaptureMarkedBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.markedBox.Location = new System.Drawing.Point(137, 122);
+            this.markedBox.Name = "markedBox";
+            this.markedBox.Size = new System.Drawing.Size(50, 20);
+            this.markedBox.TabIndex = 2;
+            this.markedBox.Text = "00";
+            this.markedBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
@@ -100,14 +100,14 @@
             this.label4.Text = "Captured";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // secondCaptureCapturedBox
+            // secondCaptureBox
             // 
-            this.secondCaptureCapturedBox.Location = new System.Drawing.Point(137, 152);
-            this.secondCaptureCapturedBox.Name = "secondCaptureCapturedBox";
-            this.secondCaptureCapturedBox.Size = new System.Drawing.Size(50, 20);
-            this.secondCaptureCapturedBox.TabIndex = 3;
-            this.secondCaptureCapturedBox.Text = "00";
-            this.secondCaptureCapturedBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.secondCaptureBox.Location = new System.Drawing.Point(137, 152);
+            this.secondCaptureBox.Name = "secondCaptureBox";
+            this.secondCaptureBox.Size = new System.Drawing.Size(50, 20);
+            this.secondCaptureBox.TabIndex = 3;
+            this.secondCaptureBox.Text = "00";
+            this.secondCaptureBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5
             // 
@@ -157,9 +157,9 @@
             this.ClientSize = new System.Drawing.Size(198, 286);
             this.Controls.Add(this.totalEstimateLabel);
             this.Controls.Add(this.calculateButton);
-            this.Controls.Add(this.secondCaptureCapturedBox);
-            this.Controls.Add(this.secondCaptureMarkedBox);
-            this.Controls.Add(this.firstCaptureCapturedBox);
+            this.Controls.Add(this.secondCaptureBox);
+            this.Controls.Add(this.markedBox);
+            this.Controls.Add(this.firstCaptureBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
@@ -174,7 +174,6 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "C/RC";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,12 +182,12 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox firstCaptureCapturedBox;
+        private System.Windows.Forms.TextBox firstCaptureBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox secondCaptureMarkedBox;
+        private System.Windows.Forms.TextBox markedBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox secondCaptureCapturedBox;
+        private System.Windows.Forms.TextBox secondCaptureBox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button calculateButton;

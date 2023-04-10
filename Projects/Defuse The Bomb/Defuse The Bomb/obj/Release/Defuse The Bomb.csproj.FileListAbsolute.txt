@@ -24,3 +24,14 @@ C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Defuse The Bomb\Defu
 C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse_The_Bomb.Form1.resources
 C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse_The_Bomb.Properties.Resources.resources
 C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse The Bomb.csproj.GenerateResource.Cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\bin\Release\Defuse The Bomb.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\bin\Release\Defuse The Bomb.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\bin\Release\Defuse The Bomb.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse The Bomb.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse The Bomb.csproj.SuggestedBindingRedirects.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse_The_Bomb.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse_The_Bomb.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse The Bomb.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse The Bomb.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse The Bomb.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Release\Defuse The Bomb.pdb

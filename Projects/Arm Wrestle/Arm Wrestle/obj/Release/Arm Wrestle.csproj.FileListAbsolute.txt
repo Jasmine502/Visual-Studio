@@ -34,3 +34,14 @@ C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Arm Wrestle\Arm Wrestle
 C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm Wrestle.exe
 C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm Wrestle.pdb
 C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm Wrestle.csprojAssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm Wrestle.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm Wrestle.csproj.SuggestedBindingRedirects.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm_Wrestle.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm Wrestle.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm Wrestle.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm Wrestle.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm Wrestle.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\bin\Release\Arm Wrestle.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\bin\Release\Arm Wrestle.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\bin\Release\Arm Wrestle.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Arm Wrestle\Arm Wrestle\obj\Release\Arm_Wrestle.Form1.resources

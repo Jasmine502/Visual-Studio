@@ -1,97 +1,84 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Net.Http;
+using Newtonsoft.Json.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Reflection.Emit;
+using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Pokemon_Type_Race
 {
     public partial class Form1 : Form
     {
+        private readonly HttpClient httpClient = new HttpClient();
+        private readonly SoundPlayer ding = new SoundPlayer(Properties.Resources.Ding);
+
+        private int time = 60;
+        private float wps;
+        private float wordsWritten = 0;
+
         public Form1()
         {
             InitializeComponent();
         }
-        int time = 60;
-        float wps;
-        float written = 0;
-        SoundPlayer ding = new SoundPlayer(@"C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\Pokemon Type Race\Pokemon Type Race\Resources\Ding.mp3");
-        Random rnd = new Random();
-        String[] pokemon = { "ABOMASNOW", "ABRA", "ABSOL", "ACCELGOR", "AEGISLASH", "AERODACTYL", "AGGRON", "AIPOM", "ALAKAZAM", "ALOMOMOLA", "ALTARIA", "AMAURA", "AMBIPOM", "AMOONGUSS", "AMPHAROS", "ANORITH", "ARBOK", "ARCANINE", "ARCEUS", "ARCHEN", "ARCHEOPS", "ARIADOS", "ARMALDO", "AROMATISSE", "ARON", "ARTICUNO", "AUDINO", "AURORUS", "AVALUGG", "AXEW", "AZELF", "AZUMARILL", "AZURILL", "BAGON", "BALTOY", "BANETTE", "BARBARACLE", "BARBOACH", "BASCULIN", "BASTIODON", "BAYLEEF", "BEARTIC", "BEAUTIFLY", "BEEDRILL", "BEHEEYEM", "BELDUM", "BELLOSSOM", "BELLSPROUT", "BERGMITE", "BIBAREL", "BIDOOF", "BINACLE", "BISHARP", "BLASTOISE", "BLAZIKEN", "BLISSEY", "BLITZLE", "BOLDORE", "BONSLY", "BOUFFALANT", "BRAIXEN", "BRAVIARY", "BRELOOM", "BRONZONG", "BRONZOR", "BUDEW", "BUIZEL", "BULBASAUR", "BUNEARY", "BUNNELBY", "BURMY", "BUTTERFREE", "CACNEA", "CACTURNE", "CAMERUPT", "CARBINK", "CARNIVINE", "CARRACOSTA", "CARVANHA", "CASCOON", "CASTFORM", "CATERPIE", "CELEBI", "CHANDELURE", "CHANSEY", "CHARIZARD", "CHARMANDER", "CHARMELEON", "CHATOT", "CHERRIM", "CHERUBI", "CHESNAUGHT", "CHESPIN", "CHIKORITA", "CHIMCHAR", "CHIMECHO", "CHINCHOU", "CHINGLING", "CINCCINO", "CLAMPERL", "CLAUNCHER", "CLAWITZER", "CLAYDOL", "CLEFABLE", "CLEFAIRY", "CLEFFA", "CLOYSTER", "COBALION", "COFAGRIGUS", "COMBEE", "COMBUSKEN", "CONKELDURR", "CORPHISH", "CORSOLA", "COTTONEE", "CRADILY", "CRANIDOS", "CRAWDAUNT", "CRESSELIA", "CROAGUNK", "CROBAT", "CROCONAW", "CRUSTLE", "CRYOGONAL", "CUBCHOO", "CUBONE", "CYNDAQUIL", "DARKRAI", "DARMANITAN", "DARUMAKA", "DEDENNE", "DEERLING", "DEINO", "DELCATTY", "DELIBIRD", "DELPHOX", "DEOXYS", "DEWGONG", "DEWOTT", "DIALGA", "DIANCIE", "DIGGERSBY", "DIGLETT", "DITTO", "DODRIO", "DODUO", "DONPHAN", "DOUBLADE", "DRAGALGE", "DRAGONAIR", "DRAGONITE", "DRAPION", "DRATINI", "DRIFBLIM", "DRIFLOON", "DRILBUR", "DROWZEE", "DRUDDIGON", "DUCKLETT", "DUGTRIO", "DUNSPARCE", "DUOSION", "DURANT", "DUSCLOPS", "DUSKNOIR", "DUSKULL", "DUSTOX", "DWEBBLE", "EELEKTRIK", "EELEKTROSS", "EEVEE", "EKANS", "ELECTABUZZ", "ELECTIVIRE", "ELECTRIKE", "ELECTRODE", "ELEKID", "ELGYEM", "EMBOAR", "EMOLGA", "EMPOLEON", "ENTEI", "ESCAVALIER", "ESPEON", "ESPURR", "EXCADRILL", "EXEGGCUTE", "EXEGGUTOR", "EXPLOUD", "FARFETCH'D", "FEAROW", "FEEBAS", "FENNEKIN", "FERALIGATR", "FERROSEED", "FERROTHORN", "FINNEON", "FLAAFFY", "FLABÉBÉ", "FLAREON", "FLETCHINDER", "FLETCHLING", "FLOATZEL", "FLOETTE", "FLORGES", "FLYGON", "FOONGUS", "FORRETRESS", "FRAXURE", "FRILLISH", "FROAKIE", "FROGADIER", "FROSLASS", "FURFROU", "FURRET", "GABITE", "GALLADE", "GALVANTULA", "GARBODOR", "GARCHOMP", "GARDEVOIR", "GASTLY", "GASTRODON", "GASTRODON-EAST", "GENESECT", "GENGAR", "GEODUDE", "GIBLE", "GIGALITH", "GIRAFARIG", "GIRATINA", "GLACEON", "GLALIE", "GLAMEOW", "GLIGAR", "GLISCOR", "GLOOM", "GOGOAT", "GOLBAT", "GOLDEEN", "GOLDUCK", "GOLEM", "GOLETT", "GOLURK", "GOODRA", "GOOMY", "GOREBYSS", "GOTHITA", "GOTHITELLE", "GOTHORITA", "GOURGEIST", "GRANBULL", "GRAVELER", "GRENINJA", "GRIMER", "GROTLE", "GROUDON", "GROVYLE", "GROWLITHE", "GRUMPIG", "GULPIN", "GURDURR", "GYARADOS", "HAPPINY", "HARIYAMA", "HAUNTER", "HAWLUCHA", "HAXORUS", "HEATMOR", "HEATRAN", "HELIOLISK", "HELIOPTILE", "HERACROSS", "HERDIER", "HIPPOPOTAS", "HIPPOWDON", "HITMONCHAN", "HITMONLEE", "HITMONTOP", "HO-OH", "HONCHKROW", "HONEDGE", "HOOPA", "HOOTHOOT", "HOPPIP", "HORSEA", "HOUNDOOM", "HOUNDOUR", "HUNTAIL", "HYDREIGON", "HYPNO", "IGGLYBUFF", "ILLUMISE", "INFERNAPE", "INKAY", "IVYSAUR", "JELLICENT", "JIGGLYPUFF", "JIRACHI", "JOLTEON", "JOLTIK", "JUMPLUFF", "JYNX", "KABUTO", "KABUTOPS", "KADABRA", "KAKUNA", "KANGASKHAN", "KARRABLAST", "KECLEON", "KELDEO", "KINGDRA", "KINGLER", "KIRLIA", "KLANG", "KLEFKI", "KLINK", "KLINKLANG", "KOFFING", "KRABBY", "KRICKETOT", "KRICKETUNE", "KROKOROK", "KROOKODILE", "KYOGRE", "KYUREM", "LAIRON", "LAMPENT", "LANDORUS", "LANTURN", "LAPRAS", "LARVESTA", "LARVITAR", "LATIAS", "LATIOS", "LEAFEON", "LEAVANNY", "LEDIAN", "LEDYBA", "LICKILICKY", "LICKITUNG", "LIEPARD", "LILEEP", "LILLIGANT", "LILLIPUP", "LINOONE", "LITLEO", "LITWICK", "LOMBRE", "LOPUNNY", "LOTAD", "LOUDRED", "LUCARIO", "LUDICOLO", "LUGIA", "LUMINEON", "LUNATONE", "LUVDISC", "LUXIO", "LUXRAY", "MACHAMP", "MACHOKE", "MACHOP", "MAGBY", "MAGCARGO", "MAGIKARP", "MAGMAR", "MAGMORTAR", "MAGNEMITE", "MAGNETON", "MAGNEZONE", "MAKUHITA", "MALAMAR", "MAMOSWINE", "MANAPHY", "MANDIBUZZ", "MANECTRIC", "MANKEY", "MANTINE", "MANTYKE", "MARACTUS", "MAREEP", "MARILL", "MAROWAK", "MARSHTOMP", "MASQUERAIN", "MAWILE", "MEDICHAM", "MEDITITE", "MEGANIUM", "MELOETTA", "MEOWSTIC", "MEOWTH", "MESPRIT", "METAGROSS", "METANG", "METAPOD", "MEW", "MEWTWO", "MIENFOO", "MIENSHAO", "MIGHTYENA", "MILOTIC", "MILTANK", "MIME JR.", "MINCCINO", "MINUN", "MISDREAVUS", "MISMAGIUS", "MOLTRES", "MONFERNO", "MOTHIM", "MR. MIME", "MUDKIP", "MUK", "MUNCHLAX", "MUNNA", "MURKROW", "MUSHARNA", "NATU", "NIDOKING", "NIDOQUEEN", "NIDORAN♀", "NIDORAN♂", "NIDORINA", "NIDORINO", "NINCADA", "NINETALES", "NINJASK", "NOCTOWL", "NOIBAT", "NOIVERN", "NOSEPASS", "NUMEL", "NUZLEAF", "OCTILLERY", "ODDISH", "OMANYTE", "OMASTAR", "ONIX", "OSHAWOTT", "PACHIRISU", "PALKIA", "PALPITOAD", "PANCHAM", "PANGORO", "PANPOUR", "PANSAGE", "PANSEAR", "PARAS", "PARASECT", "PATRAT", "PAWNIARD", "PELIPPER", "PERSIAN", "PETILIL", "PHANPY", "PHANTUMP", "PHIONE", "PICHU", "PIDGEOT", "PIDGEOTTO", "PIDGEY", "PIDOVE", "PIGNITE", "PIKACHU", "PILOSWINE", "PINECO", "PINSIR", "PIPLUP", "PLUSLE", "POLITOED", "POLIWAG", "POLIWHIRL", "POLIWRATH", "PONYTA", "POOCHYENA", "PORYGON", "PORYGON-Z", "PORYGON2", "PRIMEAPE", "PRINPLUP", "PROBOPASS", "PSYDUCK", "PUMPKABOO", "PUPITAR", "PURRLOIN", "PURUGLY", "PYROAR", "QUAGSIRE", "QUILAVA", "QUILLADIN", "QWILFISH", "RAICHU", "RAIKOU", "RALTS", "RAMPARDOS", "RAPIDASH", "RATICATE", "RATTATA", "RAYQUAZA", "REGICE", "REGIGIGAS", "REGIROCK", "REGISTEEL", "RELICANTH", "REMORAID", "RESHIRAM", "REUNICLUS", "RHYDON", "RHYHORN", "RHYPERIOR", "RIOLU", "ROGGENROLA", "ROSELIA", "ROSERADE", "ROTOM", "ROTOM-HEAT", "ROTOM-WASH", "ROTOM-FROST", "ROTOM-FAN", "ROTOM-MOW", "RUFFLET", "SABLEYE", "SALAMENCE", "SAMUROTT", "SANDILE", "SANDSHREW", "SANDSLASH", "SAWK", "SAWSBUCK", "SCATTERBUG", "SCEPTILE", "SCIZOR", "SCOLIPEDE", "SCRAFTY", "SCRAGGY", "SCYTHER", "SEADRA", "SEAKING", "SEALEO", "SEEDOT", "SEEL", "SEISMITOAD", "SENTRET", "SERPERIOR", "SERVINE", "SEVIPER", "SEWADDLE", "SHARPEDO", "SHAYMIN", "SHAYMIN-SKY", "SHEDINJA", "SHELGON", "SHELLDER", "SHELLOS", "SHELLOS-WEST", "SHELMET", "SHIELDON", "SHIFTRY", "SHINX", "SHROOMISH", "SHUCKLE", "SHUPPET", "SIGILYPH", "SILCOON", "SIMIPOUR", "SIMISAGE", "SIMISEAR", "SKARMORY", "SKIDDO", "SKIPLOOM", "SKITTY", "SKORUPI", "SKRELP", "SKUNTANK", "SLAKING", "SLAKOTH", "SLIGGOO", "SLOWBRO", "SLOWKING", "SLOWPOKE", "SLUGMA", "SLURPUFF", "SMEARGLE", "SMOOCHUM", "SNEASEL", "SNIVY", "SNORLAX", "SNORUNT", "SNOVER", "SNUBBULL", "SOLOSIS", "SOLROCK", "SPEAROW", "SPEWPA", "SPHEAL", "SPINARAK", "SPINDA", "SPIRITOMB", "SPOINK", "SPRITZEE", "SQUIRTLE", "STANTLER", "STARAPTOR", "STARAVIA", "STARLY", "STARMIE", "STARYU", "STEELIX", "STOUTLAND", "STUNFISK", "STUNKY", "SUDOWOODO", "SUICUNE", "SUNFLORA", "SUNKERN", "SURSKIT", "SWABLU", "SWADLOON", "SWALOT", "SWAMPERT", "SWANNA", "SWELLOW", "SWINUB", "SWIRLIX", "SWOOBAT", "SYLVEON", "TAILLOW", "TALONFLAME", "TANGELA", "TANGROWTH", "TAUROS", "TEDDIURSA", "TENTACOOL", "TENTACRUEL", "TEPIG", "TERRAKION", "THROH", "THUNDURUS", "TIMBURR", "TIRTOUGA", "TOGEKISS", "TOGEPI", "TOGETIC", "TORCHIC", "TORKOAL", "TORNADUS", "TORTERRA", "TOTODILE", "TOXICROAK", "TRANQUILL", "TRAPINCH", "TREECKO", "TREVENANT", "TROPIUS", "TRUBBISH", "TURTWIG", "TYMPOLE", "TYNAMO", "TYPHLOSION", "TYRANITAR", "TYRANTRUM", "TYROGUE", "TYRUNT", "UMBREON", "UNFEZANT", "UNOWN", "URSARING", "UXIE", "VANILLISH", "VANILLITE", "VANILLUXE", "VAPOREON", "VENIPEDE", "VENOMOTH", "VENONAT", "VENUSAUR", "VESPIQUEN", "VIBRAVA", "VICTINI", "VICTREEBEL", "VIGOROTH", "VILEPLUME", "VIRIZION", "VIVILLON", "VOLBEAT", "VOLCANION", "VOLCARONA", "VOLTORB", "VULLABY", "VULPIX", "WAILMER", "WAILORD", "WALREIN", "WARTORTLE", "WATCHOG", "WEAVILE", "WEEDLE", "WEEPINBELL", "WEEZING", "WHIMSICOTT", "WHIRLIPEDE", "WHISCASH", "WHISMUR", "WIGGLYTUFF", "WINGULL", "WOBBUFFET", "WOOBAT", "WOOPER", "WORMADAM", "WURMPLE", "WYNAUT", "XATU", "XERNEAS", "YAMASK", "YANMA", "YANMEGA", "YVELTAL", "ZANGOOSE", "ZAPDOS", "ZEBSTRIKA", "ZEKROM", "ZIGZAGOON", "ZOROARK", "ZORUA", "ZUBAT", "ZWEILOUS", "ZYGARDE" };
 
-        private void startButton_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            pokemonLabel.Text = pokemon[rnd.Next(pokemon.Count())].ToString();
-            Height = 146;
-            written = 0;
-            wps = 0;
-            time = 60;
-            timerLabel.Text = time.ToString();
-            textBox.Enabled = true;
-            textBox.Clear();
-            timer.Start();
-        }
+            var pokemonNames = await GetPokemonNamesAsync();
 
-        private void timerStart(object sender, EventArgs e)
-        {
+            var rnd = new Random();
+            var text = pokemonNames[rnd.Next(0, pokemonNames.Count)];
+            label2.Text = text;
 
-            if (time > 0)
+            textBox1.Focus();
+            var start = DateTime.Now;
+
+            while (time > 0)
             {
+                textBox1.Focus();
+
+                if (textBox1.Text.ToUpper() == text)
+                {
+                    textBox1.Text = "";
+                    wordsWritten += text.Split(' ').Length;
+                    label4.Text = wordsWritten.ToString();
+
+                    var end = DateTime.Now;
+                    var elapsed = end - start;
+                    wps = wordsWritten / (float)elapsed.TotalSeconds;
+                    label6.Text = wps.ToString("F2") + " WPS";
+
+                    text = pokemonNames[rnd.Next(0, pokemonNames.Count)];
+                    label2.Text = text;
+
+                    ding.Play();
+                }
+
+                var remaining = TimeSpan.FromSeconds(time);
+                label7.Text = remaining.ToString(@"ss\.ff");
+
+                await Task.Delay(50);
                 time--;
             }
-            else
-            {
-                timer.Stop();
-                textBox.Enabled = false;
-                wps = written / 60;
-                MessageBox.Show("TIMES UP!");
-                Height = 294;
-                nameListBox.Items.Add(nameBox.Text);
-                recordsListBox.Items.Add(written);
-                nameBox.Clear();
 
-            }
-
-            if (time >= 10)
-            {
-                timerLabel.Text = time.ToString();
-            }
-            else
-            {
-                timerLabel.Text = "0" + time.ToString();
-            }
+            textBox1.Enabled = false;
+            button1.Enabled = false;
         }
 
-        private void textBox_TextChanged(object sender, EventArgs e)
+        private async Task<System.Collections.Generic.List<string>> GetPokemonNamesAsync()
         {
-            if (textBox.Text.ToUpper() == pokemonLabel.Text)
+            var response = await httpClient.GetAsync("https://pokeapi.co/api/v2/pokemon?limit=10000");
+            var json = await response.Content.ReadAsStringAsync();
+            var result = JObject.Parse(json);
+            var pokemonArray = JArray.Parse(result["results"].ToString());
+            var pokemonNames = new System.Collections.Generic.List<string>();
+            foreach (var item in pokemonArray)
             {
-                written++;
-                pokemonLabel.Text = pokemon[rnd.Next(pokemon.Count())].ToString();
-                textBox.Clear();
+                pokemonNames.Add(item["name"].ToString().ToUpper());
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
-
-        private void nameBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void nameBox_Click(object sender, EventArgs e)
-        {
-            if (nameBox.Text == "NAME")
-            {
-                nameBox.Clear();
-            }
+            return pokemonNames;
         }
     }
 }

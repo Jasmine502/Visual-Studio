@@ -7,3 +7,14 @@ C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\DialPad\DialPad\obj\
 C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\DialPad\DialPad\obj\Release\DialPad.csproj.GenerateResource.Cache
 C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\DialPad\DialPad\obj\Release\DialPad.exe
 C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\DialPad\DialPad\obj\Release\DialPad.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\bin\Release\DialPad.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\bin\Release\DialPad.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\bin\Release\DialPad.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\obj\Release\DialPad.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\obj\Release\DialPad.csproj.SuggestedBindingRedirects.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\obj\Release\DialPad.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\obj\Release\DialPad.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\obj\Release\DialPad.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\obj\Release\DialPad.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\obj\Release\DialPad.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\DialPad\DialPad\obj\Release\DialPad.pdb

@@ -490,7 +490,7 @@ namespace Gen_1PokemonCaptureSimulation
                 randomCurrentHPButton.Enabled = true;
                 pokStatusBox.Enabled = true;
                 randomStatusButton.Enabled = true;
-                pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToUpper() + ".gif");
+                pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToUpper() + ".gif");
                 freeTimer.Stop();
                 clearConsole();
 
@@ -519,7 +519,7 @@ namespace Gen_1PokemonCaptureSimulation
                 randomCurrentHPButton.Enabled = true;
                 pokStatusBox.Enabled = true;
                 randomStatusButton.Enabled = true;
-                pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToLower() + ".gif");
+                pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToLower() + ".gif");
                 freeTimer.Stop();
                 clearConsole();
 
@@ -544,7 +544,7 @@ namespace Gen_1PokemonCaptureSimulation
                 randomCurrentHPButton.Enabled = true;
                 pokStatusBox.Enabled = true;
                 randomStatusButton.Enabled = true;
-                pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToUpper() + ".gif");
+                pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToUpper() + ".gif");
                 freeTimer.Stop();
                 clearConsole();
 
@@ -615,7 +615,7 @@ namespace Gen_1PokemonCaptureSimulation
                         pokemonBox.Enabled = false;
                         pokemonTeamBox.Enabled = false;
                         pcBox.Enabled = false;
-                        pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToLower() + ".gif");
+                        pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToLower() + ".gif");
                         pokemonBox.Text = pokemonBox.Text.ToUpper();
 
                         //Types
@@ -882,7 +882,7 @@ namespace Gen_1PokemonCaptureSimulation
                 }
                 if (pokemon.Contains(pokemonTeamBox.SelectedItem.ToString()) || megaNames.Contains(pokemonTeamBox.SelectedItem.ToString().ToUpper()))
                 {
-                    pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonTeamBox.SelectedItem.ToString().ToLower() + ".gif");
+                    pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonTeamBox.SelectedItem.ToString().ToLower() + ".gif");
                 }
                 else
                 {
@@ -916,7 +916,7 @@ namespace Gen_1PokemonCaptureSimulation
                 deselectButton.Enabled = true;
                 if (pokemon.Contains(pcBox.SelectedItem.ToString()))
                 {
-                    pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pcBox.SelectedItem.ToString() + ".gif");
+                    pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pcBox.SelectedItem.ToString() + ".gif");
                 }
                 else
                 {

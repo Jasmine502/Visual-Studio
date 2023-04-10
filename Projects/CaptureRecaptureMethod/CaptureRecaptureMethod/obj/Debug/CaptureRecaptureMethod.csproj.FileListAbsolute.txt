@@ -7,3 +7,14 @@ C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\CaptureRecaptureMeth
 C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.csproj.GenerateResource.Cache
 C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.exe
 C:\Users\Jason Santos\Documents\Visual Studio 2015\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\bin\Debug\CaptureRecaptureMethod.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\bin\Debug\CaptureRecaptureMethod.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\bin\Debug\CaptureRecaptureMethod.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.csproj.SuggestedBindingRedirects.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CaptureRecaptureMethod\CaptureRecaptureMethod\obj\Debug\CaptureRecaptureMethod.pdb

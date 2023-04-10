@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DialPad
@@ -19,77 +12,64 @@ namespace DialPad
 
         private void button_click(object sender, EventArgs e)
         {
-            Button b = (Button)sender;
-            display.Text += b.Text;
+            Button button = sender as Button;
+            display.Text += button?.Text;
         }
 
         private void clearButton_Click(object sender, EventArgs e)
         {
-            display.Text = "";
+            display.Text = string.Empty;
         }
 
         private void callButton_Click(object sender, EventArgs e)
         {
             if (callButton.Text == "END")
             {
-                display.Text = "";
+                display.Text = string.Empty;
                 display.Visible = true;
-                button1.Visible = true;
-                button2.Visible = true;
-                button3.Visible = true;
-                button4.Visible = true;
-                button5.Visible = true;
-                button6.Visible = true;
-                button7.Visible = true;
-                button8.Visible = true;
-                button9.Visible = true;
-                button0.Visible = true;
-                hashButton.Visible = true;
-                asteriskButton.Visible = true;
-                callButton.Text = "";
+                foreach (Control control in Controls)
+                {
+                    if (control is Button button && button != callButton && button != clearButton)
+                    {
+                        button.Visible = true;
+                    }
+                }
+                callButton.Text = string.Empty;
                 clearButton.Visible = true;
-                caller.Text = "";
+                caller.Text = string.Empty;
             }
             else
             {
                 display.Visible = false;
-                button1.Visible = false;
-                button2.Visible = false;
-                button3.Visible = false;
-                button4.Visible = false;
-                button5.Visible = false;
-                button6.Visible = false;
-                button7.Visible = false;
-                button8.Visible = false;
-                button9.Visible = false;
-                button0.Visible = false;
-                hashButton.Visible = false;
-                asteriskButton.Visible = false;
+                foreach (Control control in Controls)
+                {
+                    if (control is Button button && button != callButton && button != clearButton)
+                    {
+                        button.Visible = false;
+                    }
+                }
                 callButton.Text = "END";
                 clearButton.Visible = false;
-                if (display.Text == "07415516468")
+                switch (display.Text)
                 {
-                    caller.Text = "Jason Santos";
-                }
-                else if (display.Text == "07914283003")
-                {
-                    caller.Text = "Dylan Santos";
-                }
-                else if (display.Text == "07904334355")
-                {
-                    caller.Text = "Mr. Vandy";
-                }
-                else if (display.Text == "07789400805")
-                {
-                    caller.Text = "Mum";
-                }
-                else if (display.Text == "07950681948")
-                {
-                    caller.Text = "Mary";
-                }
-                else
-                {
-                    caller.Text = display.Text;
+                    case "07415516468":
+                        caller.Text = "Jasmine Santos";
+                        break;
+                    case "07914283003":
+                        caller.Text = "Dylan Santos";
+                        break;
+                    case "07904334355":
+                        caller.Text = "Mr. Vandy";
+                        break;
+                    case "07789400805":
+                        caller.Text = "Mum";
+                        break;
+                    case "07950681948":
+                        caller.Text = "Mary";
+                        break;
+                    default:
+                        caller.Text = display.Text;
+                        break;
                 }
             }
         }

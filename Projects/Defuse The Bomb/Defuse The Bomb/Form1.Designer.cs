@@ -84,7 +84,6 @@
             this.check1.Size = new System.Drawing.Size(100, 23);
             this.check1.TabIndex = 2;
             this.check1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.check1.Click += new System.EventHandler(this.label1_Click);
             // 
             // digit4
             // 
@@ -112,7 +111,6 @@
             this.check4.Size = new System.Drawing.Size(100, 23);
             this.check4.TabIndex = 2;
             this.check4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.check4.Click += new System.EventHandler(this.label1_Click);
             // 
             // digit3
             // 
@@ -140,7 +138,6 @@
             this.check3.Size = new System.Drawing.Size(100, 23);
             this.check3.TabIndex = 2;
             this.check3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.check3.Click += new System.EventHandler(this.label1_Click);
             // 
             // digit2
             // 
@@ -168,7 +165,6 @@
             this.check2.Size = new System.Drawing.Size(100, 23);
             this.check2.TabIndex = 2;
             this.check2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.check2.Click += new System.EventHandler(this.label1_Click);
             // 
             // submitButton
             // 

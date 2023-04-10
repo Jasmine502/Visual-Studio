@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CaptureRecaptureMethod
@@ -16,32 +9,21 @@ namespace CaptureRecaptureMethod
         {
             InitializeComponent();
         }
-        double firstCaptureCaptured;
-        double secondCaptureCaptured;
-        double secondCaptureMarked;
-        double total;
-        double totalEstimate;
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            firstCaptureCapturedBox.Clear();
-            secondCaptureMarkedBox.Clear();
-            secondCaptureCapturedBox.Clear();
-            totalEstimateLabel.Text = "";
-        }
+
         private void calculateButton_Click(object sender, EventArgs e)
         {
-            if (firstCaptureCapturedBox.Text != "" && secondCaptureMarkedBox.Text != "" && secondCaptureMarkedBox.Text != "")
+            double firstCapture, secondCapture, marked, estimate;
+
+            if (double.TryParse(firstCaptureBox.Text, out firstCapture) &&
+                double.TryParse(secondCaptureBox.Text, out secondCapture) &&
+                double.TryParse(markedBox.Text, out marked))
             {
-                firstCaptureCaptured = double.Parse(firstCaptureCapturedBox.Text);
-                secondCaptureCaptured = double.Parse(secondCaptureCapturedBox.Text);
-                secondCaptureMarked = double.Parse(secondCaptureMarkedBox.Text);
-                total = (firstCaptureCaptured * secondCaptureCaptured) / secondCaptureMarked;
-                totalEstimate = Math.Round(total);
-                totalEstimateLabel.Text = totalEstimate.ToString();
+                estimate = Math.Round((firstCapture * secondCapture) / marked);
+                totalEstimateLabel.Text = estimate.ToString();
             }
             else
             {
-                MessageBox.Show("Please Fill In All The Boxes","Error");
+                MessageBox.Show("Please enter valid numbers in all fields.", "Error");
             }
         }
     }

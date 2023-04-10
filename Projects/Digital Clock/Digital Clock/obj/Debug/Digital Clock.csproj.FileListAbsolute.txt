@@ -17,3 +17,14 @@ C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Digital Clock\Digital C
 C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital Clock.csproj.CoreCompileInputs.cache
 C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital Clock.exe
 C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital Clock.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\bin\Debug\Digital Clock.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\bin\Debug\Digital Clock.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\bin\Debug\Digital Clock.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital Clock.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital Clock.csproj.SuggestedBindingRedirects.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital_Clock.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital_Clock.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital Clock.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital Clock.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital Clock.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Digital Clock\Digital Clock\obj\Debug\Digital Clock.pdb

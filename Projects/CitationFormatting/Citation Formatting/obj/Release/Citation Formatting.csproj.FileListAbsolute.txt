@@ -8,3 +8,14 @@ C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\CitationFormatting\Cita
 C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation Formatting.exe
 C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation Formatting.pdb
 C:\Users\jay_d\OneDrive\Documents\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation Formatting.csprojAssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation Formatting.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation Formatting.csproj.SuggestedBindingRedirects.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation_Formatting.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation_Formatting.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation Formatting.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation Formatting.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation Formatting.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\obj\Release\Citation Formatting.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\bin\Release\Citation Formatting.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\bin\Release\Citation Formatting.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\CitationFormatting\Citation Formatting\bin\Release\Citation Formatting.pdb

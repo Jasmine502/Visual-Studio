@@ -166,7 +166,6 @@ namespace Citation_Formatting
             this.linkTB.Name = "linkTB";
             this.linkTB.Size = new System.Drawing.Size(100, 20);
             this.linkTB.TabIndex = 2;
-            this.linkTB.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
@@ -176,7 +175,6 @@ namespace Citation_Formatting
             this.label3.Size = new System.Drawing.Size(30, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Link:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // yearTB
             // 
@@ -222,7 +220,6 @@ namespace Citation_Formatting
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Output";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // label7
             // 

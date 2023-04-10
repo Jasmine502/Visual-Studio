@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-
+using System.Drawing;
 namespace Match_Attax_Scoring_Calculator
 {
     public partial class Form1 : Form
@@ -11,33 +11,30 @@ namespace Match_Attax_Scoring_Calculator
         }
         int c1Score;
         int c2Score;
+        Control[] labels = new Control[15];
         private void Form1_Load(object sender, EventArgs e)
         {
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
         }
 
-        private void textBox14_TextChanged(object sender, EventArgs e)
+        private void UpdateScore(string label1, string label2, ref int c1Score, ref int c2Score)
         {
+            int value1 = int.Parse(label1);
+            int value2 = int.Parse(label2);
 
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tackleBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
+            if (value1 > value2)
+            {
+                c1Score++;
+            }
+            else if (value1 < value2)
+            {
+                c2Score++;
+            }
+            else
+            {
+                c1Score++;
+                c2Score++;
+            }
         }
 
         private void battleSubmitButton_Click(object sender, EventArgs e)
@@ -46,25 +43,6 @@ namespace Match_Attax_Scoring_Calculator
             {
                 battleSubmitButton.Text = "BATTLE";
                 //hiding
-                    //info labels
-                valLabel.Visible = false;
-                valLabel2.Visible = false;
-                spdLabel.Visible = false;
-                spdLabel2.Visible = false;
-                tackLabel.Visible = false;
-                tackLabel2.Visible = false;
-                pwrLabel.Visible = false;
-                pwrLabel2.Visible = false;
-                shtLabel.Visible = false;
-                shtLabel2.Visible = false;
-                sklLabel.Visible = false;
-                sklLabel2.Visible = false;
-                psLabel.Visible = false;
-                psLabel2.Visible = false;
-                defLabel.Visible = false;
-                defLabel2.Visible = false;
-                atkLabel.Visible = false;
-                atkLabel2.Visible = false;
                     //input boxes
                 valueBox.Visible = false;
                 valueBox2.Visible = false;
@@ -86,8 +64,6 @@ namespace Match_Attax_Scoring_Calculator
                 attackBox2.Visible = false;
 
                 //showing
-                card1.Visible = true;
-                card2.Visible = true;
                     //card labels
                 valueLabel.Visible = true;
                 valueLabel2.Visible = true;
@@ -113,7 +89,7 @@ namespace Match_Attax_Scoring_Calculator
                 speedLabel.Text = speedBox.Text;
                 speedLabel2.Text = speedBox2.Text;
                 tackleLabel.Text = tackleBox.Text;
-                tackLabel2.Text = tackleBox2.Text;
+                tackleLabel2.Text = tackleBox2.Text;
                 powerLabel.Text = powerBox.Text;
                 powerLabel2.Text = powerBox2.Text;
                 shootLabel.Text = shootBox.Text;
@@ -129,172 +105,54 @@ namespace Match_Attax_Scoring_Calculator
             }else if (battleSubmitButton.Text == "BATTLE")
             {
                 battleSubmitButton.Text = "RETURN";
-                if (int.Parse(speedLabel.Text) > int.Parse(speedLabel2.Text))
-                {
-                    c1Score++;
-                }
-                else if (int.Parse(speedLabel.Text) < int.Parse(speedLabel2.Text))
-                {
-                    c2Score++;
-                }
-                else
-                {
-                    c1Score++;
-                    c2Score++;
-                }
-                if (int.Parse(tackleLabel.Text) > int.Parse(tackleLabel2.Text))
-                {
-                    c1Score++;
-                }
-                else if (int.Parse(tackleLabel.Text) < int.Parse(tackleLabel2.Text))
-                {
-                    c2Score++;
-                }
-                else
-                {
-                    c1Score++;
-                    c2Score++;
-                }
-                if (int.Parse(powerLabel.Text) > int.Parse(powerLabel2.Text))
-                {
-                    c1Score++;
-                }
-                else if (int.Parse(powerLabel.Text) < int.Parse(powerLabel2.Text))
-                {
-                    c2Score++;
-                }
-                else
-                {
-                    c1Score++;
-                    c2Score++;
-                }
-                if (int.Parse(shootLabel.Text) > int.Parse(shootLabel2.Text))
-                {
-                    c1Score++;
-                }
-                else if (int.Parse(shootLabel.Text) < int.Parse(shootLabel2.Text))
-                {
-                    c2Score++;
-                }
-                else
-                {
-                    c1Score++;
-                    c2Score++;
-                }
-                if (int.Parse(skillLabel.Text) > int.Parse(skillLabel2.Text))
-                {
-                    c1Score++;
-                }
-                else if (int.Parse(skillLabel.Text) < int.Parse(skillLabel2.Text))
-                {
-                    c2Score++;
-                }
-                else
-                {
-                    c1Score++;
-                    c2Score++;
-                }
-                if (int.Parse(passLabel.Text) > int.Parse(passLabel2.Text))
-                {
-                    c1Score++;
-                }
-                else if (int.Parse(passLabel.Text) < int.Parse(passLabel2.Text))
-                {
-                    c2Score++;
-                }
-                else
-                {
-                    c1Score++;
-                    c2Score++;
-                }
-                if (int.Parse(defenceLabel.Text) > int.Parse(defenceLabel2.Text))
-                {
-                    c1Score++;
-                }
-                else if (int.Parse(defenceLabel.Text) < int.Parse(defenceLabel2.Text))
-                {
-                    c2Score++;
-                }
-                else
-                {
-                    c1Score++;
-                    c2Score++;
-                }
-                if (int.Parse(attackLabel.Text) > int.Parse(attackLabel2.Text))
-                {
-                    c1Score++;
-                }
-                else if (int.Parse(attackLabel.Text) < int.Parse(attackLabel2.Text))
-                {
-                    c2Score++;
-                }
-                else
-                {
-                    c1Score++;
-                    c2Score++;
-                }
-                card1Label.Text += c1Score;
-                card2Label.Text += c2Score;
-                if (c1Score > c2Score)
+                UpdateScore(speedLabel.Text, speedLabel2.Text, ref c1Score, ref c2Score);
+                UpdateScore(tackleLabel.Text, tackleLabel2.Text, ref c1Score, ref c2Score);
+                UpdateScore(powerLabel.Text, powerLabel2.Text, ref c1Score, ref c2Score);
+                UpdateScore(shootLabel.Text, shootLabel2.Text, ref c1Score, ref c2Score);
+                UpdateScore(skillLabel.Text, skillLabel2.Text, ref c1Score, ref c2Score);
+                UpdateScore(passLabel.Text, passLabel2.Text, ref c1Score, ref c2Score);
+                UpdateScore(defenceLabel.Text, defenceLabel2.Text, ref c1Score, ref c2Score);
+                UpdateScore(attackLabel.Text, attackLabel2.Text, ref c1Score, ref c2Score);
+                if (c1Score >= c2Score) //card 1 wins
                 {
                     card1.Image = Properties.Resources.Red_Match_Attax_Card_Win;
+                    valueLabel.BackColor = Color.FromArgb(221, 80, 80);
                 }
-                else if (c1Score < c2Score)
+                if (c2Score >= c1Score) //card 2 wins
                 {
                     card2.Image = Properties.Resources.Blue_Match_Attax_Card_Win;
+                    valueLabel2.BackColor = Color.FromArgb(107, 154, 215);
                 }
-                else
-                {
-                    card1.Image = Properties.Resources.Red_Match_Attax_Card_Win;
-                    card2.Image = Properties.Resources.Blue_Match_Attax_Card_Win;
-                }
-            }else if (battleSubmitButton.Text == "RETURN")
+
+            }
+            else if (battleSubmitButton.Text == "RETURN")
             {
-                card1Label.Text = "CARD 1: ";
-                card2Label.Text = "CARD 2: ";
                 card1.Image = Properties.Resources.Red_Match_Attax_Card;
                 card2.Image = Properties.Resources.Blue_Match_Attax_Card;
                 c1Score = 0;
                 c2Score = 0;
+                valueLabel.BackColor = Color.FromArgb(250, 160, 160);
+                valueLabel2.BackColor = Color.FromArgb(165, 204, 219);
                 battleSubmitButton.Text = "SUBMIT";
-                //showing
-                //info labels
-                valLabel.Visible = true;
-                valLabel2.Visible = true;
-                spdLabel.Visible = true;
-                spdLabel2.Visible = true;
-                tackLabel.Visible = true;
-                tackLabel2.Visible = true;
-                pwrLabel.Visible = true;
-                pwrLabel2.Visible = true;
-                shtLabel.Visible = true;
-                shtLabel2.Visible = true;
-                sklLabel.Visible = true;
-                sklLabel2.Visible = true;
-                psLabel.Visible = true;
-                psLabel2.Visible = true;
-                defLabel.Visible = true;
-                defLabel2.Visible = true;
-                atkLabel.Visible = true;
-                atkLabel2.Visible = true;
-                valueBox.Text = "";
-                valueBox2.Text = "";
-                speedBox.Text = "";
-                speedBox2.Text = "";
-                tackleBox.Text = "";
-                tackleBox2.Text = "";
-                powerBox.Text = "";
-                powerBox2.Text = "";
-                shootBox.Text = "";
-                shootBox2.Text = "";
-                skillBox.Text = "";
-                skillBox2.Text = "";
-                passBox.Text = "";
-                passBox2.Text = "";
-                defenceBox.Text = "";
-                defenceBox2.Text = "";
-                attackBox.Text = "";
-                attackBox2.Text = "";
+                //resetting
+                valueBox.Clear();
+                valueBox2.Clear();
+                speedBox.Clear();
+                speedBox2.Clear();
+                tackleBox.Clear();
+                tackleBox2.Clear();
+                powerBox.Clear();
+                powerBox2.Clear();
+                shootBox.Clear();
+                shootBox2.Clear();
+                skillBox.Clear();
+                skillBox2.Clear();
+                passBox.Clear();
+                passBox2.Clear();
+                defenceBox.Clear();
+                defenceBox2.Clear();
+                attackBox.Clear();
+                attackBox2.Clear();
                 //input boxes
                 valueBox.Visible = true;
                 valueBox2.Visible = true;
@@ -316,8 +174,6 @@ namespace Match_Attax_Scoring_Calculator
                 attackBox2.Visible = true;
 
                 //hiding
-                card1.Visible = false;
-                card2.Visible = false;
                 //card labels
                 valueLabel.Visible = false;
                 valueLabel2.Visible = false;
@@ -343,7 +199,7 @@ namespace Match_Attax_Scoring_Calculator
                 speedLabel.Text = "";
                 speedLabel2.Text = "";
                 tackleLabel.Text = "";
-                tackLabel2.Text = "";
+                tackleLabel2.Text = "";
                 powerLabel.Text = "";
                 powerLabel2.Text = "";
                 shootLabel.Text = "";
