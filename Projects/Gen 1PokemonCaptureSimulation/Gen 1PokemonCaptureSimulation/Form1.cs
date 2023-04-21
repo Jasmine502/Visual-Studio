@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Media;
+using System.IO;
 
 namespace Gen_1PokemonCaptureSimulation
 {
@@ -17,32 +12,14 @@ namespace Gen_1PokemonCaptureSimulation
         {
             InitializeComponent();
         }
-        bool hintShown = false;
-        bool goodToGo = false;
-        int MegaStone;
-        int PB;
-        int GB;
-        int UB;
-        int SB;
-        int MB;
-        float money;
-        float N;
-        float M;
-        float f;
-        float d;
-        float b;
-        float H;
-        float h;
-        float r;
-        float x;
-        float s;
-        float statVal;
-        float ballShakes;
-        float currentBallShakes;
-        Bitmap normalBall;
-        Bitmap rightBall;
-        Bitmap leftBall;
-        Bitmap caughtBall;
+
+        private string filePath = @"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\";
+
+        Random rnd = new Random();
+        bool hintShown = false, goodToGo = false;
+        int MegaStone, PB, GB, UB, SB, MB;
+        float money, N, M, f, d, b, H, h, r, x, s, statVal, ballShakes, currentBallShakes;
+        Bitmap normalBall, rightBall, leftBall, caughtBall;
         String[] balls = { "PokeBall", "Master Ball", "Great Ball", "Ultra Ball", "Safari Ball" };
         String[] megaNames = { "ABOMASNOW-MEGA", "ABSOL-MEGA", "AERODACTYL-MEGA", "AGGRON-MEGA", "ALAKAZAM-MEGA", "ALTARIA-MEGA", "AMPHAROS-MEGA", "AUDINO-MEGA", "BANETTE-MEGA", "BEEDRILL-MEGA", "BLASTOISE-MEGA", "BLAZIKEN-MEGA", "CAMERUPT-MEGA", "CHARIZARD-MEGA", "DIANCIE-MEGA", "GALLADE-MEGA", "GARCHOMP-MEGA", "GARDEVOIR-MEGA", "GENGAR-MEGA", "GLALIE-MEGA", "GYARADOS-MEGA", "HERACROSS-MEGA", "HOUNDOOM-MEGA", "KANGASKHAN-MEGA", "LATIAS-MEGA", "LATIOS-MEGA", "LOPUNNY-MEGA", "LUCARIO-MEGA", "MANECTRIC-MEGA", "MAWILE-MEGA", "MEDICHAM-MEGA", "METAGROSS-MEGA", "MEWTWO-MEGA", "PIDGEOT-MEGA", "PINSIR-MEGA", "RAYQUAZA-MEGA", "SABLEYE-MEGA", "SALAMENCE-MEGA", "SCEPTILE-MEGA", "SCIZOR-MEGA", "SHARPEDO-MEGA", "SLOWBRO-MEGA", "STEELIX-MEGA", "SWAMPERT-MEGA", "TYRANITAR-MEGA", "VENUSAUR-MEGA" };
         String[] megas = { "ABOMASNOW", "ABSOL", "AERODACTYL", "AGGRON", "ALAKAZAM", "ALTARIA", "AMPHAROS", "AUDINO", "BANETTE", "BEEDRILL", "BLASTOISE", "BLAZIKEN", "CAMERUPT", "CHARIZARD", "DIANCIE", "GALLADE", "GARCHOMP", "GARDEVOIR", "GENGAR", "GLALIE", "GYARADOS", "HERACROSS", "HOUNDOOM", "KANGASKHAN", "LATIAS", "LATIOS", "LOPUNNY", "LUCARIO", "MANECTRIC", "MAWILE", "MEDICHAM", "METAGROSS", "MEWTWO", "PIDGEOT", "PINSIR", "RAYQUAZA", "SABLEYE", "SALAMENCE", "SCEPTILE", "SCIZOR", "SHARPEDO", "SLOWBRO", "STEELIX", "SWAMPERT", "TYRANITAR", "VENUSAUR" };
@@ -95,6 +72,7 @@ namespace Gen_1PokemonCaptureSimulation
         String[] darkTypes = { "ABSOL", "ABSOL-MEGA", "BISHARP", "CACTURNE", "CARVANHA", "CRAWDAUNT", "DARKRAI", "DEINO", "DRAPION", "GRENINJA", "GYARADOS-MEGA", "HONCHKROW", "HOUNDOOM", "HOUNDOOM-MEGA", "HOUNDOUR", "HYDREIGON", "INKAY", "KROKOROK", "KROOKODILE", "LIEPARD", "MALAMAR", "MANDIBUZZ", "MIGHTYENA", "MURKROW", "NUZLEAF", "PANGORO", "PAWNIARD", "POOCHYENA", "PURRLOIN", "SABLEYE", "SABLEYE-MEGA", "SANDILE", "SCRAFTY", "SCRAGGY", "SHARPEDO", "SHARPEDO-MEGA", "SHIFTRY", "SKUNTANK", "SNEASEL", "SPIRITOMB", "STUNKY", "TYRANITAR", "TYRANITAR-MEGA", "UMBREON", "VULLABY", "WEAVILE", "YVELTAL", "ZOROARK", "ZORUA", "ZWEILOUS" };
         String[] steelTypes = { "AEGISLASH", "AGGRON", "AGGRON-MEGA", "ARON", "BASTIODON", "BELDUM", "BISHARP", "BRONZONG", "BRONZOR", "COBALION", "DIALGA", "DOUBLADE", "DURANT", "EMPOLEON", "ESCAVALIER", "EXCADRILL", "FERROSEED", "FERROTHORN", "FORRETRESS", "GENESECT", "HEATRAN", "HONEDGE", "JIRACHI", "KLANG", "KLEFKI", "KLINK", "KLINKLANG", "LAIRON", "LUCARIO", "LUCARIO-MEGA", "MAGNEMITE", "MAGNETON", "MAGNEZONE", "MAWILE", "MAWILE-MEGA", "METAGROSS", "METAGROSS-MEGA", "METANG", "PAWNIARD", "PROBOPASS", "REGISTEEL", "SCIZOR", "SCIZOR-MEGA", "SHIELDON", "SKARMORY", "STEELIX", "STEELIX-MEGA", "WORMADAM" };
         String[] fairyTypes = { "CLEFAIRY", "CLEFABLE", "CLEFFA", "TOGEPI", "SNUBBULL", "GRANBULL", "FLABÉBÉ", "FLOETTE", "FLORGES", "SPRITZEE", "AROMATISSE", "SWIRLIX", "SLURPUFF", "SYLVEON", "XERNEAS", "TOGETIC", "TOGEKISS", "JIGGLYPUFF", "WIGGLYTUFF", "MR. MIME", "IGGLYBUFF", "MARILL", "AZUMARILL", "RALTS", "KIRLIA", "GARDEVOIR", "GARDEVOIR-MEGA", "AZURILL", "MAWILE", "MAWILE-MEGA", "ALTARIA-MEGA", "MIME JR.", "AUDINO-MEGA", "COTTONEE", "WHIMSICOTT", "DEDENNE", "CARBINK", "KLEFKI", "DIANCIE", "DIANCIE-MEGA" };
+
 
         private void throwBallButton_Click(object sender, EventArgs e)
         {
@@ -174,7 +152,6 @@ namespace Gen_1PokemonCaptureSimulation
             {
                 statVal = 0;
             }
-            Random rnd = new Random();
             if (ballChosenBox.Text.ToUpper().Contains("POK") && PB > 0 && goodToGo)
             {
                 PB--;
@@ -342,53 +319,19 @@ namespace Gen_1PokemonCaptureSimulation
 
         private void caughtTimer_Tick(object sender, EventArgs e)
         {
-            if (currentBallShakes < 400)
-            {
-                currentBallShakes += 6;
-            }
-            else
-            {
-                caughtTimer.Stop();
+            const int maxBallShakes = 400;
+            const int minMoneyToAdd = 255;
+            const int maxMoneyToAdd = 9001;
 
-            }
-            if (currentBallShakes >= 0 && currentBallShakes < 50)
+            currentBallShakes += 6;
+            if (currentBallShakes >= maxBallShakes)
             {
-                caughtLabel.Text = "Good aim!";
-                pokeBallBox.Image = normalBall;
-            }
-            if (currentBallShakes >= 50 && currentBallShakes < 100)
-            {
-                caughtLabel.Text = "";
-                pokeBallBox.Image = rightBall;
-            }
-            if (currentBallShakes >= 100 && currentBallShakes < 150)
-            {
-                pokeBallBox.Image = normalBall;
-            }
-            if (currentBallShakes >= 150 && currentBallShakes < 200)
-            {
-                pokeBallBox.Image = leftBall;
-            }
-            if (currentBallShakes >= 200 && currentBallShakes < 250)
-            {
-                pokeBallBox.Image = normalBall;
-            }
-            if (currentBallShakes >= 250 && currentBallShakes < 300)
-            {
-                pokeBallBox.Image = rightBall;
-            }
-            if (currentBallShakes >= 300 && currentBallShakes < 400)
-            {
-                pokeBallBox.Image = normalBall;
-            }
-            if (currentBallShakes >= 400)
-            {
-                Random rnd = new Random();
-                money += rnd.Next(255, 9001) / (int.Parse(catchRateBox.Text));
-                moneyLabel.Text = money.ToString();
                 caughtTimer.Stop();
-                pokeBallBox.Image = caughtBall;
+                int moneyToAdd = rnd.Next(minMoneyToAdd, maxMoneyToAdd + 1) / int.Parse(catchRateBox.Text);
+                money += moneyToAdd;
+                moneyLabel.Text = money.ToString();
                 caughtLabel.Text = pokemonBox.Text.ToUpper() + " Caught!";
+                pokeBallBox.Image = caughtBall;
                 if (pokemonTeamBox.Items.Count < 6)
                 {
                     pokemonTeamBox.Items.Add(pokemonBox.Text.ToUpper());
@@ -422,115 +365,102 @@ namespace Gen_1PokemonCaptureSimulation
                 goodToGo = false;
                 clearConsole();
             }
-        }
-
-        private void freeTimer_Tick(object sender, EventArgs e)
-        {
-            if (currentBallShakes < (ballShakes * 100) + 100)
-            {
-                currentBallShakes += 6;
-            }
-            else
-            {
-                freeTimer.Stop();
-            }
-            if (ballShakes == 0)
-            {
-                caughtLabel.Text = "Ball missed!";
-                ballChosenBox.Enabled = true;
-                randomBallButton.Enabled = true;
-                pokMaxHPBox.Enabled = true;
-                pokCurrentHPBox.Enabled = true;
-                goodToGo = false;
-                battleButton.Enabled = true;
-                randomPokemonButton.Enabled = true;
-                pokemonBox.Enabled = true;
-                throwBallButton.Enabled = true;
-                randomMaxHPButton.Enabled = true;
-                randomCurrentHPButton.Enabled = true;
-                pokStatusBox.Enabled = true;
-                randomStatusButton.Enabled = true;
-                freeTimer.Stop();
-                clearConsole();
-
-            }
-            if (currentBallShakes >= 0 && currentBallShakes < 50)
+            else if (currentBallShakes < 50)
             {
                 caughtLabel.Text = "Good aim!";
                 pokeBallBox.Image = normalBall;
             }
-            if (currentBallShakes >= 50 && currentBallShakes < 100)
+            else if (currentBallShakes < 100)
             {
-                caughtLabel.Text = "";
                 pokeBallBox.Image = rightBall;
             }
-            if (currentBallShakes >= 100 && currentBallShakes < 150)
+            else if (currentBallShakes < 150)
             {
                 pokeBallBox.Image = normalBall;
             }
-            if (currentBallShakes >= 150 && (ballShakes * 100) > 100 && currentBallShakes < 200)
+            else if (currentBallShakes < 200)
             {
                 pokeBallBox.Image = leftBall;
             }
-            else if (currentBallShakes >= 150 && (ballShakes * 100) == 100 && currentBallShakes < 200)
-            {
-                pokeBallBox.Image = Properties.Resources.Ball_Open;
-                caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
-                ballChosenBox.Enabled = true;
-                randomBallButton.Enabled = true;
-                pokMaxHPBox.Enabled = true;
-                pokCurrentHPBox.Enabled = true;
-                goodToGo = false;
-                battleButton.Enabled = true;
-                battleButton.Text = "Battle";
-                randomPokemonButton.Enabled = true;
-                pokemonBox.Enabled = true;
-                throwBallButton.Enabled = true;
-                randomMaxHPButton.Enabled = true;
-                randomCurrentHPButton.Enabled = true;
-                pokStatusBox.Enabled = true;
-                randomStatusButton.Enabled = true;
-                pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToUpper() + ".gif");
-                freeTimer.Stop();
-                clearConsole();
-
-            }
-            if (currentBallShakes >= 200 && currentBallShakes < 250)
+            else if (currentBallShakes < 250)
             {
                 pokeBallBox.Image = normalBall;
             }
-            if (currentBallShakes >= 250 && (ballShakes * 100) > 200 && currentBallShakes < 300)
+            else if (currentBallShakes < 300)
             {
                 pokeBallBox.Image = rightBall;
             }
-            else if (currentBallShakes >= 250 && (ballShakes * 100) == 200 && currentBallShakes < 300)
-            {
-                caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
-                ballChosenBox.Enabled = true;
-                randomBallButton.Enabled = true;
-                pokMaxHPBox.Enabled = true;
-                pokCurrentHPBox.Enabled = true;
-                goodToGo = false;
-                battleButton.Enabled = true;
-                randomPokemonButton.Enabled = true;
-                pokemonBox.Enabled = true;
-                throwBallButton.Enabled = true;
-                randomMaxHPButton.Enabled = true;
-                randomCurrentHPButton.Enabled = true;
-                pokStatusBox.Enabled = true;
-                randomStatusButton.Enabled = true;
-                pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToLower() + ".gif");
-                freeTimer.Stop();
-                clearConsole();
-
-            }
-            if (currentBallShakes >= 300 && currentBallShakes < 350)
+            else if (currentBallShakes < maxBallShakes)
             {
                 pokeBallBox.Image = normalBall;
             }
-            if (currentBallShakes >= 350)
+        }
+
+
+
+        private void freeTimer_Tick(object sender, EventArgs e)
+        {
+            currentBallShakes += 6;
+
+            if (currentBallShakes < (ballShakes * 100) + 100)
             {
-                caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
+                if (currentBallShakes >= 0 && currentBallShakes < 50)
+                {
+                    caughtLabel.Text = "Good aim!";
+                    pokeBallBox.Image = normalBall;
+                }
+                else if (currentBallShakes >= 50 && currentBallShakes < 100)
+                {
+                    caughtLabel.Text = "";
+                    pokeBallBox.Image = rightBall;
+                }
+                else if (currentBallShakes >= 100 && currentBallShakes < 150)
+                {
+                    pokeBallBox.Image = normalBall;
+                }
+                else if (currentBallShakes >= 150 && currentBallShakes < 200)
+                {
+                    pokeBallBox.Image = leftBall;
+                }
+                else if (currentBallShakes >= 200 && currentBallShakes < 250)
+                {
+                    pokeBallBox.Image = normalBall;
+                }
+                else if (currentBallShakes >= 250 && currentBallShakes < 300)
+                {
+                    pokeBallBox.Image = rightBall;
+                }
+                else if (currentBallShakes >= 300 && currentBallShakes < 350)
+                {
+                    pokeBallBox.Image = normalBall;
+                }
+            }
+            else
+            {
+                freeTimer.Stop();
+
+                if (ballShakes == 0)
+                {
+                    caughtLabel.Text = "Ball missed!";
+                }
+                else if (ballShakes * 100 > 100 && ballShakes * 100 < 200)
+                {
+                    pokeBallBox.Image = Properties.Resources.Ball_Open;
+                    caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
+                }
+                else if (ballShakes * 100 == 100)
+                {
+                    caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
+                }
+                else if (ballShakes * 100 > 200 && ballShakes * 100 < 300)
+                {
+                    caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
+                }
+                else
+                {
+                    caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
+                }
+
                 ballChosenBox.Enabled = true;
                 randomBallButton.Enabled = true;
                 pokMaxHPBox.Enabled = true;
@@ -544,12 +474,19 @@ namespace Gen_1PokemonCaptureSimulation
                 randomCurrentHPButton.Enabled = true;
                 pokStatusBox.Enabled = true;
                 randomStatusButton.Enabled = true;
-                pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToUpper() + ".gif");
+                if (ballShakes * 100 == 100)
+                {
+                    pokeBallBox.Image = Image.FromFile(filePath + pokemonBox.Text.ToLower() + ".gif");
+                }
+                else
+                {
+                    pokeBallBox.Image = Image.FromFile(filePath + pokemonBox.Text.ToUpper() + ".gif");
+                }
                 freeTimer.Stop();
                 clearConsole();
-
             }
         }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -615,7 +552,7 @@ namespace Gen_1PokemonCaptureSimulation
                         pokemonBox.Enabled = false;
                         pokemonTeamBox.Enabled = false;
                         pcBox.Enabled = false;
-                        pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonBox.Text.ToLower() + ".gif");
+                        pokeBallBox.Image = Image.FromFile(filePath + pokemonBox.Text.ToLower() + ".gif");
                         pokemonBox.Text = pokemonBox.Text.ToUpper();
 
                         //Types
@@ -882,7 +819,7 @@ namespace Gen_1PokemonCaptureSimulation
                 }
                 if (pokemon.Contains(pokemonTeamBox.SelectedItem.ToString()) || megaNames.Contains(pokemonTeamBox.SelectedItem.ToString().ToUpper()))
                 {
-                    pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pokemonTeamBox.SelectedItem.ToString().ToLower() + ".gif");
+                    pokeBallBox.Image = Image.FromFile(filePath + pokemonTeamBox.SelectedItem.ToString().ToLower() + ".gif");
                 }
                 else
                 {
@@ -916,7 +853,7 @@ namespace Gen_1PokemonCaptureSimulation
                 deselectButton.Enabled = true;
                 if (pokemon.Contains(pcBox.SelectedItem.ToString()))
                 {
-                    pokeBallBox.Image = Image.FromFile(@"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\" + pcBox.SelectedItem.ToString() + ".gif");
+                    pokeBallBox.Image = Image.FromFile(filePath + pcBox.SelectedItem.ToString() + ".gif");
                 }
                 else
                 {
@@ -1038,22 +975,18 @@ namespace Gen_1PokemonCaptureSimulation
             pointer5.Hide();
             martLogo.Image = Properties.Resources.PokeMart_Icon;
         }
-
         private void label8_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Buy more balls if you run out, or buy a Mega Stone to Mega Evolve your Pokémon!", "Shop Help");
+            string message = "Buy more balls if you run out, or buy a Mega Stone to Mega Evolve your Pokémon!" + Environment.NewLine;
+
             if (MegaStone > 0)
             {
-                if (MegaStone == 1)
-                {
-                    MessageBox.Show("You currently have " + MegaStone + " Mega Stone");
-                }
-                else
-                {
-                    MessageBox.Show("You currently have " + MegaStone + " Mega Stones");
-                }
+                message += "You currently have " + MegaStone + " Mega Stone" + (MegaStone == 1 ? "" : "s");
             }
+
+            MessageBox.Show(message, "Shop Help");
         }
+
 
         private void moneyBorder_Click(object sender, EventArgs e)
         {
@@ -1171,24 +1104,30 @@ namespace Gen_1PokemonCaptureSimulation
 
         private void pokeBallBox_Click(object sender, EventArgs e)
         {
-            if (pokeBallBox.Image != null)
-            {
-                if (pokemonBox.Text != "")
-                {
-                    MessageBox.Show(types + " type", pokemonBox.Text.ToUpper());
-                }
-                else if (pokemonTeamBox.SelectedIndex != -1)
-                {
-                    MessageBox.Show(types + " type", pokemonTeamBox.SelectedItem.ToString());
-                }
-                else if (pcBox.SelectedIndex != -1)
-                {
-                    MessageBox.Show(types + " type", pcBox.SelectedItem.ToString());
-                }
-            }
-        }
+            if (pokeBallBox.Image == null) return; // Exit early if the image is not set
 
-        private void pokemonBox_KeyDown(object sender, KeyEventArgs e)
+            string selectedPokemon = "";
+            if (!string.IsNullOrEmpty(pokemonBox.Text))
+            {
+                selectedPokemon = pokemonBox.Text.ToUpper();
+            }
+            else if (pokemonTeamBox.SelectedIndex != -1)
+            {
+                selectedPokemon = pokemonTeamBox.SelectedItem.ToString();
+            }
+            else if (pcBox.SelectedIndex != -1)
+            {
+                selectedPokemon = pcBox.SelectedItem.ToString();
+            }
+
+            if (!string.IsNullOrEmpty(selectedPokemon))
+            {
+                MessageBox.Show(types + " type", selectedPokemon);
+            }
+      
+    }
+
+    private void pokemonBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
@@ -1211,14 +1150,12 @@ namespace Gen_1PokemonCaptureSimulation
 
         private void randomPokemonButton_MouseDown(object sender, MouseEventArgs e)
         {
-            Random rnd = new Random();
             pokemonBox.Text = pokemon[rnd.Next(pokemon.Count())].ToString();
 
         }
 
         private void randomBallButton_MouseDown(object sender, MouseEventArgs e)
         {
-            Random rnd = new Random();
             String ballNo = balls[rnd.Next(0, 5)];
             if (ballNo == "PokeBall" && PB > 0)
             {
@@ -1244,43 +1181,19 @@ namespace Gen_1PokemonCaptureSimulation
 
         private void randomStatusButton_MouseDown(object sender, MouseEventArgs e)
         {
-            Random rnd = new Random();
-            int statChosen = rnd.Next(1, 7);
-            if (statChosen == 1)
-            {
-                pokStatusBox.Text = "PAR";
-            }
-            if (statChosen == 2)
-            {
-                pokStatusBox.Text = "SLP";
-            }
-            if (statChosen == 3)
-            {
-                pokStatusBox.Text = "BRN";
-            }
-            if (statChosen == 4)
-            {
-                pokStatusBox.Text = "FRZ";
-            }
-            if (statChosen == 5)
-            {
-                pokStatusBox.Text = "PSN";
-            }
-            if (statChosen == 6)
-            {
-                pokStatusBox.Text = "";
-            }
+            string[] statusArray = { "PAR", "SLP", "BRN", "FRZ", "PSN", "" };
+
+            int index = rnd.Next(statusArray.Length);
+            pokStatusBox.Text = statusArray[index];
         }
 
         private void randomMaxHPButton_MouseDown(object sender, MouseEventArgs e)
         {
-            Random rnd = new Random();
             pokMaxHPBox.Text = rnd.Next(1, 715).ToString();
         }
 
         private void randomCurrentHPButton_MouseDown(object sender, MouseEventArgs e)
         {
-            Random rnd = new Random();
             if (pokMaxHPBox.Text == "")
             {
                 pokCurrentHPBox.Text = rnd.Next(1, 716).ToString();

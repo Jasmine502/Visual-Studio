@@ -83,7 +83,6 @@
             this.rangeUnitLabel.Size = new System.Drawing.Size(42, 18);
             this.rangeUnitLabel.TabIndex = 2;
             this.rangeUnitLabel.Text = "m";
-            this.rangeUnitLabel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.distanceLabel_MouseDown);
             // 
             // label2
             // 
@@ -113,7 +112,6 @@
             this.heightUnitLabel.Size = new System.Drawing.Size(39, 18);
             this.heightUnitLabel.TabIndex = 2;
             this.heightUnitLabel.Text = "m";
-            this.heightUnitLabel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.distanceLabel_MouseDown);
             // 
             // label3
             // 
@@ -162,7 +160,6 @@
             this.timeUnitLabel.Size = new System.Drawing.Size(39, 18);
             this.timeUnitLabel.TabIndex = 2;
             this.timeUnitLabel.Text = "s";
-            this.timeUnitLabel.Click += new System.EventHandler(this.timeUnitLabel_Click);
             this.timeUnitLabel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.timeUnitLabel_MouseDown);
             // 
             // velocityUnitLabel
@@ -335,7 +332,6 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Projectile Motion Calculator";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dpUD)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

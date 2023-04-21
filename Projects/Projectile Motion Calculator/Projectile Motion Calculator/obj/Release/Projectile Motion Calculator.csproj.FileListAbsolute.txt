@@ -7,3 +7,14 @@ c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Ca
 c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile Motion Calculator.exe
 c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile Motion Calculator.pdb
 c:\users\jason santos\documents\visual studio 2015\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile Motion Calculator.csprojResolveAssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile Motion Calculator.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile Motion Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile_Motion_Calculator.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile_Motion_Calculator.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile Motion Calculator.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile Motion Calculator.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile Motion Calculator.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\obj\Release\Projectile Motion Calculator.pdb
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\bin\Release\Projectile Motion Calculator.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\bin\Release\Projectile Motion Calculator.exe
+C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Projectile Motion Calculator\Projectile Motion Calculator\bin\Release\Projectile Motion Calculator.pdb
