@@ -13,7 +13,8 @@ namespace Gen_1PokemonCaptureSimulation
             InitializeComponent();
         }
 
-        private string filePath = @"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\";
+        //private string filePath = @"C:\Users\jay_d\Documents\GitHub\Visual Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\Resources\Pokemon Sprites\";
+        private string filePath = Path.Combine(Directory.GetParent(Directory.GetParent(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).FullName).FullName).FullName, "Resources", "Pokemon Sprites" + Path.DirectorySeparatorChar);
 
         Random rnd = new Random();
         bool hintShown = false, goodToGo = false;
