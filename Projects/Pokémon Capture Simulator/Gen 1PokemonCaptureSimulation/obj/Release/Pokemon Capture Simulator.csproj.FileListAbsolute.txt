@@ -9,6 +9,22 @@ C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Gen 1PokemonCaptureSimula
 C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\obj\Release\Pokemon Capture Simulator.csproj.CoreCompileInputs.cache
 C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\obj\Release\Gen 1PokemonCaptureSimulation.exe
 C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\obj\Release\Gen 1PokemonCaptureSimulation.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\obj\Release\Pokemon Capture Simulator.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\obj\Release\Pokemon Capture Simulator.csproj.SuggestedBindingRedirects.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\obj\Release\Gen_1PokemonCaptureSimulation.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\obj\Release\Gen_1PokemonCaptureSimulation.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\obj\Release\Pokemon Capture Simulator.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\obj\Release\Pokemon Capture Simulator.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\obj\Release\Gen 1PokemonCaptureSimulation.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\obj\Release\Gen 1PokemonCaptureSimulation.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\bin\Release\Gen 1PokemonCaptureSimulation.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\bin\Release\Gen 1PokemonCaptureSimulation.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\bin\Release\Gen 1PokemonCaptureSimulation.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\bin\Release\Newtonsoft.Json.dll
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\bin\Release\Newtonsoft.Json.xml
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\obj\Release\Pokemon Capture Simulator.csproj.CopyComplete
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\bin\Release\Magick.NET.Core.dll
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator DRAFT\Gen 1PokemonCaptureSimulation\bin\Release\Magick.NET.Core.xml
 C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator\Gen 1PokemonCaptureSimulation\bin\Release\Gen 1PokemonCaptureSimulation.exe.config
 C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator\Gen 1PokemonCaptureSimulation\bin\Release\Gen 1PokemonCaptureSimulation.exe
 C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokémon Capture Simulator\Gen 1PokemonCaptureSimulation\bin\Release\Gen 1PokemonCaptureSimulation.pdb
