@@ -136,50 +136,14 @@
   <data name="PokeBall caught" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeBall caught.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WaterBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WaterBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SteelBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SteelBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Poison" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poison.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RockBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RockBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FlyingBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FlyingBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PoisonBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PoisonBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Master Ball left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Master Ball left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pointer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pointer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MagGlass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MagGlass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bug" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GhostBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GhostBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DarkBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DarkBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Master Ball right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Master Ball right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Grass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Grass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Master Ball caught" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Master Ball caught.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,26 +154,8 @@
   <data name="Safari Ball caught" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Safari Ball caught.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DragonBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DragonBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Flying" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Water" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Psychic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Psychic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Random Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Random Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ghost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BugBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BugBG1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Master Ball Display" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Master Ball Display.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,26 +169,11 @@
   <data name="Ultra Ball normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ultra Ball normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FightingBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FightingBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ultra Ball left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ultra Ball left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GrassBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GrassBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blank" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="PokeMart Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeMart Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FireBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FireBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Safari Ball left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Safari Ball left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,29 +181,8 @@
   <data name="Great Ball Display" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Great Ball Display.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Steel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Steel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dragon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dragon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BugBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BugBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GroundBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GroundBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Fighting" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fighting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Master Ball normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Master Ball normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PsychicBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PsychicBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Great Ball caught" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Great Ball caught.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,29 +190,8 @@
   <data name="Safari Ball Display" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Safari Ball Display.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fairy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fairy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ElectricBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ElectricBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="NormalBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NormalBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Electric" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Electric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Great Ball right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Great Ball right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pokemart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pokemart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PokeBall Display" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeBall Display.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,17 +199,8 @@
   <data name="PokeBall normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeBall normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FairyBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FairyBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ultra Ball caught" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ultra Ball caught.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IceBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IceBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Great Ball normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Great Ball normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2502,5 +2382,269 @@
   </data>
   <data name="RUN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RUN.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="araquanid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\araquanid.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bewear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bewear.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blacephalon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blacephalon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bounsweet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bounsweet.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="brionne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brionne.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bruxish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bruxish.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buzzwole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buzzwole.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="celesteela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\celesteela.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="charjabug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charjabug.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comfey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comfey.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cosmoem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cosmoem.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cosmog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cosmog.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="crabominable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crabominable.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="crabrawler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crabrawler.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cutiefly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cutiefly.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dartrix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dartrix.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="decidueye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\decidueye.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dewpider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dewpider.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dhelmise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dhelmise.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="drampa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drampa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fomantis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fomantis.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="golisopod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\golisopod.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grubbin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grubbin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gumshoos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gumshoos.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="guzzlord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guzzlord.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hakamo_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hakamo-o.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="incineroar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\incineroar.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jangmo_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jangmo-o.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kartana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kartana.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="komala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\komala.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kommo_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kommo-o.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="litten" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\litten.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lunala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lunala.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lurantis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lurantis.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lycanroc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lycanroc.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="magearna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magearna.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mareanie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mareanie.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="marshadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marshadow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="melmetal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\melmetal.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="meltan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meltan.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mimikyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mimikyu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="minior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minior.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="morelull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\morelull.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mudbray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mudbray.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mudsdale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mudsdale.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="naganadel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\naganadel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="necrozma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necrozma.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nihilego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nihilego.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oranguru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oranguru.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oricorio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oricorio.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="palossand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\palossand.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="passimian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\passimian.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pheromosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pheromosa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pikipek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pikipek.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="poipole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poipole.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="popplio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popplio.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="primarina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\primarina.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pyukumuku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pyukumuku.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ribombee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ribombee.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rockruff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rockruff.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rowlet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rowlet.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="salandit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salandit.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="salazzle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salazzle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sandygast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sandygast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shiinotic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shiinotic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="silvally" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\silvally.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="solgaleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\solgaleo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="stakataka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stakataka.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="steenee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steenee.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="stufful" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stufful.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tapu_bulu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tapu-bulu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tapu_fini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tapu-fini.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tapu_koko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tapu-koko.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tapu_lele" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tapu-lele.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="togedemaru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\togedemaru.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="torracat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\torracat.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toucannon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toucannon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toxapex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toxapex.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trumbeak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trumbeak.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsareena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tsareena.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="turtonator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turtonator.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="type_null" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\type-null.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vikavolt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vikavolt.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wimpod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wimpod.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wishiwashi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wishiwashi.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xurkitree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xurkitree.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yungoos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yungoos.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zeraora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zeraora.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
