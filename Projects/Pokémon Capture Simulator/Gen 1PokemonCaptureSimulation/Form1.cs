@@ -216,15 +216,15 @@ namespace Gen_1PokemonCaptureSimulation
             const int maxBallShakes = 400;
             const int minMoneyToAdd = 255;
             const int maxMoneyToAdd = 9001;
-
             
             currentBallShakes += 6;
 
             if (currentBallShakes >= maxBallShakes)
             {
                 caughtTimer.Stop();
-
                 int moneyToAdd = rnd.Next(minMoneyToAdd, maxMoneyToAdd + 1) / int.Parse(catchRateBox.Text);
+
+
                 money += moneyToAdd;
                 moneyLabel.Text = money.ToString();
 
@@ -459,73 +459,85 @@ namespace Gen_1PokemonCaptureSimulation
                     types = typesList[0];
 
 
-                // Catch Rates
-                if (catchRate3.Contains(enteredPokemon))
-                    catchRateBox.Text = "3";
-                else if (enteredPokemon == "VOLCARONA")
-                    catchRateBox.Text = "15";
-                else if (catchRate25.Contains(enteredPokemon))
-                    catchRateBox.Text = "25";
-                else if (catchRate30.Contains(enteredPokemon))
-                    catchRateBox.Text = "30";
+                int catchRate;
+
+                if (enteredPokemon == "VOLCARONA")
+                    catchRate = 15;
                 else if (enteredPokemon == "DITTO")
-                    catchRateBox.Text = "35";
-                else if (catchRate45.Contains(enteredPokemon))
-                    catchRateBox.Text = "45";
-                else if (catchRate50.Contains(enteredPokemon))
-                    catchRateBox.Text = "50";
-                else if (catchRate55.Contains(enteredPokemon))
-                    catchRateBox.Text = "55";
-                else if (catchRate60.Contains(enteredPokemon))
-                    catchRateBox.Text = "60";
-                else if (catchRate65.Contains(enteredPokemon))
-                    catchRateBox.Text = "65";
+                    catchRate = 35;
                 else if (enteredPokemon == "SLOWKING")
-                    catchRateBox.Text = "70";
-                else if (catchRate75.Contains(enteredPokemon))
-                    catchRateBox.Text = "75";
+                    catchRate = 70;
                 else if (enteredPokemon == "MALAMAR")
-                    catchRateBox.Text = "80";
-                else if (catchRate90.Contains(enteredPokemon))
-                    catchRateBox.Text = "90";
-                else if (catchRate100.Contains(enteredPokemon))
-                    catchRateBox.Text = "100";
-                else if (catchRate120.Contains(enteredPokemon))
-                    catchRateBox.Text = "120";
-                else if (catchRate125.Contains(enteredPokemon))
-                    catchRateBox.Text = "125";
-                else if (catchRate127.Contains(enteredPokemon))
-                    catchRateBox.Text = "127";
-                else if (catchRate130.Contains(enteredPokemon))
-                    catchRateBox.Text = "130";
-                else if (catchRate140.Contains(enteredPokemon))
-                    catchRateBox.Text = "140";
+                    catchRate = 80;
                 else if (enteredPokemon == "MIME JR.")
-                    catchRateBox.Text = "145";
-                else if (catchRate150.Contains(enteredPokemon))
-                    catchRateBox.Text = "150";
+                    catchRate = 145;
                 else if (enteredPokemon == "CRAWDAUNT")
-                    catchRateBox.Text = "155";
+                    catchRate = 155;
                 else if (enteredPokemon == "FURFROU")
-                    catchRateBox.Text = "160";
-                else if (catchRate170.Contains(enteredPokemon))
-                    catchRateBox.Text = "170";
-                else if (catchRate180.Contains(enteredPokemon))
-                    catchRateBox.Text = "180";
-                else if (catchRate190.Contains(enteredPokemon))
-                    catchRateBox.Text = "190";
-                else if (catchRate200.Contains(enteredPokemon))
-                    catchRateBox.Text = "200";
+                    catchRate = 160;
                 else if (enteredPokemon == "CORPHISH")
-                    catchRateBox.Text = "205";
-                else if (catchRate220.Contains(enteredPokemon))
-                    catchRateBox.Text = "220";
-                else if (catchRate225.Contains(enteredPokemon))
-                    catchRateBox.Text = "225";
-                else if (catchRate235.Contains(enteredPokemon))
-                    catchRateBox.Text = "235";
-                else if (catchRate255.Contains(enteredPokemon))
-                    catchRateBox.Text = "255";
+                    catchRate = 205;
+                else
+                {
+                    if (catchRate3.Contains(enteredPokemon))
+                        catchRate = 3;
+                    else if (catchRate25.Contains(enteredPokemon))
+                        catchRate = 25;
+                    else if (catchRate30.Contains(enteredPokemon))
+                        catchRate = 30;
+                    else if (catchRate45.Contains(enteredPokemon))
+                        catchRate = 45;
+                    else if (catchRate50.Contains(enteredPokemon))
+                        catchRate = 50;
+                    else if (catchRate55.Contains(enteredPokemon))
+                        catchRate = 55;
+                    else if (catchRate60.Contains(enteredPokemon))
+                        catchRate = 60;
+                    else if (catchRate65.Contains(enteredPokemon))
+                        catchRate = 65;
+                    else if (catchRate75.Contains(enteredPokemon))
+                        catchRate = 75;
+                    else if (catchRate90.Contains(enteredPokemon))
+                        catchRate = 90;
+                    else if (catchRate100.Contains(enteredPokemon))
+                        catchRate = 100;
+                    else if (catchRate120.Contains(enteredPokemon))
+                        catchRate = 120;
+                    else if (catchRate125.Contains(enteredPokemon))
+                        catchRate = 125;
+                    else if (catchRate127.Contains(enteredPokemon))
+                        catchRate = 127;
+                    else if (catchRate130.Contains(enteredPokemon))
+                        catchRate = 130;
+                    else if (catchRate140.Contains(enteredPokemon))
+                        catchRate = 140;
+                    else if (catchRate150.Contains(enteredPokemon))
+                        catchRate = 150;
+                    else if (catchRate170.Contains(enteredPokemon))
+                        catchRate = 170;
+                    else if (catchRate180.Contains(enteredPokemon))
+                        catchRate = 180;
+                    else if (catchRate190.Contains(enteredPokemon))
+                        catchRate = 190;
+                    else if (catchRate200.Contains(enteredPokemon))
+                        catchRate = 200;
+                    else if (catchRate220.Contains(enteredPokemon))
+                        catchRate = 220;
+                    else if (catchRate225.Contains(enteredPokemon))
+                        catchRate = 225;
+                    else if (catchRate235.Contains(enteredPokemon))
+                        catchRate = 235;
+                    else if (catchRate255.Contains(enteredPokemon))
+                        catchRate = 255;
+                    else
+                    {
+                        // Default catch rate if not found
+                        catchRate = 0;
+                    }
+                }
+
+                catchRateBox.Text = catchRate.ToString();
+
             }
             else if (battleButton.Text == "Run")
             {
@@ -713,7 +725,7 @@ namespace Gen_1PokemonCaptureSimulation
             SB = 3; //default=3
             UB = 3; //default=3
             MB = 1; //default=1
-            money = 999999; //default=50
+            money = 500; //default=500
             moneyLabel.Text = money.ToString();
         }
 
