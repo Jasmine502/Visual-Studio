@@ -287,10 +287,6 @@ namespace Gen_1PokemonCaptureSimulation
             {
                 pokeBallBox.Image = normalBall;
             }
-            else if (currentBallShakes < 400)
-            {
-                pokeBallBox.Image = leftBall;
-            }
         }
 
 
@@ -304,9 +300,9 @@ namespace Gen_1PokemonCaptureSimulation
             {
                 ballPoof.Play();
                 freeTimer.Stop();
+                // convert to Title case
                 caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
                 pokeBallBox.Image = Image.FromFile(filePath + pokemonBox.Text.ToLower() + ".gif");
-
                 battleButton.Enabled = true;
                 battleButton.Text = "Battle";
                 disableControls(false);
@@ -814,7 +810,7 @@ namespace Gen_1PokemonCaptureSimulation
         private void moneyBorder_Click(object sender, EventArgs e)
         {
             MessageBox.Show("You get money for every pokemon you catch.", "Money Help");
-            MessageBox.Show("The lowest you can get is 1 Pokémon Dollar, and the highest is 3000!", "Limits");
+            MessageBox.Show("The lowest you can get is 255 Pokémon Dollars, and the highest is 9000!", "Limits");
         }
 
         private void itemsBox_Click(object sender, EventArgs e)

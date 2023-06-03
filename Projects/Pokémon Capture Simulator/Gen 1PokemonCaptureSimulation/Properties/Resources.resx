@@ -154,9 +154,6 @@
   <data name="Safari Ball caught" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Safari Ball caught.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Random Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Random Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Master Ball Display" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Master Ball Display.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2646,5 +2643,8 @@
   </data>
   <data name="zeraora" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zeraora.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Random_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cries\Random Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

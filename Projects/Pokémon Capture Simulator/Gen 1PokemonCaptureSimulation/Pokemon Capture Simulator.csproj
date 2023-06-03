@@ -105,7 +105,7 @@
     <None Include="Resources\Mart\pointer.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Random Icon.png" />
+    <None Include="Resources\Cries\Random Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -2315,182 +2315,357 @@
     <None Include="Resources\Cries\zygarde.wav" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\zeraora.wav" />
-    <None Include="Resources\yungoos.wav" />
-    <None Include="Resources\xurkitree.wav" />
-    <None Include="Resources\wishiwashi.wav" />
-    <None Include="Resources\wimpod.wav" />
-    <None Include="Resources\vikavolt.wav" />
-    <None Include="Resources\type-null.wav" />
-    <None Include="Resources\turtonator.wav" />
-    <None Include="Resources\tsareena.wav" />
-    <None Include="Resources\trumbeak.wav" />
-    <None Include="Resources\toxapex.wav" />
-    <None Include="Resources\toucannon.wav" />
-    <None Include="Resources\torracat.wav" />
-    <None Include="Resources\togedemaru.wav" />
-    <None Include="Resources\tapu-lele.wav" />
-    <None Include="Resources\tapu-koko.wav" />
-    <None Include="Resources\tapu-fini.wav" />
-    <None Include="Resources\tapu-bulu.wav" />
-    <None Include="Resources\stufful.wav" />
-    <None Include="Resources\steenee.wav" />
-    <None Include="Resources\stakataka.wav" />
-    <None Include="Resources\solgaleo.wav" />
-    <None Include="Resources\silvally.wav" />
-    <None Include="Resources\shiinotic.wav" />
-    <None Include="Resources\sandygast.wav" />
-    <None Include="Resources\salazzle.wav" />
-    <None Include="Resources\salandit.wav" />
-    <None Include="Resources\rowlet.wav" />
-    <None Include="Resources\rockruff.wav" />
-    <None Include="Resources\ribombee.wav" />
-    <None Include="Resources\pyukumuku.wav" />
-    <None Include="Resources\primarina.wav" />
-    <None Include="Resources\popplio.wav" />
-    <None Include="Resources\poipole.wav" />
-    <None Include="Resources\pikipek.wav" />
-    <None Include="Resources\pheromosa.wav" />
-    <None Include="Resources\passimian.wav" />
-    <None Include="Resources\palossand.wav" />
-    <None Include="Resources\oricorio.wav" />
-    <None Include="Resources\oranguru.wav" />
-    <None Include="Resources\nihilego.wav" />
-    <None Include="Resources\necrozma.wav" />
-    <None Include="Resources\naganadel.wav" />
-    <None Include="Resources\mudsdale.wav" />
-    <None Include="Resources\mudbray.wav" />
-    <None Include="Resources\morelull.wav" />
-    <None Include="Resources\minior.wav" />
-    <None Include="Resources\mimikyu.wav" />
-    <None Include="Resources\meltan.wav" />
-    <None Include="Resources\melmetal.wav" />
-    <None Include="Resources\marshadow.wav" />
-    <None Include="Resources\mareanie.wav" />
-    <None Include="Resources\magearna.wav" />
-    <None Include="Resources\lycanroc.wav" />
-    <None Include="Resources\lurantis.wav" />
-    <None Include="Resources\lunala.wav" />
-    <None Include="Resources\litten.wav" />
-    <None Include="Resources\kommo-o.wav" />
-    <None Include="Resources\komala.wav" />
-    <None Include="Resources\kartana.wav" />
-    <None Include="Resources\jangmo-o.wav" />
-    <None Include="Resources\incineroar.wav" />
-    <None Include="Resources\hakamo-o.wav" />
-    <None Include="Resources\guzzlord.wav" />
-    <None Include="Resources\gumshoos.wav" />
-    <None Include="Resources\grubbin.wav" />
-    <None Include="Resources\golisopod.wav" />
-    <None Include="Resources\fomantis.wav" />
-    <None Include="Resources\drampa.wav" />
-    <None Include="Resources\dhelmise.wav" />
-    <None Include="Resources\dewpider.wav" />
-    <None Include="Resources\decidueye.wav" />
-    <None Include="Resources\dartrix.wav" />
-    <None Include="Resources\cutiefly.wav" />
-    <None Include="Resources\araquanid.wav" />
-    <None Include="Resources\bewear.wav" />
-    <None Include="Resources\blacephalon.wav" />
-    <None Include="Resources\bounsweet.wav" />
-    <None Include="Resources\brionne.wav" />
-    <None Include="Resources\bruxish.wav" />
-    <None Include="Resources\buzzwole.wav" />
-    <None Include="Resources\celesteela.wav" />
-    <None Include="Resources\charjabug.wav" />
-    <None Include="Resources\comfey.wav" />
-    <None Include="Resources\cosmoem.wav" />
-    <None Include="Resources\cosmog.wav" />
-    <None Include="Resources\crabominable.wav" />
+    <None Include="Resources\Cries\zeraora.wav" />
+    <None Include="Resources\Cries\yungoos.wav" />
+    <None Include="Resources\Cries\xurkitree.wav" />
+    <None Include="Resources\Cries\wishiwashi.wav" />
+    <None Include="Resources\Cries\wimpod.wav" />
+    <None Include="Resources\Cries\vikavolt.wav" />
+    <None Include="Resources\Cries\type-null.wav" />
+    <None Include="Resources\Cries\turtonator.wav" />
+    <None Include="Resources\Cries\tsareena.wav" />
+    <None Include="Resources\Cries\trumbeak.wav" />
+    <None Include="Resources\Cries\toxapex.wav" />
+    <None Include="Resources\Cries\toucannon.wav" />
+    <None Include="Resources\Cries\torracat.wav" />
+    <None Include="Resources\Cries\togedemaru.wav" />
+    <None Include="Resources\Cries\tapu-lele.wav" />
+    <None Include="Resources\Cries\tapu-koko.wav" />
+    <None Include="Resources\Cries\tapu-fini.wav" />
+    <None Include="Resources\Cries\tapu-bulu.wav" />
+    <None Include="Resources\Cries\stufful.wav" />
+    <None Include="Resources\Cries\steenee.wav" />
+    <None Include="Resources\Cries\stakataka.wav" />
+    <None Include="Resources\Cries\solgaleo.wav" />
+    <None Include="Resources\Cries\silvally.wav" />
+    <None Include="Resources\Cries\shiinotic.wav" />
+    <None Include="Resources\Cries\sandygast.wav" />
+    <None Include="Resources\Cries\salazzle.wav" />
+    <None Include="Resources\Cries\salandit.wav" />
+    <None Include="Resources\Cries\rowlet.wav" />
+    <None Include="Resources\Cries\rockruff.wav" />
+    <None Include="Resources\Cries\ribombee.wav" />
+    <None Include="Resources\Cries\pyukumuku.wav" />
+    <None Include="Resources\Cries\primarina.wav" />
+    <None Include="Resources\Cries\popplio.wav" />
+    <None Include="Resources\Cries\poipole.wav" />
+    <None Include="Resources\Cries\pikipek.wav" />
+    <None Include="Resources\Cries\pheromosa.wav" />
+    <None Include="Resources\Cries\passimian.wav" />
+    <None Include="Resources\Cries\palossand.wav" />
+    <None Include="Resources\Cries\oricorio.wav" />
+    <None Include="Resources\Cries\oranguru.wav" />
+    <None Include="Resources\Cries\nihilego.wav" />
+    <None Include="Resources\Cries\necrozma.wav" />
+    <None Include="Resources\Cries\naganadel.wav" />
+    <None Include="Resources\Cries\mudsdale.wav" />
+    <None Include="Resources\Cries\mudbray.wav" />
+    <None Include="Resources\Cries\morelull.wav" />
+    <None Include="Resources\Cries\minior.wav" />
+    <None Include="Resources\Cries\mimikyu.wav" />
+    <None Include="Resources\Cries\meltan.wav" />
+    <None Include="Resources\Cries\melmetal.wav" />
+    <None Include="Resources\Cries\marshadow.wav" />
+    <None Include="Resources\Cries\mareanie.wav" />
+    <None Include="Resources\Cries\magearna.wav" />
+    <None Include="Resources\Cries\lycanroc.wav" />
+    <None Include="Resources\Cries\lurantis.wav" />
+    <None Include="Resources\Cries\lunala.wav" />
+    <None Include="Resources\Cries\litten.wav" />
+    <None Include="Resources\Cries\kommo-o.wav" />
+    <None Include="Resources\Cries\komala.wav" />
+    <None Include="Resources\Cries\kartana.wav" />
+    <None Include="Resources\Cries\jangmo-o.wav" />
+    <None Include="Resources\Cries\incineroar.wav" />
+    <None Include="Resources\Cries\hakamo-o.wav" />
+    <None Include="Resources\Cries\guzzlord.wav" />
+    <None Include="Resources\Cries\gumshoos.wav" />
+    <None Include="Resources\Cries\grubbin.wav" />
+    <None Include="Resources\Cries\golisopod.wav" />
+    <None Include="Resources\Cries\fomantis.wav" />
+    <None Include="Resources\Cries\drampa.wav" />
+    <None Include="Resources\Cries\dhelmise.wav" />
+    <None Include="Resources\Cries\dewpider.wav" />
+    <None Include="Resources\Cries\decidueye.wav" />
+    <None Include="Resources\Cries\dartrix.wav" />
+    <None Include="Resources\Cries\cutiefly.wav" />
+    <None Include="Resources\Cries\bewear.wav" />
+    <None Include="Resources\Cries\blacephalon.wav" />
+    <None Include="Resources\Cries\bounsweet.wav" />
+    <None Include="Resources\Cries\brionne.wav" />
+    <None Include="Resources\Cries\bruxish.wav" />
+    <None Include="Resources\Cries\buzzwole.wav" />
+    <None Include="Resources\Cries\celesteela.wav" />
+    <None Include="Resources\Cries\charjabug.wav" />
+    <None Include="Resources\Cries\comfey.wav" />
+    <None Include="Resources\Cries\cosmoem.wav" />
+    <None Include="Resources\Cries\cosmog.wav" />
+    <None Include="Resources\Cries\crabominable.wav" />
+    <None Include="Resources\Cries\crabrawler.wav" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\crabrawler.wav" />
-    <Content Include="Resources\Cries\araquanid.wav" />
-    <Content Include="Resources\Cries\bewear.wav" />
-    <Content Include="Resources\Cries\blacephalon.wav" />
-    <Content Include="Resources\Cries\bounsweet.wav" />
-    <Content Include="Resources\Cries\brionne.wav" />
-    <Content Include="Resources\Cries\bruxish.wav" />
-    <Content Include="Resources\Cries\buzzwole.wav" />
-    <Content Include="Resources\Cries\celesteela.wav" />
-    <Content Include="Resources\Cries\charjabug.wav" />
-    <Content Include="Resources\Cries\comfey.wav" />
-    <Content Include="Resources\Cries\cosmoem.wav" />
-    <Content Include="Resources\Cries\cosmog.wav" />
-    <Content Include="Resources\Cries\crabominable.wav" />
-    <Content Include="Resources\Cries\crabrawler.wav" />
-    <Content Include="Resources\Cries\cutiefly.wav" />
-    <Content Include="Resources\Cries\dartrix.wav" />
-    <Content Include="Resources\Cries\decidueye.wav" />
-    <Content Include="Resources\Cries\dewpider.wav" />
-    <Content Include="Resources\Cries\dhelmise.wav" />
-    <Content Include="Resources\Cries\drampa.wav" />
-    <Content Include="Resources\Cries\fomantis.wav" />
-    <Content Include="Resources\Cries\golisopod.wav" />
-    <Content Include="Resources\Cries\grubbin.wav" />
-    <Content Include="Resources\Cries\gumshoos.wav" />
-    <Content Include="Resources\Cries\guzzlord.wav" />
-    <Content Include="Resources\Cries\hakamo-o.wav" />
-    <Content Include="Resources\Cries\incineroar.wav" />
-    <Content Include="Resources\Cries\jangmo-o.wav" />
-    <Content Include="Resources\Cries\kartana.wav" />
-    <Content Include="Resources\Cries\komala.wav" />
-    <Content Include="Resources\Cries\kommo-o.wav" />
-    <Content Include="Resources\Cries\litten.wav" />
-    <Content Include="Resources\Cries\lunala.wav" />
-    <Content Include="Resources\Cries\lurantis.wav" />
-    <Content Include="Resources\Cries\lycanroc.wav" />
-    <Content Include="Resources\Cries\magearna.wav" />
-    <Content Include="Resources\Cries\mareanie.wav" />
-    <Content Include="Resources\Cries\marshadow.wav" />
-    <Content Include="Resources\Cries\melmetal.wav" />
-    <Content Include="Resources\Cries\meltan.wav" />
-    <Content Include="Resources\Cries\mimikyu.wav" />
-    <Content Include="Resources\Cries\minior.wav" />
-    <Content Include="Resources\Cries\morelull.wav" />
-    <Content Include="Resources\Cries\mudbray.wav" />
-    <Content Include="Resources\Cries\mudsdale.wav" />
-    <Content Include="Resources\Cries\naganadel.wav" />
-    <Content Include="Resources\Cries\necrozma.wav" />
-    <Content Include="Resources\Cries\nihilego.wav" />
-    <Content Include="Resources\Cries\oranguru.wav" />
-    <Content Include="Resources\Cries\oricorio.wav" />
-    <Content Include="Resources\Cries\palossand.wav" />
-    <Content Include="Resources\Cries\passimian.wav" />
-    <Content Include="Resources\Cries\pheromosa.wav" />
-    <Content Include="Resources\Cries\pikipek.wav" />
-    <Content Include="Resources\Cries\poipole.wav" />
-    <Content Include="Resources\Cries\popplio.wav" />
-    <Content Include="Resources\Cries\primarina.wav" />
-    <Content Include="Resources\Cries\pyukumuku.wav" />
-    <Content Include="Resources\Cries\ribombee.wav" />
-    <Content Include="Resources\Cries\rockruff.wav" />
-    <Content Include="Resources\Cries\rowlet.wav" />
-    <Content Include="Resources\Cries\salandit.wav" />
-    <Content Include="Resources\Cries\salazzle.wav" />
-    <Content Include="Resources\Cries\sandygast.wav" />
-    <Content Include="Resources\Cries\shiinotic.wav" />
-    <Content Include="Resources\Cries\silvally.wav" />
-    <Content Include="Resources\Cries\solgaleo.wav" />
-    <Content Include="Resources\Cries\stakataka.wav" />
-    <Content Include="Resources\Cries\steenee.wav" />
-    <Content Include="Resources\Cries\stufful.wav" />
-    <Content Include="Resources\Cries\tapu-bulu.wav" />
-    <Content Include="Resources\Cries\tapu-fini.wav" />
-    <Content Include="Resources\Cries\tapu-koko.wav" />
-    <Content Include="Resources\Cries\tapu-lele.wav" />
-    <Content Include="Resources\Cries\togedemaru.wav" />
-    <Content Include="Resources\Cries\torracat.wav" />
-    <Content Include="Resources\Cries\toucannon.wav" />
-    <Content Include="Resources\Cries\toxapex.wav" />
-    <Content Include="Resources\Cries\trumbeak.wav" />
-    <Content Include="Resources\Cries\tsareena.wav" />
-    <Content Include="Resources\Cries\turtonator.wav" />
-    <Content Include="Resources\Cries\type-null.wav" />
-    <Content Include="Resources\Cries\vikavolt.wav" />
-    <Content Include="Resources\Cries\wimpod.wav" />
-    <Content Include="Resources\Cries\wishiwashi.wav" />
-    <Content Include="Resources\Cries\xurkitree.wav" />
-    <Content Include="Resources\Cries\yungoos.wav" />
-    <Content Include="Resources\Cries\zeraora.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cutiefly.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dartrix.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decidueye.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dewpider.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dhelmise.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drampa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fomantis.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\golisopod.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grubbin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gumshoos.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guzzlord.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hakamo-o.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incineroar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jangmo-o.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kartana.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\komala.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kommo-o.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\litten.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lunala.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lurantis.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lycanroc.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magearna.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mareanie.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marshadow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\melmetal.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meltan.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mimikyu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minior.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\morelull.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mudbray.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mudsdale.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naganadel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\necrozma.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nihilego.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oranguru.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oricorio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palossand.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passimian.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pheromosa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikipek.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poipole.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\popplio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primarina.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyukumuku.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ribombee.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rockruff.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rowlet.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salandit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salazzle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandygast.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shiinotic.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silvally.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solgaleo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stakataka.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steenee.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stufful.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tapu-bulu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tapu-fini.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tapu-koko.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tapu-lele.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\togedemaru.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torracat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toucannon.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toxapex.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trumbeak.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tsareena.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turtonator.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\type-null.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vikavolt.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wimpod.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wishiwashi.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xurkitree.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yungoos.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zeraora.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\araquanid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bewear.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blacephalon.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bounsweet.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brionne.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bruxish.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buzzwole.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\celesteela.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charjabug.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comfey.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cosmoem.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cosmog.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crabominable.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

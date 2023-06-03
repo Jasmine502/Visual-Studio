@@ -5251,7 +5251,7 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Random_Icon {
             get {
-                object obj = ResourceManager.GetObject("Random Icon", resourceCulture);
+                object obj = ResourceManager.GetObject("Random_Icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
