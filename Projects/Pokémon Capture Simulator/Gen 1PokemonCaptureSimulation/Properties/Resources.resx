@@ -130,9 +130,6 @@
   <data name="Safari Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Safari Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ball Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ball Open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="PokeBall caught" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeBall caught.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2646,5 +2643,152 @@
   </data>
   <data name="Random_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cries\Random Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mimejr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mimejr.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="abomasnow-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abomasnow-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="absol-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\absol-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="aerodactyl-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aerodactyl-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="aggron-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aggron-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="alakazam-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alakazam-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="altaria-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\altaria-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ampharos-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ampharos-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="audino-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audino-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="banette-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banette-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beedrill-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beedrill-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blastoise-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blastoise-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blaziken-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blaziken-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="camerupt-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camerupt-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="charizard-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charizard-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="crucibelle-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crucibelle-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diancie-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diancie-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gallade-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gallade-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="garchomp-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\garchomp-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gardevoir-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gardevoir-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gengar-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gengar-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="glalie-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glalie-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gyarados-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gyarados-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="heracross-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heracross-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="houndoom-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\houndoom-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kangaskhan-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kangaskhan-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="latias-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\latias-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="latios-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\latios-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lopunny-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lopunny-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lucario-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lucario-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="manectric-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manectric-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mawile-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mawile-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medicham-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medicham-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="metagross-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\metagross-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewtwo-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewtwo-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pidgeot-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pidgeot-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pinsir-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinsir-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="porygonz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\porygonz.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rayquaza-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rayquaza-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sableye-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sableye-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="salamence-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salamence-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sceptile-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sceptile-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scizor-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scizor-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sharpedo-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sharpedo-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="slowbro-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slowbro-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="steelix-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steelix-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="swampert-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swampert-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tyranitar-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tyranitar-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="venusaur-mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\venusaur-mega.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

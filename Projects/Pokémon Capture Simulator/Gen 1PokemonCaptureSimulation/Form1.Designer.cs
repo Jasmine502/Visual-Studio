@@ -82,6 +82,8 @@
             this.martLogo = new System.Windows.Forms.PictureBox();
             this.pokeBallBox = new System.Windows.Forms.PictureBox();
             this.resetButton = new System.Windows.Forms.Button();
+            this.saveButton = new System.Windows.Forms.Button();
+            this.loadButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.randomCurrentHPButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.randomMaxHPButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.randomStatusButton)).BeginInit();
@@ -1175,6 +1177,7 @@
             this.moneyLabel.TabIndex = 0;
             this.moneyLabel.Text = "0";
             this.moneyLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.moneyLabel.TextChanged += new System.EventHandler(this.moneyLabel_TextChanged);
             // 
             // moneyBorder
             // 
@@ -1518,10 +1521,36 @@
             this.resetButton.Location = new System.Drawing.Point(764, 10);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(83, 42);
-            this.resetButton.TabIndex = 36;
+            this.resetButton.TabIndex = 38;
             this.resetButton.Text = "RESET";
             this.resetButton.UseVisualStyleBackColor = false;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
+            // 
+            // saveButton
+            // 
+            this.saveButton.BackColor = System.Drawing.Color.Black;
+            this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.saveButton.ForeColor = System.Drawing.Color.White;
+            this.saveButton.Location = new System.Drawing.Point(586, 10);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(83, 42);
+            this.saveButton.TabIndex = 36;
+            this.saveButton.Text = "SAVE";
+            this.saveButton.UseVisualStyleBackColor = false;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
+            // 
+            // loadButton
+            // 
+            this.loadButton.BackColor = System.Drawing.Color.Black;
+            this.loadButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.loadButton.ForeColor = System.Drawing.Color.White;
+            this.loadButton.Location = new System.Drawing.Point(675, 10);
+            this.loadButton.Name = "loadButton";
+            this.loadButton.Size = new System.Drawing.Size(83, 42);
+            this.loadButton.TabIndex = 37;
+            this.loadButton.Text = "LOAD";
+            this.loadButton.UseVisualStyleBackColor = false;
+            this.loadButton.Click += new System.EventHandler(this.loadButton_Click);
             // 
             // Form1
             // 
@@ -1529,6 +1558,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(859, 544);
+            this.Controls.Add(this.loadButton);
+            this.Controls.Add(this.saveButton);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.pokemonBox);
             this.Controls.Add(this.deselectButton);
@@ -1660,6 +1691,8 @@
         private System.Windows.Forms.Button megaEvolveButton;
         private System.Windows.Forms.Button deselectButton;
         private System.Windows.Forms.Button resetButton;
+        private System.Windows.Forms.Button saveButton;
+        private System.Windows.Forms.Button loadButton;
     }
 }
 

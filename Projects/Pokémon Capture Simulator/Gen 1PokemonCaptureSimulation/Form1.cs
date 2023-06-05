@@ -51,7 +51,7 @@ namespace Gen_1PokemonCaptureSimulation
         String[] balls = { "PokeBall", "Master Ball", "Great Ball", "Ultra Ball", "Safari Ball" };
         String[] megaNames = { "ABOMASNOW-MEGA", "ABSOL-MEGA", "AERODACTYL-MEGA", "AGGRON-MEGA", "ALAKAZAM-MEGA", "ALTARIA-MEGA", "AMPHAROS-MEGA", "AUDINO-MEGA", "BANETTE-MEGA", "BEEDRILL-MEGA", "BLASTOISE-MEGA", "BLAZIKEN-MEGA", "CAMERUPT-MEGA", "CHARIZARD-MEGA", "DIANCIE-MEGA", "GALLADE-MEGA", "GARCHOMP-MEGA", "GARDEVOIR-MEGA", "GENGAR-MEGA", "GLALIE-MEGA", "GYARADOS-MEGA", "HERACROSS-MEGA", "HOUNDOOM-MEGA", "KANGASKHAN-MEGA", "LATIAS-MEGA", "LATIOS-MEGA", "LOPUNNY-MEGA", "LUCARIO-MEGA", "MANECTRIC-MEGA", "MAWILE-MEGA", "MEDICHAM-MEGA", "METAGROSS-MEGA", "MEWTWO-MEGA", "PIDGEOT-MEGA", "PINSIR-MEGA", "RAYQUAZA-MEGA", "SABLEYE-MEGA", "SALAMENCE-MEGA", "SCEPTILE-MEGA", "SCIZOR-MEGA", "SHARPEDO-MEGA", "SLOWBRO-MEGA", "STEELIX-MEGA", "SWAMPERT-MEGA", "TYRANITAR-MEGA", "VENUSAUR-MEGA" };
         String[] megas = { "ABOMASNOW", "ABSOL", "AERODACTYL", "AGGRON", "ALAKAZAM", "ALTARIA", "AMPHAROS", "AUDINO", "BANETTE", "BEEDRILL", "BLASTOISE", "BLAZIKEN", "CAMERUPT", "CHARIZARD", "DIANCIE", "GALLADE", "GARCHOMP", "GARDEVOIR", "GENGAR", "GLALIE", "GYARADOS", "HERACROSS", "HOUNDOOM", "KANGASKHAN", "LATIAS", "LATIOS", "LOPUNNY", "LUCARIO", "MANECTRIC", "MAWILE", "MEDICHAM", "METAGROSS", "MEWTWO", "PIDGEOT", "PINSIR", "RAYQUAZA", "SABLEYE", "SALAMENCE", "SCEPTILE", "SCIZOR", "SHARPEDO", "SLOWBRO", "STEELIX", "SWAMPERT", "TYRANITAR", "VENUSAUR" };
-        String[] pokemon = { "ABOMASNOW", "ABRA", "ABSOL", "ACCELGOR", "AEGISLASH", "AERODACTYL", "AGGRON", "AIPOM", "ALAKAZAM", "ALOMOMOLA", "ALTARIA", "AMAURA", "AMBIPOM", "AMOONGUSS", "AMPHAROS", "ANORITH", "ARAQUANID", "ARBOK", "ARCANINE", "ARCEUS", "ARCHEN", "ARCHEOPS", "ARIADOS", "ARMALDO", "AROMATISSE", "ARON", "ARTICUNO", "AUDINO", "AURORUS", "AVALUGG", "AXEW", "AZELF", "AZUMARILL", "AZURILL", "BAGON", "BALTOY", "BANETTE", "BARBARACLE", "BARBOACH", "BASCULIN", "BASTIODON", "BAYLEEF", "BEARTIC", "BEAUTIFLY", "BEEDRILL", "BEHEEYEM", "BELDUM", "BELLOSSOM", "BELLSPROUT", "BERGMITE", "BEWEAR", "BIBAREL", "BIDOOF", "BINACLE", "BISHARP", "BLASTOISE", "BLAZIKEN", "BLISSEY", "BLITZLE", "BOLDORE", "BONSLY", "BOUFFALANT", "BOUNSWEET", "BRAIXEN", "BRAVIARY", "BRELOOM", "BRIONNE", "BRONZONG", "BRONZOR", "BRUXISH", "BUDEW", "BUIZEL", "BULBASAUR", "BUNEARY", "BUNNELBY", "BURMY", "BUTTERFREE", "BUZZWOLE", "CACNEA", "CACTURNE", "CAMERUPT", "CARBINK", "CARNIVINE", "CARRACOSTA", "CARVANHA", "CASCOON", "CASTFORM", "CATERPIE", "CELEBI", "CELESTEELA", "CHANDELURE", "CHANSEY", "CHARIZARD", "CHARJABUG", "CHARMANDER", "CHARMELEON", "CHATOT", "CHERRIM", "CHERUBI", "CHESNAUGHT", "CHESPIN", "CHIKORITA", "CHIMCHAR", "CHIMECHO", "CHINCHOU", "CHINGLING", "CINCCINO", "CLAMPERL", "CLAUNCHER", "CLAWITZER", "CLAYDOL", "CLEFABLE", "CLEFAIRY", "CLEFFA", "CLOYSTER", "COBALION", "COFAGRIGUS", "COMBEE", "COMBUSKEN", "COMFEY", "CONKELDURR", "CORPHISH", "CORSOLA", "COSMOEM", "COSMOG", "COTTONEE", "CRABOMINABLE", "CRABRAWLER", "CRADILY", "CRANIDOS", "CRAWDAUNT", "CRESSELIA", "CROAGUNK", "CROBAT", "CROCONAW", "CRUSTLE", "CRYOGONAL", "CUBCHOO", "CUBONE", "CUTIEFLY", "CYNDAQUIL", "DARKRAI", "DARMANITAN", "DARTRIX", "DARUMAKA", "DECIDUEYE", "DEDENNE", "DEERLING", "DEINO", "DELCATTY", "DELIBIRD", "DELPHOX", "DEOXYS", "DEWGONG", "DEWOTT", "DEWPIDER", "DHELMISE", "DIALGA", "DIANCIE", "DIGGERSBY", "DIGLETT", "DIGLETT-ALOLA", "DITTO", "DODRIO", "DODUO", "DONPHAN", "DOUBLADE", "DRAGALGE", "DRAGONAIR", "DRAGONITE", "DRAMPA", "DRAPION", "DRATINI", "DRIFBLIM", "DRIFLOON", "DRILBUR", "DROWZEE", "DRUDDIGON", "DUCKLETT", "DUGTRIO", "DUGTRIO-ALOLA", "DUNSPARCE", "DUOSION", "DURANT", "DUSCLOPS", "DUSKNOIR", "DUSKULL", "DUSTOX", "DWEBBLE", "EELEKTRIK", "EELEKTROSS", "EEVEE", "EKANS", "ELECTABUZZ", "ELECTIVIRE", "ELECTRIKE", "ELECTRODE", "ELEKID", "ELGYEM", "EMBOAR", "EMOLGA", "EMPOLEON", "ENTEI", "ESCAVALIER", "ESPEON", "ESPURR", "EXCADRILL", "EXEGGCUTE", "EXEGGUTOR", "EXEGGUTOR-ALOLA", "EXPLOUD", "FARFETCH'D", "FEAROW", "FEEBAS", "FENNEKIN", "FERALIGATR", "FERROSEED", "FERROTHORN", "FINNEON", "FLAAFFY", "FLABÉBÉ", "FLAREON", "FLETCHINDER", "FLETCHLING", "FLOATZEL", "FLOETTE", "FLORGES", "FLYGON", "FOMANTIS", "FOONGUS", "FORRETRESS", "FRAXURE", "FRILLISH", "FROAKIE", "FROGADIER", "FROSLASS", "FURFROU", "FURRET", "GABITE", "GALLADE", "GALVANTULA", "GARBODOR", "GARCHOMP", "GARDEVOIR", "GASTLY", "GASTRODON", "GASTRODON-EAST", "GENESECT", "GENGAR", "GEODUDE", "GEODUDE-ALOLA", "GIBLE", "GIGALITH", "GIRAFARIG", "GIRATINA", "GLACEON", "GLALIE", "GLAMEOW", "GLIGAR", "GLISCOR", "GLOOM", "GOGOAT", "GOLBAT", "GOLDEEN", "GOLDUCK", "GOLEM", "GOLEM-ALOLA", "GOLETT", "GOLISOPOD", "GOLURK", "GOODRA", "GOOMY", "GOREBYSS", "GOTHITA", "GOTHITELLE", "GOTHORITA", "GOURGEIST", "GRANBULL", "GRAVELER", "GRAVELER-ALOLA", "GRENINJA", "GRIMER", "GRIMER-ALOLA", "GROTLE", "GROUDON", "GROVYLE", "GROWLITHE", "GRUBBIN", "GRUMPIG", "GULPIN", "GUMSHOOS", "GURDURR", "GUZZLORD", "GYARADOS", "HAKAMO-O", "HAPPINY", "HARIYAMA", "HAUNTER", "HAWLUCHA", "HAXORUS", "HEATMOR", "HEATRAN", "HELIOLISK", "HELIOPTILE", "HERACROSS", "HERDIER", "HIPPOPOTAS", "HIPPOWDON", "HITMONCHAN", "HITMONLEE", "HITMONTOP", "HO-OH", "HONCHKROW", "HONEDGE", "HOOPA", "HOOTHOOT", "HOPPIP", "HORSEA", "HOUNDOOM", "HOUNDOUR", "HUNTAIL", "HYDREIGON", "HYPNO", "IGGLYBUFF", "ILLUMISE", "INCINEROAR", "INFERNAPE", "INKAY", "IVYSAUR", "JANGMO-O", "JELLICENT", "JIGGLYPUFF", "JIRACHI", "JOLTEON", "JOLTIK", "JUMPLUFF", "JYNX", "KABUTO", "KABUTOPS", "KADABRA", "KAKUNA", "KANGASKHAN", "KARRABLAST", "KARTANA", "KECLEON", "KELDEO", "KINGDRA", "KINGLER", "KIRLIA", "KLANG", "KLEFKI", "KLINK", "KLINKLANG", "KOFFING", "KOMMO-O", "KRABBY", "KRICKETOT", "KRICKETUNE", "KROKOROK", "KROOKODILE", "KYOGRE", "KYUREM", "LAIRON", "LAMPENT", "LANDORUS", "LANTURN", "LAPRAS", "LARVESTA", "LARVITAR", "LATIAS", "LATIOS", "LEAFEON", "LEAVANNY", "LEDIAN", "LEDYBA", "LICKILICKY", "LICKITUNG", "LIEPARD", "LILEEP", "LILLIGANT", "LILLIPUP", "LINOONE", "LITLEO", "LITTEN", "LITWICK", "LOMBRE", "LOPUNNY", "LOTAD", "LOUDRED", "LUCARIO", "LUDICOLO", "LUGIA", "LUMINEON", "LUNALA", "LUNATONE", "LURANTIS", "LUVDISC", "LUXIO", "LUXRAY", "LYCANROC", "LYCANROC-MIDNIGHT", "MACHAMP", "MACHOKE", "MACHOP", "MAGBY", "MAGCARGO", "MAGEARNA", "MAGEARNA-POKEBALL", "MAGIKARP", "MAGMAR", "MAGMORTAR", "MAGNEMITE", "MAGNETON", "MAGNEZONE", "MAKUHITA", "MALAMAR", "MAMOSWINE", "MANAPHY", "MANDIBUZZ", "MANECTRIC", "MANKEY", "MANTINE", "MANTYKE", "MARACTUS", "MAREANIE", "MAREEP", "MARILL", "MAROWAK", "MAROWAK-ALOLA", "MARSHADOW", "MARSHTOMP", "MASQUERAIN", "MAWILE", "MEDICHAM", "MEDITITE", "MEGANIUM", "MELOETTA", "MEOWSTIC", "MEOWTH", "MEOWTH-ALOLA", "MESPRIT", "METAGROSS", "METANG", "METAPOD", "MEW", "MEWTWO", "MIENFOO", "MIENSHAO", "MIGHTYENA", "MILOTIC", "MILTANK", "MIME JR.", "MIMIKYU", "MINCCINO", "MINIOR", "MINUN", "MISDREAVUS", "MISMAGIUS", "MOLTRES", "MONFERNO", "MORELULL", "MOTHIM", "MR. MIME", "MUDBRAY", "MUDKIP", "MUDSDALE", "MUK", "MUK-ALOLA", "MUNCHLAX", "MUNNA", "MURKROW", "MUSHARNA", "NATU", "NECROZMA", "NIDOKING", "NIDOQUEEN", "NIDORANM", "NIDORANF", "NIDORINA", "NIDORINO", "NIHILEGO", "NINCADA", "NINETALES", "NINETALES-ALOLA", "NINJASK", "NOCTOWL", "NOIBAT", "NOIVERN", "NOSEPASS", "NUMEL", "NUZLEAF", "OCTILLERY", "ODDISH", "OMANYTE", "OMASTAR", "ONIX", "ORANGURU", "ORICORIO", "ORICORIO-PAU", "ORICORIO-POMPOM", "ORICORIO-SENSU", "OSHAWOTT", "PACHIRISU", "PALKIA", "PALOSSAND", "PALPITOAD", "PANCHAM", "PANGORO", "PANPOUR", "PANSAGE", "PANSEAR", "PARAS", "PARASECT", "PASSIMIAN", "PATRAT", "PAWNIARD", "PELIPPER", "PERSIAN", "PERSIAN-ALOLA", "PETILIL", "PHANPY", "PHANTUMP", "PHEROMOSA", "PHIONE", "PICHU", "PIDGEOT", "PIDGEOTTO", "PIDGEY", "PIDOVE", "PIGNITE", "PIKACHU", "PIKIPEK", "PILOSWINE", "PINECO", "PINSIR", "PIPLUP", "PLUSLE", "POLITOED", "POLIWAG", "POLIWHIRL", "POLIWRATH", "PONYTA", "POOCHYENA", "POPPLIO", "PORYGON", "PORYGON-Z", "PORYGON2", "PRIMARINA", "PRIMEAPE", "PRINPLUP", "PROBOPASS", "PSYDUCK", "PUMPKABOO", "PUPITAR", "PURRLOIN", "PURUGLY", "PYROAR", "PYUKUMUKU", "QUAGSIRE", "QUILAVA", "QUILLADIN", "QWILFISH", "RAICHU", "RAICHU-ALOLA", "RAIKOU", "RALTS", "RAMPARDOS", "RAPIDASH", "RATICATE", "RATICATE-ALOLA", "RATTATA", "RATTATA-ALOLA", "RAYQUAZA", "REGICE", "REGIGIGAS", "REGIROCK", "REGISTEEL", "RELICANTH", "REMORAID", "RESHIRAM", "REUNICLUS", "RHYDON", "RHYHORN", "RHYPERIOR", "RIBOMBEE", "RIOLU", "ROCKRUFF", "ROGGENROLA", "ROSELIA", "ROSERADE", "ROTOM", "ROTOM-FAN", "ROTOM-FROST", "ROTOM-HEAT", "ROTOM-MOW", "ROTOM-WASH", "ROWLET", "RUFFLET", "SABLEYE", "SALAMENCE", "SALANDIT", "SALAZZLE", "SAMUROTT", "SANDILE", "SANDSHREW", "SANDSHREW-ALOLA", "SANDSLASH", "SANDSLASH-ALOLA", "SAWK", "SAWSBUCK", "SCATTERBUG", "SCEPTILE", "SCEPTILE-MEGA", "SCIZOR", "SCOLIPEDE", "SCRAFTY", "SCRAGGY", "SCYTHER", "SEADRA", "SEAKING", "SEALEO", "SEEDOT", "SEEL", "SEISMITOAD", "SENTRET", "SERPERIOR", "SERVINE", "SEVIPER", "SEWADDLE", "SHARPEDO", "SHAYMIN", "SHAYMIN-SKY", "SHEDINJA", "SHELGON", "SHELLDER", "SHELLOS", "SHELLOS-WEST", "SHELMET", "SHIELDON", "SHIFTRY", "SHIINOTIC", "SHINX", "SHROOMISH", "SHUCKLE", "SHUPPET", "SIGILYPH", "SILCOON", "SILVALLY", "SIMIPOUR", "SIMISAGE", "SIMISEAR", "SKARMORY", "SKIDDO", "SKIPLOOM", "SKITTY", "SKORUPI", "SKRELP", "SKUNTANK", "SLAKING", "SLAKOTH", "SLIGGOO", "SLOWBRO", "SLOWKING", "SLOWPOKE", "SLUGMA", "SLURPUFF", "SMEARGLE", "SMOOCHUM", "SNEASEL", "SNIVY", "SNORLAX", "SNORUNT", "SNOVER", "SNUBBULL", "SOLGALEO", "SOLOSIS", "SOLROCK", "SPEAROW", "SPEWPA", "SPHEAL", "SPINARAK", "SPINDA", "SPIRITOMB", "SPOINK", "SPRITZEE", "SQUIRTLE", "STANTLER", "STARAPTOR", "STARAVIA", "STARLY", "STARMIE", "STARYU", "STEELIX", "STEENEE", "STOUTLAND", "STUFFUL", "STUNFISK", "STUNKY", "SUDOWOODO", "SUICUNE", "SUNFLORA", "SUNKERN", "SURSKIT", "SWABLU", "SWADLOON", "SWALOT", "SWAMPERT", "SWANNA", "SWELLOW", "SWINUB", "SWIRLIX", "SWOOBAT", "SYLVEON", "TAILLOW", "TALONFLAME", "TANGELA", "TANGROWTH", "TAPU-BULU", "TAPU-FINI", "TAPU-KOKO", "TAPU-LELE", "TAUROS", "TEDDIURSA", "TENTACOOL", "TENTACRUEL", "TEPIG", "TERRAKION", "THROH", "THUNDURUS", "TIMBURR", "TIRTOUGA", "TOGEDEMARU", "TOGEKISS", "TOGEPI", "TOGETIC", "TORCHIC", "TORKOAL", "TORNADUS", "TORRACAT", "TORTERRA", "TOTODILE", "TOUCANNON", "TOXAPEX", "TOXICROAK", "TRANQUILL", "TRAPINCH", "TREECKO", "TREVENANT", "TROPIUS", "TRUBBISH", "TRUMBEAK", "TSAREENA", "TURTONATOR", "TURTWIG", "TYMPOLE", "TYNAMO", "TYPE-NULL", "TYPHLOSION", "TYRANITAR", "TYRANTRUM", "TYROGUE", "TYRUNT", "UMBREON", "UNFEZANT", "UNOWN", "URSARING", "UXIE", "VANILLISH", "VANILLITE", "VANILLUXE", "VAPOREON", "VENIPEDE", "VENOMOTH", "VENONAT", "VENUSAUR", "VESPIQUEN", "VIBRAVA", "VICTINI", "VICTREEBEL", "VIGOROTH", "VIKAVOLT", "VILEPLUME", "VIRIZION", "VIVILLON", "VOLBEAT", "VOLCANION", "VOLCARONA", "VOLTORB", "VULLABY", "VULPIX", "VULPIX-ALOLA", "WAILMER", "WAILORD", "WALREIN", "WARTORTLE", "WATCHOG", "WEAVILE", "WEEDLE", "WEEPINBELL", "WEEZING", "WHIMSICOTT", "WHIRLIPEDE", "WHISCASH", "WHISMUR", "WIGGLYTUFF", "WIMPOD", "WINGULL", "WISHIWASHI", "WISHIWASHI-SCHOOL", "WOBBUFFET", "WOOBAT", "WOOPER", "WORMADAM", "WURMPLE", "WYNAUT", "XATU", "XERNEAS", "XURKITREE", "YAMASK", "YANMA", "YANMEGA", "YUNGOOS", "YVELTAL", "ZANGOOSE", "ZAPDOS", "ZEBSTRIKA", "ZEKROM", "ZIGZAGOON", "ZOROARK", "ZORUA", "ZUBAT", "ZWEILOUS", "ZYGARDE", "ZYGARDE-10", "ZYGARDE-COMPLETE" };
+        String[] pokemon = { "ABOMASNOW", "ABRA", "ABSOL", "ACCELGOR", "AEGISLASH", "AERODACTYL", "AGGRON", "AIPOM", "ALAKAZAM", "ALOMOMOLA", "ALTARIA", "AMAURA", "AMBIPOM", "AMOONGUSS", "AMPHAROS", "ANORITH", "ARAQUANID", "ARBOK", "ARCANINE", "ARCEUS", "ARCHEN", "ARCHEOPS", "ARIADOS", "ARMALDO", "AROMATISSE", "ARON", "ARTICUNO", "AUDINO", "AURORUS", "AVALUGG", "AXEW", "AZELF", "AZUMARILL", "AZURILL", "BAGON", "BALTOY", "BANETTE", "BARBARACLE", "BARBOACH", "BASCULIN", "BASTIODON", "BAYLEEF", "BEARTIC", "BEAUTIFLY", "BEEDRILL", "BEHEEYEM", "BELDUM", "BELLOSSOM", "BELLSPROUT", "BERGMITE", "BEWEAR", "BIBAREL", "BIDOOF", "BINACLE", "BISHARP", "BLASTOISE", "BLAZIKEN", "BLISSEY", "BLITZLE", "BOLDORE", "BONSLY", "BOUFFALANT", "BOUNSWEET", "BRAIXEN", "BRAVIARY", "BRELOOM", "BRIONNE", "BRONZONG", "BRONZOR", "BRUXISH", "BUDEW", "BUIZEL", "BULBASAUR", "BUNEARY", "BUNNELBY", "BURMY", "BUTTERFREE", "BUZZWOLE", "CACNEA", "CACTURNE", "CAMERUPT", "CARBINK", "CARNIVINE", "CARRACOSTA", "CARVANHA", "CASCOON", "CASTFORM", "CATERPIE", "CELEBI", "CELESTEELA", "CHANDELURE", "CHANSEY", "CHARIZARD", "CHARJABUG", "CHARMANDER", "CHARMELEON", "CHATOT", "CHERRIM", "CHERUBI", "CHESNAUGHT", "CHESPIN", "CHIKORITA", "CHIMCHAR", "CHIMECHO", "CHINCHOU", "CHINGLING", "CINCCINO", "CLAMPERL", "CLAUNCHER", "CLAWITZER", "CLAYDOL", "CLEFABLE", "CLEFAIRY", "CLEFFA", "CLOYSTER", "COBALION", "COFAGRIGUS", "COMBEE", "COMBUSKEN", "COMFEY", "CONKELDURR", "CORPHISH", "CORSOLA", "COSMOEM", "COSMOG", "COTTONEE", "CRABOMINABLE", "CRABRAWLER", "CRADILY", "CRANIDOS", "CRAWDAUNT", "CRESSELIA", "CROAGUNK", "CROBAT", "CROCONAW", "CRUSTLE", "CRYOGONAL", "CUBCHOO", "CUBONE", "CUTIEFLY", "CYNDAQUIL", "DARKRAI", "DARMANITAN", "DARTRIX", "DARUMAKA", "DECIDUEYE", "DEDENNE", "DEERLING", "DEINO", "DELCATTY", "DELIBIRD", "DELPHOX", "DEOXYS", "DEWGONG", "DEWOTT", "DEWPIDER", "DHELMISE", "DIALGA", "DIANCIE", "DIGGERSBY", "DIGLETT", "DIGLETT-ALOLA", "DITTO", "DODRIO", "DODUO", "DONPHAN", "DOUBLADE", "DRAGALGE", "DRAGONAIR", "DRAGONITE", "DRAMPA", "DRAPION", "DRATINI", "DRIFBLIM", "DRIFLOON", "DRILBUR", "DROWZEE", "DRUDDIGON", "DUCKLETT", "DUGTRIO", "DUGTRIO-ALOLA", "DUNSPARCE", "DUOSION", "DURANT", "DUSCLOPS", "DUSKNOIR", "DUSKULL", "DUSTOX", "DWEBBLE", "EELEKTRIK", "EELEKTROSS", "EEVEE", "EKANS", "ELECTABUZZ", "ELECTIVIRE", "ELECTRIKE", "ELECTRODE", "ELEKID", "ELGYEM", "EMBOAR", "EMOLGA", "EMPOLEON", "ENTEI", "ESCAVALIER", "ESPEON", "ESPURR", "EXCADRILL", "EXEGGCUTE", "EXEGGUTOR", "EXEGGUTOR-ALOLA", "EXPLOUD", "FARFETCH'D", "FEAROW", "FEEBAS", "FENNEKIN", "FERALIGATR", "FERROSEED", "FERROTHORN", "FINNEON", "FLAAFFY", "FLABÉBÉ", "FLAREON", "FLETCHINDER", "FLETCHLING", "FLOATZEL", "FLOETTE", "FLORGES", "FLYGON", "FOMANTIS", "FOONGUS", "FORRETRESS", "FRAXURE", "FRILLISH", "FROAKIE", "FROGADIER", "FROSLASS", "FURFROU", "FURRET", "GABITE", "GALLADE", "GALVANTULA", "GARBODOR", "GARCHOMP", "GARDEVOIR", "GASTLY", "GASTRODON", "GASTRODON-EAST", "GENESECT", "GENGAR", "GEODUDE", "GEODUDE-ALOLA", "GIBLE", "GIGALITH", "GIRAFARIG", "GIRATINA", "GLACEON", "GLALIE", "GLAMEOW", "GLIGAR", "GLISCOR", "GLOOM", "GOGOAT", "GOLBAT", "GOLDEEN", "GOLDUCK", "GOLEM", "GOLEM-ALOLA", "GOLETT", "GOLISOPOD", "GOLURK", "GOODRA", "GOOMY", "GOREBYSS", "GOTHITA", "GOTHITELLE", "GOTHORITA", "GOURGEIST", "GRANBULL", "GRAVELER", "GRAVELER-ALOLA", "GRENINJA", "GRIMER", "GRIMER-ALOLA", "GROTLE", "GROUDON", "GROVYLE", "GROWLITHE", "GRUBBIN", "GRUMPIG", "GULPIN", "GUMSHOOS", "GURDURR", "GUZZLORD", "GYARADOS", "HAKAMO-O", "HAPPINY", "HARIYAMA", "HAUNTER", "HAWLUCHA", "HAXORUS", "HEATMOR", "HEATRAN", "HELIOLISK", "HELIOPTILE", "HERACROSS", "HERDIER", "HIPPOPOTAS", "HIPPOWDON", "HITMONCHAN", "HITMONLEE", "HITMONTOP", "HO-OH", "HONCHKROW", "HONEDGE", "HOOPA", "HOOTHOOT", "HOPPIP", "HORSEA", "HOUNDOOM", "HOUNDOUR", "HUNTAIL", "HYDREIGON", "HYPNO", "IGGLYBUFF", "ILLUMISE", "INCINEROAR", "INFERNAPE", "INKAY", "IVYSAUR", "JANGMO-O", "JELLICENT", "JIGGLYPUFF", "JIRACHI", "JOLTEON", "JOLTIK", "JUMPLUFF", "JYNX", "KABUTO", "KABUTOPS", "KADABRA", "KAKUNA", "KANGASKHAN", "KARRABLAST", "KARTANA", "KECLEON", "KELDEO", "KINGDRA", "KINGLER", "KIRLIA", "KLANG", "KLEFKI", "KLINK", "KLINKLANG", "KOFFING", "KOMMO-O", "KRABBY", "KRICKETOT", "KRICKETUNE", "KROKOROK", "KROOKODILE", "KYOGRE", "KYUREM", "LAIRON", "LAMPENT", "LANDORUS", "LANTURN", "LAPRAS", "LARVESTA", "LARVITAR", "LATIAS", "LATIOS", "LEAFEON", "LEAVANNY", "LEDIAN", "LEDYBA", "LICKILICKY", "LICKITUNG", "LIEPARD", "LILEEP", "LILLIGANT", "LILLIPUP", "LINOONE", "LITLEO", "LITTEN", "LITWICK", "LOMBRE", "LOPUNNY", "LOTAD", "LOUDRED", "LUCARIO", "LUDICOLO", "LUGIA", "LUMINEON", "LUNALA", "LUNATONE", "LURANTIS", "LUVDISC", "LUXIO", "LUXRAY", "LYCANROC", "LYCANROC-MIDNIGHT", "MACHAMP", "MACHOKE", "MACHOP", "MAGBY", "MAGCARGO", "MAGEARNA", "MAGEARNA-POKEBALL", "MAGIKARP", "MAGMAR", "MAGMORTAR", "MAGNEMITE", "MAGNETON", "MAGNEZONE", "MAKUHITA", "MALAMAR", "MAMOSWINE", "MANAPHY", "MANDIBUZZ", "MANECTRIC", "MANKEY", "MANTINE", "MANTYKE", "MARACTUS", "MAREANIE", "MAREEP", "MARILL", "MAROWAK", "MAROWAK-ALOLA", "MARSHADOW", "MARSHTOMP", "MASQUERAIN", "MAWILE", "MEDICHAM", "MEDITITE", "MEGANIUM", "MELOETTA", "MEOWSTIC", "MEOWTH", "MEOWTH-ALOLA", "MESPRIT", "METAGROSS", "METANG", "METAPOD", "MEW", "MEWTWO", "MIENFOO", "MIENSHAO", "MIGHTYENA", "MILOTIC", "MILTANK", "MIME JR.", "MIMIKYU", "MINCCINO", "MINIOR", "MINUN", "MISDREAVUS", "MISMAGIUS", "MOLTRES", "MONFERNO", "MORELULL", "MOTHIM", "MR. MIME", "MUDBRAY", "MUDKIP", "MUDSDALE", "MUK", "MUK-ALOLA", "MUNCHLAX", "MUNNA", "MURKROW", "MUSHARNA", "NATU", "NECROZMA", "NIDOKING", "NIDOQUEEN", "NIDORANM", "NIDORANF", "NIDORINA", "NIDORINO", "NIHILEGO", "NINCADA", "NINETALES", "NINETALES-ALOLA", "NINJASK", "NOCTOWL", "NOIBAT", "NOIVERN", "NOSEPASS", "NUMEL", "NUZLEAF", "OCTILLERY", "ODDISH", "OMANYTE", "OMASTAR", "ONIX", "ORANGURU", "ORICORIO", "ORICORIO-PAU", "ORICORIO-POMPOM", "ORICORIO-SENSU", "OSHAWOTT", "PACHIRISU", "PALKIA", "PALOSSAND", "PALPITOAD", "PANCHAM", "PANGORO", "PANPOUR", "PANSAGE", "PANSEAR", "PARAS", "PARASECT", "PASSIMIAN", "PATRAT", "PAWNIARD", "PELIPPER", "PERSIAN", "PERSIAN-ALOLA", "PETILIL", "PHANPY", "PHANTUMP", "PHEROMOSA", "PHIONE", "PICHU", "PIDGEOT", "PIDGEOTTO", "PIDGEY", "PIDOVE", "PIGNITE", "PIKACHU", "PIKIPEK", "PILOSWINE", "PINECO", "PINSIR", "PIPLUP", "PLUSLE", "POLITOED", "POLIWAG", "POLIWHIRL", "POLIWRATH", "PONYTA", "POOCHYENA", "POPPLIO", "PORYGON", "PORYGON-Z", "PORYGON2", "PRIMARINA", "PRIMEAPE", "PRINPLUP", "PROBOPASS", "PSYDUCK", "PUMPKABOO", "PUPITAR", "PURRLOIN", "PURUGLY", "PYROAR", "PYUKUMUKU", "QUAGSIRE", "QUILAVA", "QUILLADIN", "QWILFISH", "RAICHU", "RAICHU-ALOLA", "RAIKOU", "RALTS", "RAMPARDOS", "RAPIDASH", "RATICATE", "RATICATE-ALOLA", "RATTATA", "RATTATA-ALOLA", "RAYQUAZA", "RAYQUAZA-MEGA", "REGICE", "REGIGIGAS", "REGIROCK", "REGISTEEL", "RELICANTH", "REMORAID", "RESHIRAM", "REUNICLUS", "RHYDON", "RHYHORN", "RHYPERIOR", "RIBOMBEE", "RIOLU", "ROCKRUFF", "ROGGENROLA", "ROSELIA", "ROSERADE", "ROTOM", "ROTOM-FAN", "ROTOM-FROST", "ROTOM-HEAT", "ROTOM-MOW", "ROTOM-WASH", "ROWLET", "RUFFLET", "SABLEYE", "SALAMENCE", "SALANDIT", "SALAZZLE", "SAMUROTT", "SANDILE", "SANDSHREW", "SANDSHREW-ALOLA", "SANDSLASH", "SANDSLASH-ALOLA", "SAWK", "SAWSBUCK", "SCATTERBUG", "SCEPTILE", "SCEPTILE-MEGA", "SCIZOR", "SCOLIPEDE", "SCRAFTY", "SCRAGGY", "SCYTHER", "SEADRA", "SEAKING", "SEALEO", "SEEDOT", "SEEL", "SEISMITOAD", "SENTRET", "SERPERIOR", "SERVINE", "SEVIPER", "SEWADDLE", "SHARPEDO", "SHAYMIN", "SHAYMIN-SKY", "SHEDINJA", "SHELGON", "SHELLDER", "SHELLOS", "SHELLOS-WEST", "SHELMET", "SHIELDON", "SHIFTRY", "SHIINOTIC", "SHINX", "SHROOMISH", "SHUCKLE", "SHUPPET", "SIGILYPH", "SILCOON", "SILVALLY", "SIMIPOUR", "SIMISAGE", "SIMISEAR", "SKARMORY", "SKIDDO", "SKIPLOOM", "SKITTY", "SKORUPI", "SKRELP", "SKUNTANK", "SLAKING", "SLAKOTH", "SLIGGOO", "SLOWBRO", "SLOWKING", "SLOWPOKE", "SLUGMA", "SLURPUFF", "SMEARGLE", "SMOOCHUM", "SNEASEL", "SNIVY", "SNORLAX", "SNORUNT", "SNOVER", "SNUBBULL", "SOLGALEO", "SOLOSIS", "SOLROCK", "SPEAROW", "SPEWPA", "SPHEAL", "SPINARAK", "SPINDA", "SPIRITOMB", "SPOINK", "SPRITZEE", "SQUIRTLE", "STANTLER", "STARAPTOR", "STARAVIA", "STARLY", "STARMIE", "STARYU", "STEELIX", "STEENEE", "STOUTLAND", "STUFFUL", "STUNFISK", "STUNKY", "SUDOWOODO", "SUICUNE", "SUNFLORA", "SUNKERN", "SURSKIT", "SWABLU", "SWADLOON", "SWALOT", "SWAMPERT", "SWANNA", "SWELLOW", "SWINUB", "SWIRLIX", "SWOOBAT", "SYLVEON", "TAILLOW", "TALONFLAME", "TANGELA", "TANGROWTH", "TAPU-BULU", "TAPU-FINI", "TAPU-KOKO", "TAPU-LELE", "TAUROS", "TEDDIURSA", "TENTACOOL", "TENTACRUEL", "TEPIG", "TERRAKION", "THROH", "THUNDURUS", "TIMBURR", "TIRTOUGA", "TOGEDEMARU", "TOGEKISS", "TOGEPI", "TOGETIC", "TORCHIC", "TORKOAL", "TORNADUS", "TORRACAT", "TORTERRA", "TOTODILE", "TOUCANNON", "TOXAPEX", "TOXICROAK", "TRANQUILL", "TRAPINCH", "TREECKO", "TREVENANT", "TROPIUS", "TRUBBISH", "TRUMBEAK", "TSAREENA", "TURTONATOR", "TURTWIG", "TYMPOLE", "TYNAMO", "TYPE-NULL", "TYPHLOSION", "TYRANITAR", "TYRANTRUM", "TYROGUE", "TYRUNT", "UMBREON", "UNFEZANT", "UNOWN", "URSARING", "UXIE", "VANILLISH", "VANILLITE", "VANILLUXE", "VAPOREON", "VENIPEDE", "VENOMOTH", "VENONAT", "VENUSAUR", "VESPIQUEN", "VIBRAVA", "VICTINI", "VICTREEBEL", "VIGOROTH", "VIKAVOLT", "VILEPLUME", "VIRIZION", "VIVILLON", "VOLBEAT", "VOLCANION", "VOLCARONA", "VOLTORB", "VULLABY", "VULPIX", "VULPIX-ALOLA", "WAILMER", "WAILORD", "WALREIN", "WARTORTLE", "WATCHOG", "WEAVILE", "WEEDLE", "WEEPINBELL", "WEEZING", "WHIMSICOTT", "WHIRLIPEDE", "WHISCASH", "WHISMUR", "WIGGLYTUFF", "WIMPOD", "WINGULL", "WISHIWASHI", "WISHIWASHI-SCHOOL", "WOBBUFFET", "WOOBAT", "WOOPER", "WORMADAM", "WURMPLE", "WYNAUT", "XATU", "XERNEAS", "XURKITREE", "YAMASK", "YANMA", "YANMEGA", "YUNGOOS", "YVELTAL", "ZANGOOSE", "ZAPDOS", "ZEBSTRIKA", "ZEKROM", "ZIGZAGOON", "ZOROARK", "ZORUA", "ZUBAT", "ZWEILOUS", "ZYGARDE", "ZYGARDE-10", "ZYGARDE-COMPLETE" };
 
         //SOUNDS
         SoundPlayer ballToss = new SoundPlayer(Properties.Resources.BALL_TOSS);
@@ -91,29 +91,32 @@ namespace Gen_1PokemonCaptureSimulation
         String[] catchRate235 = { "BOUNSWEET", "MAREEP", "NIDORANM", "NIDORANF", "RALTS", "SHINX", "SUNKERN" };
         String[] catchRate255 = { "GEODUDE-ALOLA", "DIGLETT-ALOLA", "MEOWTH-ALOLA", "SANDSHREW-ALOLA", "RATTATA-ALOLA", "NECROZMA", "GRUBBIN", "YUNGOOS", "PIKIPEK", "AUDINO", "BALTOY", "BELLSPROUT", "BIDOOF", "BONSLY", "BRONZOR", "BUDEW", "BUNNELBY", "CATERPIE", "CLAMPERL", "DIGLETT", "EKANS", "ELGYEM", "FEEBAS", "FERROSEED", "FLETCHLING", "GEODUDE", "HOOTHOOT", "HOPPIP", "KRICKETOT", "LEDYBA", "LILLIPUP", "LOTAD", "MAGIKARP", "MARACTUS", "MEOWTH", "MINCCINO", "NINCADA", "NOSEPASS", "NUMEL", "ODDISH", "PATRAT", "PIDGEY", "PIDOVE", "POLIWAG", "POOCHYENA", "PURRLOIN", "RATTATA", "ROGGENROLA", "SANDSHREW", "SCATTERBUG", "SEEDOT", "SENTRET", "SEWADDLE", "SHROOMISH", "SKITTY", "SLAKOTH", "SPEAROW", "SPHEAL", "SPINARAK", "SPINDA", "SPOINK", "STARLY", "SWABLU", "TRAPINCH", "TYMPOLE", "VANILLITE", "VENIPEDE", "WATCHOG", "WEEDLE", "WOOPER", "WURMPLE", "ZIGZAGOON", "ZUBAT" };
 
-
         private void throwBallButton_Click(object sender, EventArgs e)
         {
             if (pokemonBox.Text == "")
             {
+                denied.Play();
                 MessageBox.Show("Please enter an existing Pokémon into the textbox.", "Battle Error");
                 return;
             }
 
             if (ballChosenBox.Text == "")
             {
+                denied.Play();
                 MessageBox.Show("Please enter the type of ball you are using to attempt to catch the Pokémon.");
                 return;
             }
 
             if (pokMaxHPBox.Text == "" || float.Parse(pokMaxHPBox.Text) > 255)
             {
+                denied.Play();
                 MessageBox.Show("Please enter a valid maximum HP for the Pokémon.");
                 return;
             }
 
             if (pokCurrentHPBox.Text == "" || float.Parse(pokCurrentHPBox.Text) > float.Parse(pokMaxHPBox.Text))
             {
+                denied.Play();
                 MessageBox.Show("Please enter a valid current HP for the Pokémon that does not exceed the maximum HP.");
                 return;
             }
@@ -206,24 +209,32 @@ namespace Gen_1PokemonCaptureSimulation
             randomPokemonButton.Enabled = false;
             disableControls(true);
 
-            // play BALL_TOSS sound
+            // Play sound
             ballToss.Play();
         }
 
 
         private void caughtTimer_Tick(object sender, EventArgs e)
         {
-            const int maxBallShakes = 400;
-            const int minMoneyToAdd = 255;
-            const int maxMoneyToAdd = 9001;
+            int maxBallShakes = 400;
+            int minMoneyToAdd = 200;
+            int maxMoneyToAdd = 1001;
             
             currentBallShakes += 6;
 
             if (currentBallShakes >= maxBallShakes)
             {
                 caughtTimer.Stop();
-                int moneyToAdd = rnd.Next(minMoneyToAdd, maxMoneyToAdd + 1) / int.Parse(catchRateBox.Text);
+                
+                int moneyToAdd = rnd.Next(minMoneyToAdd, maxMoneyToAdd);
+                // multiplier for moneyToAdd with catch rate (higher catch rate = less money, lower catch rate = more money)
+                moneyToAdd *= (int)(255 / float.Parse(catchRateBox.Text));
 
+                // if the pokemon was caught with a master ball, reduce the money gained
+                if (ballChosenBox.Text.ToUpper().Contains("MAS"))
+                {
+                    moneyToAdd /= 10;
+                }
 
                 money += moneyToAdd;
                 moneyLabel.Text = money.ToString();
@@ -261,7 +272,6 @@ namespace Gen_1PokemonCaptureSimulation
                 pokeBallBox.Image = normalBall;
 
             }
-            // simulate ball shaking 3 times, using normalBall, leftBall and rightBall
             else if (currentBallShakes < 100)
             {
                 caughtLabel.Text = "";
@@ -277,16 +287,19 @@ namespace Gen_1PokemonCaptureSimulation
             }
             else if (currentBallShakes < 250)
             {
+                caughtLabel.Text = "Almost there!";
                 pokeBallBox.Image = normalBall;
             }
             else if (currentBallShakes < 300)
             {
+                caughtLabel.Text = "";
                 pokeBallBox.Image = rightBall;
             }
             else if (currentBallShakes < 350)
             {
                 pokeBallBox.Image = normalBall;
             }
+
         }
 
 
@@ -304,9 +317,8 @@ namespace Gen_1PokemonCaptureSimulation
                 caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
                 pokeBallBox.Image = Image.FromFile(filePath + pokemonBox.Text.ToLower() + ".gif");
                 battleButton.Enabled = true;
-                battleButton.Text = "Battle";
+                battleButton.Text = "Run";
                 disableControls(false);
-                pokemonBox.Enabled = true;
                 pokemonTeamBox.Enabled = true;
                 pcBox.Enabled = true;
             }
@@ -328,6 +340,7 @@ namespace Gen_1PokemonCaptureSimulation
             }
             else if (currentBallShakes < 250)
             {
+                caughtLabel.Text = "Almost there!";
                 pokeBallBox.Image = normalBall;
             }
 
@@ -404,6 +417,17 @@ namespace Gen_1PokemonCaptureSimulation
             }
         }
 
+        //function that plays the cry of the pokemon
+        private void playCry(string pokemonName)
+        {
+            // remove any spaces from the name or periods
+            pokemonName = pokemonName.Replace(" ", "").Replace(".", "");
+
+            // play the cry
+            SoundPlayer crySound = new SoundPlayer(Properties.Resources.ResourceManager.GetStream(pokemonName.ToLower()));
+            crySound.Play();
+        }
+
 
         
         private void Search_Click(object sender, EventArgs e)
@@ -415,10 +439,13 @@ namespace Gen_1PokemonCaptureSimulation
 
             if (string.IsNullOrEmpty(enteredPokemon))
             {
+                denied.Play();
                 MessageBox.Show("Please enter a Pokémon into the textbox.", "Registry Error");
+                
             }
             else if (!pokemon.Contains(enteredPokemon))
             {
+                denied.Play();
                 MessageBox.Show("Please enter an existing Pokémon into the textbox.", "Registry Error");
             }
             else if (battleButton.Text == "Battle")
@@ -437,10 +464,8 @@ namespace Gen_1PokemonCaptureSimulation
 
                 
                 pokeBallBox.Image = Image.FromFile(filePath + enteredPokemon.ToLower() + ".gif");
-
-                SoundPlayer crySound = new SoundPlayer(Properties.Resources.ResourceManager.GetStream(enteredPokemon.ToLower()));
-                crySound.Play();
-
+                playCry(enteredPokemon);
+                
                 pokemonBox.Text = enteredPokemon;
 
                 List<string> typesList = new List<string>();
@@ -461,80 +486,86 @@ namespace Gen_1PokemonCaptureSimulation
 
                 int catchRate;
 
-                if (enteredPokemon == "VOLCARONA")
-                    catchRate = 15;
-                else if (enteredPokemon == "DITTO")
-                    catchRate = 35;
-                else if (enteredPokemon == "SLOWKING")
-                    catchRate = 70;
-                else if (enteredPokemon == "MALAMAR")
-                    catchRate = 80;
-                else if (enteredPokemon == "MIME JR.")
-                    catchRate = 145;
-                else if (enteredPokemon == "CRAWDAUNT")
-                    catchRate = 155;
-                else if (enteredPokemon == "FURFROU")
-                    catchRate = 160;
-                else if (enteredPokemon == "CORPHISH")
-                    catchRate = 205;
-                else
+                switch (enteredPokemon)
                 {
-                    if (catchRate3.Contains(enteredPokemon))
-                        catchRate = 3;
-                    else if (catchRate25.Contains(enteredPokemon))
-                        catchRate = 25;
-                    else if (catchRate30.Contains(enteredPokemon))
-                        catchRate = 30;
-                    else if (catchRate45.Contains(enteredPokemon))
-                        catchRate = 45;
-                    else if (catchRate50.Contains(enteredPokemon))
-                        catchRate = 50;
-                    else if (catchRate55.Contains(enteredPokemon))
-                        catchRate = 55;
-                    else if (catchRate60.Contains(enteredPokemon))
-                        catchRate = 60;
-                    else if (catchRate65.Contains(enteredPokemon))
-                        catchRate = 65;
-                    else if (catchRate75.Contains(enteredPokemon))
-                        catchRate = 75;
-                    else if (catchRate90.Contains(enteredPokemon))
-                        catchRate = 90;
-                    else if (catchRate100.Contains(enteredPokemon))
-                        catchRate = 100;
-                    else if (catchRate120.Contains(enteredPokemon))
-                        catchRate = 120;
-                    else if (catchRate125.Contains(enteredPokemon))
-                        catchRate = 125;
-                    else if (catchRate127.Contains(enteredPokemon))
-                        catchRate = 127;
-                    else if (catchRate130.Contains(enteredPokemon))
-                        catchRate = 130;
-                    else if (catchRate140.Contains(enteredPokemon))
-                        catchRate = 140;
-                    else if (catchRate150.Contains(enteredPokemon))
-                        catchRate = 150;
-                    else if (catchRate170.Contains(enteredPokemon))
-                        catchRate = 170;
-                    else if (catchRate180.Contains(enteredPokemon))
-                        catchRate = 180;
-                    else if (catchRate190.Contains(enteredPokemon))
-                        catchRate = 190;
-                    else if (catchRate200.Contains(enteredPokemon))
-                        catchRate = 200;
-                    else if (catchRate220.Contains(enteredPokemon))
-                        catchRate = 220;
-                    else if (catchRate225.Contains(enteredPokemon))
-                        catchRate = 225;
-                    else if (catchRate235.Contains(enteredPokemon))
-                        catchRate = 235;
-                    else if (catchRate255.Contains(enteredPokemon))
-                        catchRate = 255;
-                    else
-                    {
-                        // Default catch rate if not found
-                        catchRate = 0;
-                    }
+                    case "VOLCARONA":
+                        catchRate = 15;
+                        break;
+                    case "DITTO":
+                        catchRate = 35;
+                        break;
+                    case "SLOWKING":
+                        catchRate = 70;
+                        break;
+                    case "MALAMAR":
+                        catchRate = 80;
+                        break;
+                    case "MIME JR.":
+                        catchRate = 145;
+                        break;
+                    case "CRAWDAUNT":
+                        catchRate = 155;
+                        break;
+                    case "FURFROU":
+                        catchRate = 160;
+                        break;
+                    case "CORPHISH":
+                        catchRate = 205;
+                        break;
+                    default:
+                        if (catchRate3.Contains(enteredPokemon))
+                            catchRate = 3;
+                        else if (catchRate25.Contains(enteredPokemon))
+                            catchRate = 25;
+                        else if (catchRate30.Contains(enteredPokemon))
+                            catchRate = 30;
+                        else if (catchRate45.Contains(enteredPokemon))
+                            catchRate = 45;
+                        else if (catchRate50.Contains(enteredPokemon))
+                            catchRate = 50;
+                        else if (catchRate55.Contains(enteredPokemon))
+                            catchRate = 55;
+                        else if (catchRate60.Contains(enteredPokemon))
+                            catchRate = 60;
+                        else if (catchRate65.Contains(enteredPokemon))
+                            catchRate = 65;
+                        else if (catchRate75.Contains(enteredPokemon))
+                            catchRate = 75;
+                        else if (catchRate90.Contains(enteredPokemon))
+                            catchRate = 90;
+                        else if (catchRate100.Contains(enteredPokemon))
+                            catchRate = 100;
+                        else if (catchRate120.Contains(enteredPokemon))
+                            catchRate = 120;
+                        else if (catchRate125.Contains(enteredPokemon))
+                            catchRate = 125;
+                        else if (catchRate127.Contains(enteredPokemon))
+                            catchRate = 127;
+                        else if (catchRate130.Contains(enteredPokemon))
+                            catchRate = 130;
+                        else if (catchRate140.Contains(enteredPokemon))
+                            catchRate = 140;
+                        else if (catchRate150.Contains(enteredPokemon))
+                            catchRate = 150;
+                        else if (catchRate170.Contains(enteredPokemon))
+                            catchRate = 170;
+                        else if (catchRate180.Contains(enteredPokemon))
+                            catchRate = 180;
+                        else if (catchRate190.Contains(enteredPokemon))
+                            catchRate = 190;
+                        else if (catchRate200.Contains(enteredPokemon))
+                            catchRate = 200;
+                        else if (catchRate220.Contains(enteredPokemon))
+                            catchRate = 220;
+                        else if (catchRate225.Contains(enteredPokemon))
+                            catchRate = 225;
+                        else if (catchRate235.Contains(enteredPokemon))
+                            catchRate = 235;
+                        else
+                            catchRate = 255; // Default catch rate if not found
+                        break;
                 }
+
 
                 catchRateBox.Text = catchRate.ToString();
 
@@ -595,7 +626,8 @@ namespace Gen_1PokemonCaptureSimulation
             if (pokemonTeamBox.SelectedIndex != -1)
             {
                 deselectButton.Enabled = true;
-
+                //unselect the pokemon in the pc
+                pcBox.SelectedIndex = -1;
                 string selectedItem = pokemonTeamBox.SelectedItem.ToString();
                 if (MegaStone > 0 && megas.Contains(selectedItem.ToUpper()))
                 {
@@ -605,17 +637,7 @@ namespace Gen_1PokemonCaptureSimulation
                 if (pokemon.Contains(selectedItem) || megaNames.Contains(selectedItem.ToUpper()))
                 {
                     pokeBallBox.Image = Image.FromFile(filePath + selectedItem.ToLower() + ".gif");
-                    // play their cry
-                    SoundPlayer crySound = new SoundPlayer(Properties.Resources.ResourceManager.GetStream(selectedItem.ToLower()));
-                    crySound.Play();
-
-                    // play their non-mega cry if they are mega
-                    if (megaNames.Contains(selectedItem.ToUpper()))
-                    {
-                        crySound = new SoundPlayer(Properties.Resources.ResourceManager.GetStream(selectedItem.ToLower().Replace("-mega", "")));
-                        crySound.Play();
-                    }
-
+                    playCry(selectedItem);
                 }
                 else
                 {
@@ -627,7 +649,6 @@ namespace Gen_1PokemonCaptureSimulation
             }
             else
             {
-                deselectButton.Enabled = false;
                 pokeBallBox.Image = null;
                 megaEvolveButton.Hide();
                 battleButton.Enabled = true;
@@ -647,20 +668,14 @@ namespace Gen_1PokemonCaptureSimulation
             if (pcBox.SelectedIndex != -1)
             {
                 deselectButton.Enabled = true;
-
+                //unselect the pokemon in the team
+                pokemonTeamBox.SelectedIndex = -1;
+                
                 string selectedItem = pcBox.SelectedItem.ToString();
                 if (pokemon.Contains(selectedItem))
                 {
                     pokeBallBox.Image = Image.FromFile(filePath + selectedItem + ".gif");
-                    // also play their cry, including megas
-                    SoundPlayer crySound = new SoundPlayer(Properties.Resources.ResourceManager.GetStream(selectedItem.ToLower()));
-                    crySound.Play();
-
-                    if (megaNames.Contains(selectedItem.ToUpper()))
-                    {
-                        crySound = new SoundPlayer(Properties.Resources.ResourceManager.GetStream(selectedItem.ToLower().Replace("-mega", "")));
-                        crySound.Play();
-                    }
+                    playCry(selectedItem);
                 }
                 else
                 {
@@ -673,7 +688,6 @@ namespace Gen_1PokemonCaptureSimulation
             }
             else
             {
-                deselectButton.Enabled = false;
                 releaseButton.Enabled = false;
                 addToTeamButton.Enabled = false;
                 pokeBallBox.Image = null;
@@ -906,6 +920,97 @@ namespace Gen_1PokemonCaptureSimulation
             martLogo.Image = Properties.Resources.Mega_Stone_Display;
         }
 
+        private void saveButton_Click(object sender, EventArgs e)
+        {
+            string saveData = $"{PB},{GB},{UB},{SB},{MB},{MegaStone},{money}";
+            string teamData = "";
+            string pcData = "";
+
+            //save pokemon in team to another file
+            foreach (string pokemon in pokemonTeamBox.Items)
+            {
+                teamData += pokemon + ",";
+            }
+
+            //save pokemon in pc to another file
+            foreach (string pokemon in pcBox.Items)
+            {
+                pcData += pokemon + ",";
+            }
+
+            //save the data to a file, not using filePath since it's not a pokemon
+            File.WriteAllText("saveData.txt", saveData);
+            File.WriteAllText("teamData.txt", teamData);
+            File.WriteAllText("pcData.txt", pcData);
+            
+            MessageBox.Show("Your game has been saved!", "Save");
+
+        }
+
+        private void loadButton_Click(object sender, EventArgs e)
+        {
+            //load the data from the file
+            string saveData = File.ReadAllText("saveData.txt");
+            string teamData = File.ReadAllText("teamData.txt");
+            string pcData = File.ReadAllText("pcData.txt");
+
+            //split the data into an array
+            string[] saveDataArray = saveData.Split(',');
+            string[] teamDataArray = teamData.Split(',');
+            string[] pcDataArray = pcData.Split(',');
+
+            //set the variables to the data in the array
+            PB = int.Parse(saveDataArray[0]);
+            GB = int.Parse(saveDataArray[1]);
+            UB = int.Parse(saveDataArray[2]);
+            SB = int.Parse(saveDataArray[3]);
+            MB = int.Parse(saveDataArray[4]);
+            MegaStone = int.Parse(saveDataArray[5]);
+            money = int.Parse(saveDataArray[6]);
+
+            //set the textboxes to the data in the array
+            moneyLabel.Text = money.ToString();
+
+            //clear the listboxes
+            pokemonTeamBox.Items.Clear();
+            pcBox.Items.Clear();
+
+            //add the pokemon to the listboxes
+            foreach (string pokemon in teamDataArray)
+            {
+                if (pokemon != "")
+                {
+                    pokemonTeamBox.Items.Add(pokemon);
+                }
+            }
+
+            foreach (string pokemon in pcDataArray)
+            {
+                if (pokemon != "")
+                {
+                    pcBox.Items.Add(pokemon);
+                }
+            }
+
+            MessageBox.Show("Your game has been loaded!", "Load");
+        }
+
+        private void moneyLabel_TextChanged(object sender, EventArgs e)
+        {
+            // add commas to the money label
+            moneyLabel.Text = string.Format("{0:n0}", money);
+
+            // if the money is less than 0, set it to 0, and if it's more than 9999999999, set it to 9999999999
+            if (money < 0)
+            {
+                money = 0;
+            }
+            else if (money > 9999999999)
+            {
+                money = 9999999999;
+            }
+        }
+
         private void buyMegaStoneButton_MouseLeave(object sender, EventArgs e)
         {
             pointer6.Hide();
@@ -931,24 +1036,17 @@ namespace Gen_1PokemonCaptureSimulation
 
         private void deselectButton_Click(object sender, EventArgs e)
         {
-            battleButton.Text = "Battle";
-            pokemonBox.Enabled = true;
             pokemonTeamBox.SelectedIndex = -1;
             pcBox.SelectedIndex = -1;
-            pokemonBox.Clear();
         }
   
-
+        // Function that shows the type of the selected pokemon
         private void pokeBallBox_Click(object sender, EventArgs e)
         {
-            if (pokeBallBox.Image == null) return; // Exit early if the image is not set
+            if (pokeBallBox.Image == null) return;
 
             string selectedPokemon = "";
-            if (!string.IsNullOrEmpty(pokemonBox.Text))
-            {
-                selectedPokemon = pokemonBox.Text.ToUpper();
-            }
-            else if (pokemonTeamBox.SelectedIndex != -1)
+            if (pokemonTeamBox.SelectedIndex != -1)
             {
                 selectedPokemon = pokemonTeamBox.SelectedItem.ToString();
             }
@@ -956,11 +1054,31 @@ namespace Gen_1PokemonCaptureSimulation
             {
                 selectedPokemon = pcBox.SelectedItem.ToString();
             }
-
-            if (!string.IsNullOrEmpty(selectedPokemon))
+            else if (pokemonBox.Text != "")
             {
-                MessageBox.Show(types + " type", selectedPokemon);
+                selectedPokemon = pokemonBox.Text;
             }
+            else
+            {
+                return;
+            }
+
+            List<string> typesList = new List<string>();
+
+            foreach (var kvp in pokemonTypes)
+            {
+                if (Array.Exists(kvp.Value, pokemon => pokemon == selectedPokemon))
+                {
+                    typesList.Add(kvp.Key);
+                }
+            }
+
+            string types = string.Join(" / ", typesList);
+
+            if (typesList.Count == 1)
+                types = typesList[0];
+
+            MessageBox.Show(types, selectedPokemon.ToUpper());
         }
 
     private void pokemonBox_KeyDown(object sender, KeyEventArgs e)

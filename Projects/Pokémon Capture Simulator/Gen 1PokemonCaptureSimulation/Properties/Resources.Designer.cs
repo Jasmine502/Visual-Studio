@@ -72,6 +72,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream abomasnow_mega {
+            get {
+                return ResourceManager.GetStream("abomasnow-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream abra {
             get {
                 return ResourceManager.GetStream("abra", resourceCulture);
@@ -84,6 +93,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream absol {
             get {
                 return ResourceManager.GetStream("absol", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream absol_mega {
+            get {
+                return ResourceManager.GetStream("absol-mega", resourceCulture);
             }
         }
         
@@ -117,9 +135,27 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream aerodactyl_mega {
+            get {
+                return ResourceManager.GetStream("aerodactyl-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream aggron {
             get {
                 return ResourceManager.GetStream("aggron", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream aggron_mega {
+            get {
+                return ResourceManager.GetStream("aggron-mega", resourceCulture);
             }
         }
         
@@ -144,6 +180,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream alakazam_mega {
+            get {
+                return ResourceManager.GetStream("alakazam-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream alomomola {
             get {
                 return ResourceManager.GetStream("alomomola", resourceCulture);
@@ -156,6 +201,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream altaria {
             get {
                 return ResourceManager.GetStream("altaria", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream altaria_mega {
+            get {
+                return ResourceManager.GetStream("altaria-mega", resourceCulture);
             }
         }
         
@@ -192,6 +246,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream ampharos {
             get {
                 return ResourceManager.GetStream("ampharos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream ampharos_mega {
+            get {
+                return ResourceManager.GetStream("ampharos-mega", resourceCulture);
             }
         }
         
@@ -315,6 +378,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream audino_mega {
+            get {
+                return ResourceManager.GetStream("audino-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream aurorus {
             get {
                 return ResourceManager.GetStream("aurorus", resourceCulture);
@@ -376,16 +448,6 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Ball_Open {
-            get {
-                object obj = ResourceManager.GetObject("Ball Open", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream BALL_POOF {
@@ -418,6 +480,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream banette {
             get {
                 return ResourceManager.GetStream("banette", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream banette_mega {
+            get {
+                return ResourceManager.GetStream("banette-mega", resourceCulture);
             }
         }
         
@@ -490,6 +561,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream beedrill {
             get {
                 return ResourceManager.GetStream("beedrill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream beedrill_mega {
+            get {
+                return ResourceManager.GetStream("beedrill-mega", resourceCulture);
             }
         }
         
@@ -604,9 +684,27 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream blastoise_mega {
+            get {
+                return ResourceManager.GetStream("blastoise-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream blaziken {
             get {
                 return ResourceManager.GetStream("blaziken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream blaziken_mega {
+            get {
+                return ResourceManager.GetStream("blaziken-mega", resourceCulture);
             }
         }
         
@@ -829,6 +927,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream camerupt_mega {
+            get {
+                return ResourceManager.GetStream("camerupt-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream carbink {
             get {
                 return ResourceManager.GetStream("carbink", resourceCulture);
@@ -940,6 +1047,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream charizard {
             get {
                 return ResourceManager.GetStream("charizard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream charizard_mega {
+            get {
+                return ResourceManager.GetStream("charizard-mega", resourceCulture);
             }
         }
         
@@ -1324,6 +1440,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream crucibelle_mega {
+            get {
+                return ResourceManager.GetStream("crucibelle-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream crustle {
             get {
                 return ResourceManager.GetStream("crustle", resourceCulture);
@@ -1543,6 +1668,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream diancie {
             get {
                 return ResourceManager.GetStream("diancie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream diancie_mega {
+            get {
+                return ResourceManager.GetStream("diancie-mega", resourceCulture);
             }
         }
         
@@ -2251,6 +2385,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gallade_mega {
+            get {
+                return ResourceManager.GetStream("gallade-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream galvantula {
             get {
                 return ResourceManager.GetStream("galvantula", resourceCulture);
@@ -2278,9 +2421,27 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream garchomp_mega {
+            get {
+                return ResourceManager.GetStream("garchomp-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream gardevoir {
             get {
                 return ResourceManager.GetStream("gardevoir", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gardevoir_mega {
+            get {
+                return ResourceManager.GetStream("gardevoir-mega", resourceCulture);
             }
         }
         
@@ -2317,6 +2478,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream gengar {
             get {
                 return ResourceManager.GetStream("gengar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gengar_mega {
+            get {
+                return ResourceManager.GetStream("gengar-mega", resourceCulture);
             }
         }
         
@@ -2380,6 +2550,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream glalie {
             get {
                 return ResourceManager.GetStream("glalie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream glalie_mega {
+            get {
+                return ResourceManager.GetStream("glalie-mega", resourceCulture);
             }
         }
         
@@ -2742,6 +2921,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gyarados_mega {
+            get {
+                return ResourceManager.GetStream("gyarados-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream hakamo_o {
             get {
                 return ResourceManager.GetStream("hakamo_o", resourceCulture);
@@ -2835,6 +3023,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream heracross {
             get {
                 return ResourceManager.GetStream("heracross", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream heracross_mega {
+            get {
+                return ResourceManager.GetStream("heracross-mega", resourceCulture);
             }
         }
         
@@ -2952,6 +3149,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream houndoom {
             get {
                 return ResourceManager.GetStream("houndoom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream houndoom_mega {
+            get {
+                return ResourceManager.GetStream("houndoom-mega", resourceCulture);
             }
         }
         
@@ -3159,6 +3365,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream kangaskhan {
             get {
                 return ResourceManager.GetStream("kangaskhan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream kangaskhan_mega {
+            get {
+                return ResourceManager.GetStream("kangaskhan-mega", resourceCulture);
             }
         }
         
@@ -3426,9 +3641,27 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream latias_mega {
+            get {
+                return ResourceManager.GetStream("latias-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream latios {
             get {
                 return ResourceManager.GetStream("latios", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream latios_mega {
+            get {
+                return ResourceManager.GetStream("latios-mega", resourceCulture);
             }
         }
         
@@ -3579,6 +3812,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream lopunny_mega {
+            get {
+                return ResourceManager.GetStream("lopunny-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream lotad {
             get {
                 return ResourceManager.GetStream("lotad", resourceCulture);
@@ -3600,6 +3842,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream lucario {
             get {
                 return ResourceManager.GetStream("lucario", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream lucario_mega {
+            get {
+                return ResourceManager.GetStream("lucario-mega", resourceCulture);
             }
         }
         
@@ -3858,6 +4109,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream manectric_mega {
+            get {
+                return ResourceManager.GetStream("manectric-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream mankey {
             get {
                 return ResourceManager.GetStream("mankey", resourceCulture);
@@ -4016,9 +4276,27 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream mawile_mega {
+            get {
+                return ResourceManager.GetStream("mawile-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream medicham {
             get {
                 return ResourceManager.GetStream("medicham", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream medicham_mega {
+            get {
+                return ResourceManager.GetStream("medicham-mega", resourceCulture);
             }
         }
         
@@ -4125,6 +4403,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream metagross_mega {
+            get {
+                return ResourceManager.GetStream("metagross-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream metang {
             get {
                 return ResourceManager.GetStream("metang", resourceCulture);
@@ -4155,6 +4442,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream mewtwo {
             get {
                 return ResourceManager.GetStream("mewtwo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream mewtwo_mega {
+            get {
+                return ResourceManager.GetStream("mewtwo-mega", resourceCulture);
             }
         }
         
@@ -4200,6 +4496,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream miltank {
             get {
                 return ResourceManager.GetStream("miltank", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream mimejr {
+            get {
+                return ResourceManager.GetStream("mimejr", resourceCulture);
             }
         }
         
@@ -4800,6 +5105,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream pidgeot_mega {
+            get {
+                return ResourceManager.GetStream("pidgeot-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream pidgeotto {
             get {
                 return ResourceManager.GetStream("pidgeotto", resourceCulture);
@@ -4875,6 +5189,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream pinsir {
             get {
                 return ResourceManager.GetStream("pinsir", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream pinsir_mega {
+            get {
+                return ResourceManager.GetStream("pinsir-mega", resourceCulture);
             }
         }
         
@@ -5063,6 +5386,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream porygon2 {
             get {
                 return ResourceManager.GetStream("porygon2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream porygonz {
+            get {
+                return ResourceManager.GetStream("porygonz", resourceCulture);
             }
         }
         
@@ -5295,6 +5627,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream rayquaza_mega {
+            get {
+                return ResourceManager.GetStream("rayquaza-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream regice {
             get {
                 return ResourceManager.GetStream("regice", resourceCulture);
@@ -5491,6 +5832,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream sableye_mega {
+            get {
+                return ResourceManager.GetStream("sableye-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Safari_Ball {
@@ -5546,6 +5896,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream salamence {
             get {
                 return ResourceManager.GetStream("salamence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream salamence_mega {
+            get {
+                return ResourceManager.GetStream("salamence-mega", resourceCulture);
             }
         }
         
@@ -5651,9 +6010,27 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream sceptile_mega {
+            get {
+                return ResourceManager.GetStream("sceptile-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream scizor {
             get {
                 return ResourceManager.GetStream("scizor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream scizor_mega {
+            get {
+                return ResourceManager.GetStream("scizor-mega", resourceCulture);
             }
         }
         
@@ -5798,6 +6175,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream sharpedo {
             get {
                 return ResourceManager.GetStream("sharpedo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream sharpedo_mega {
+            get {
+                return ResourceManager.GetStream("sharpedo-mega", resourceCulture);
             }
         }
         
@@ -6068,6 +6454,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream slowbro {
             get {
                 return ResourceManager.GetStream("slowbro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream slowbro_mega {
+            get {
+                return ResourceManager.GetStream("slowbro-mega", resourceCulture);
             }
         }
         
@@ -6362,6 +6757,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream steelix_mega {
+            get {
+                return ResourceManager.GetStream("steelix-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream steenee {
             get {
                 return ResourceManager.GetStream("steenee", resourceCulture);
@@ -6482,6 +6886,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream swampert {
             get {
                 return ResourceManager.GetStream("swampert", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream swampert_mega {
+            get {
+                return ResourceManager.GetStream("swampert-mega", resourceCulture);
             }
         }
         
@@ -6965,6 +7378,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream tyranitar_mega {
+            get {
+                return ResourceManager.GetStream("tyranitar-mega", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream tyrantrum {
             get {
                 return ResourceManager.GetStream("tyrantrum", resourceCulture);
@@ -7153,6 +7575,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         internal static System.IO.UnmanagedMemoryStream venusaur {
             get {
                 return ResourceManager.GetStream("venusaur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream venusaur_mega {
+            get {
+                return ResourceManager.GetStream("venusaur-mega", resourceCulture);
             }
         }
         

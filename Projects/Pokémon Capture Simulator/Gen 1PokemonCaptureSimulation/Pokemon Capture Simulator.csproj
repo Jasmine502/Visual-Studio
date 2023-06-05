@@ -2667,6 +2667,153 @@
   <ItemGroup>
     <None Include="Resources\crabominable.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mimejr.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banette-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beedrill-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blastoise-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blaziken-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camerupt-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crucibelle-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diancie-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gallade-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garchomp-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gardevoir-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gengar-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glalie-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyarados-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heracross-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\houndoom-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kangaskhan-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\latias-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\latios-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lopunny-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lucario-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manectric-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mawile-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicham-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metagross-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mewtwo-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pidgeot-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinsir-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rayquaza-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sableye-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salamence-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sceptile-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scizor-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sharpedo-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slowbro-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steelix-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swampert-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyranitar-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venusaur-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abomasnow-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\absol-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aerodactyl-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aggron-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alakazam-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altaria-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ampharos-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audino-mega.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porygonz.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
