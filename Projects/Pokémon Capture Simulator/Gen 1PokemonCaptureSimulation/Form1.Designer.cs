@@ -1365,7 +1365,6 @@
             this.randomMaxHPButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.randomMaxHPButton.TabIndex = 34;
             this.randomMaxHPButton.TabStop = false;
-            this.randomMaxHPButton.Click += new System.EventHandler(this.randomMaxHPButton_Click);
             this.randomMaxHPButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.randomMaxHPButton_MouseDown);
             // 
             // randomStatusButton
@@ -1399,6 +1398,7 @@
             this.randomBallButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.randomBallButton.TabIndex = 34;
             this.randomBallButton.TabStop = false;
+            this.randomBallButton.Click += new System.EventHandler(this.randomBallButton_Click);
             this.randomBallButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.randomBallButton_MouseDown);
             // 
             // pointer6

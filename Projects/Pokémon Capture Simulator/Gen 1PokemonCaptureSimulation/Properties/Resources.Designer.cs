@@ -4319,6 +4319,15 @@ namespace Gen_1PokemonCaptureSimulation.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream MEGA_EVOLVE1 {
+            get {
+                return ResourceManager.GetStream("MEGA_EVOLVE1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Mega_Stone_Display {

@@ -238,6 +238,7 @@ namespace Gen_1PokemonCaptureSimulation
 
                 money += moneyToAdd;
                 moneyLabel.Text = money.ToString();
+                moneyLabel.Text = money.ToString();
 
                 caughtLabel.Text = pokemonBox.Text.ToUpper() + " Caught!";
                 caughtMon.Play();
@@ -302,7 +303,7 @@ namespace Gen_1PokemonCaptureSimulation
 
         }
 
-
+        // Timer for when the pokemon breaks free
         private void freeTimer_Tick(object sender, EventArgs e)
         {
             //ball will shake 2 times, using normalBall, leftBall and rightBall
@@ -324,6 +325,7 @@ namespace Gen_1PokemonCaptureSimulation
             }
             else if (currentBallShakes < 50)
             {
+                caughtLabel.Text = "Good aim!";
                 pokeBallBox.Image = normalBall;
             }
             else if (currentBallShakes < 100)
@@ -429,7 +431,7 @@ namespace Gen_1PokemonCaptureSimulation
         }
 
 
-        
+        // Function for the Battle Button
         private void Search_Click(object sender, EventArgs e)
         {
             caughtLabel.Text = "";
@@ -822,21 +824,17 @@ namespace Gen_1PokemonCaptureSimulation
 
             if (MegaStone > 0)
             {
-                message += "You currently have " + MegaStone + " Mega Stone" + (MegaStone == 1 ? "" : "s");
+                message += "You currently have " + MegaStone + " Mega Stone" + (MegaStone == 1 ? "." : "s.");
             }
 
             MessageBox.Show(message, "Shop Help");
         }
 
-        private void randomMaxHPButton_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void moneyBorder_Click(object sender, EventArgs e)
         {
             MessageBox.Show("You get money for every pokemon you catch.", "Money Help");
-            MessageBox.Show("The lowest you can get is 255 Pokémon Dollars, and the highest is 9000!", "Limits");
+            MessageBox.Show("The lowest you can get is 200 Pokémon Dollars, and the highest is 1000!", "Limits");
         }
 
         private void itemsBox_Click(object sender, EventArgs e)
@@ -971,9 +969,10 @@ namespace Gen_1PokemonCaptureSimulation
             //set the textboxes to the data in the array
             moneyLabel.Text = money.ToString();
 
-            //clear the listboxes
+            //clear the listboxes and the picturebox
             pokemonTeamBox.Items.Clear();
             pcBox.Items.Clear();
+            pokeBallBox.Image = null;
 
             //add the pokemon to the listboxes
             foreach (string pokemon in teamDataArray)
@@ -1011,6 +1010,11 @@ namespace Gen_1PokemonCaptureSimulation
             }
         }
 
+        private void randomBallButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void buyMegaStoneButton_MouseLeave(object sender, EventArgs e)
         {
             pointer6.Hide();
@@ -1024,11 +1028,17 @@ namespace Gen_1PokemonCaptureSimulation
                 string selectedPokemon = pokemonTeamBox.SelectedItem.ToString();
                 if (!selectedPokemon.Contains("-Mega"))
                 {
-                    megaEvolve.Play();
                     MegaStone--;
                     string megaEvolvedPokemon = selectedPokemon + "-Mega";
                     pokemonTeamBox.Items.Add(megaEvolvedPokemon);
                     pokemonTeamBox.Items.Remove(selectedPokemon);
+
+                    megaEvolve.Play();
+
+                    // automatically select the mega evolved pokemon, after sound effect is done
+                    System.Threading.Thread.Sleep(2811);
+                    pokemonTeamBox.SelectedItem = megaEvolvedPokemon;
+
                 }
             }
         }
@@ -1106,32 +1116,23 @@ namespace Gen_1PokemonCaptureSimulation
 
         private void randomBallButton_MouseDown(object sender, MouseEventArgs e)
         {
+            Dictionary<string, int> ballInventory = new Dictionary<string, int>
+    {
+        { "PokeBall", PB },
+        { "Master Ball", MB },
+        { "Great Ball", GB },
+        { "Safari Ball", SB },
+        { "Ultra Ball", UB }
+    };
+
             string ballNo = balls[rnd.Next(0, 5)];
 
-            switch (ballNo)
+            if (ballInventory.TryGetValue(ballNo, out int count) && count > 0)
             {
-                case "PokeBall":
-                    if (PB > 0)
-                        ballChosenBox.Text = ballNo;
-                    break;
-                case "Master Ball":
-                    if (MB > 0)
-                        ballChosenBox.Text = ballNo;
-                    break;
-                case "Great Ball":
-                    if (GB > 0)
-                        ballChosenBox.Text = ballNo;
-                    break;
-                case "Safari Ball":
-                    if (SB > 0)
-                        ballChosenBox.Text = ballNo;
-                    break;
-                case "Ultra Ball":
-                    if (UB > 0)
-                        ballChosenBox.Text = ballNo;
-                    break;
+                ballChosenBox.Text = ballNo;
             }
         }
+
 
 
         private void randomStatusButton_MouseDown(object sender, MouseEventArgs e)
