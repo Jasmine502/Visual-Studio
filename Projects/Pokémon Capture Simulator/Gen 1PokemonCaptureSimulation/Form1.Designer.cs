@@ -1398,7 +1398,6 @@
             this.randomBallButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.randomBallButton.TabIndex = 34;
             this.randomBallButton.TabStop = false;
-            this.randomBallButton.Click += new System.EventHandler(this.randomBallButton_Click);
             this.randomBallButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.randomBallButton_MouseDown);
             // 
             // pointer6
@@ -1511,16 +1510,15 @@
             this.pokeBallBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pokeBallBox.TabIndex = 8;
             this.pokeBallBox.TabStop = false;
-            this.pokeBallBox.Click += new System.EventHandler(this.pokeBallBox_Click);
             // 
             // resetButton
             // 
             this.resetButton.BackColor = System.Drawing.Color.Black;
-            this.resetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resetButton.Font = new System.Drawing.Font("Pokemon Pixel Font", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resetButton.ForeColor = System.Drawing.Color.White;
-            this.resetButton.Location = new System.Drawing.Point(764, 10);
+            this.resetButton.Location = new System.Drawing.Point(781, 10);
             this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(83, 42);
+            this.resetButton.Size = new System.Drawing.Size(66, 42);
             this.resetButton.TabIndex = 38;
             this.resetButton.Text = "RESET";
             this.resetButton.UseVisualStyleBackColor = false;
@@ -1529,11 +1527,11 @@
             // saveButton
             // 
             this.saveButton.BackColor = System.Drawing.Color.Black;
-            this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.saveButton.Font = new System.Drawing.Font("Pokemon Pixel Font", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveButton.ForeColor = System.Drawing.Color.White;
-            this.saveButton.Location = new System.Drawing.Point(586, 10);
+            this.saveButton.Location = new System.Drawing.Point(637, 10);
             this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(83, 42);
+            this.saveButton.Size = new System.Drawing.Size(66, 42);
             this.saveButton.TabIndex = 36;
             this.saveButton.Text = "SAVE";
             this.saveButton.UseVisualStyleBackColor = false;
@@ -1542,11 +1540,11 @@
             // loadButton
             // 
             this.loadButton.BackColor = System.Drawing.Color.Black;
-            this.loadButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.loadButton.Font = new System.Drawing.Font("Pokemon Pixel Font", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadButton.ForeColor = System.Drawing.Color.White;
-            this.loadButton.Location = new System.Drawing.Point(675, 10);
+            this.loadButton.Location = new System.Drawing.Point(709, 10);
             this.loadButton.Name = "loadButton";
-            this.loadButton.Size = new System.Drawing.Size(83, 42);
+            this.loadButton.Size = new System.Drawing.Size(66, 42);
             this.loadButton.TabIndex = 37;
             this.loadButton.Text = "LOAD";
             this.loadButton.UseVisualStyleBackColor = false;

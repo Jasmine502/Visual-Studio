@@ -10,33 +10,9 @@ namespace Gen_1PokemonCaptureSimulation
 {
     public partial class Form1 : Form
     {
-        Dictionary<string, string[]> pokemonTypes;
         public Form1()
         {
             InitializeComponent();
-
-            // Initialize the dictionary
-            pokemonTypes = new Dictionary<string, string[]>();
-
-            // Add Pokemon types and names to the dictionary
-            pokemonTypes.Add("Normal", new string[] { "AIPOM", "AMBIPOM", "ARCEUS", "AUDINO", "AUDINO-MEGA", "AZURILL", "BIBAREL", "BIDOOF", "BLISSEY", "BOUFFALANT", "BRAVIARY", "BUNEARY", "BUNNELBY", "CASTFORM", "CHANSEY", "CHATOT", "CINCCINO", "DEERLING", "DELCATTY", "DIGGERSBY", "DITTO", "DODRIO", "DODUO", "DUNSPARCE", "EEVEE", "EXPLOUD", "FARFETCHD", "FEAROW", "FLETCHLING", "FURFROU", "FURRET", "GIRAFARIG", "GLAMEOW", "HAPPINY", "HELIOLISK", "HELIOPTILE", "HERDIER", "HOOTHOOT", "IGGLYBUFF", "JIGGLYPUFF", "KANGASKHAN", "KANGASKHAN-MEGA", "KECLEON", "LICKILICKY", "LICKITUNG", "LILLIPUP", "LINOONE", "LITLEO", "LOPUNNY", "LOPUNNY-MEGA", "LOUDRED", "MELOETTA", "MEOWTH", "MILTANK", "MINCCINO", "MUNCHLAX", "NOCTOWL", "PATRAT", "PERSIAN", "PIDGEOT", "PIDGEOT-MEGA", "PIDGEOTTO", "PIDGEY", "PIDOVE", "PORYGON", "PORYGON2", "PORYGONZ", "PURUGLY", "PYROAR", "RATICATE", "RATTATA", "REGIGIGAS", "RUFFLET", "SAWSBUCK", "SENTRET", "SKITTY", "SLAKING", "SLAKOTH", "SMEARGLE", "SNORLAX", "SPEAROW", "SPINDA", "STANTLER", "STARAPTOR", "STARAVIA", "STARLY", "STOUTLAND", "SWABLU", "SWELLOW", "TAILLOW", "TAUROS", "TEDDIURSA", "TRANQUILL", "UNFEZANT", "URSARING", "VIGOROTH", "WATCHOG", "WHISMUR", "WIGGLYTUFF", "ZANGOOSE", "ZIGZAGOON" });
-            pokemonTypes.Add("Fire", new string[] { "ARCANINE", "BLAZIKEN", "BLAZIKEN-MEGA", "BRAIXEN", "CAMERUPT", "CAMERUPT-MEGA", "CASTFORM", "CHANDELURE", "CHARIZARD", "CHARIZARD-MEGA", "CHARMANDER", "CHARMELEON", "CHIMCHAR", "COMBUSKEN", "CYNDAQUIL", "DARMANITAN", "DARUMAKA", "DELPHOX", "EMBOAR", "ENTEI", "FENNEKIN", "FLAREON", "FLETCHINDER", "GROWLITHE", "HEATMOR", "HEATRAN", "HO-OH", "HOUNDOOM", "HOUNDOOM-MEGA", "HOUNDOUR", "INFERNAPE", "LAMPENT", "LARVESTA", "LITLEO", "LITWICK", "MAGBY", "MAGCARGO", "MAGMAR", "MAGMORTAR", "MOLTRES", "MONFERNO", "NINETALES", "NUMEL", "PANSEAR", "PIGNITE", "PONYTA", "PYROAR", "QUILAVA", "RAPIDASH", "RESHIRAM", "ROTOM-HEAT", "SIMISEAR", "SLUGMA", "TALONFLAME", "TEPIG", "TORCHIC", "TORKOAL", "TYPHLOSION", "VICTINI", "VOLCANION", "VOLCARONA", "VULPIX" });
-            pokemonTypes.Add("Water", new string[] { "ALOMOMOLA", "AZUMARILL", "BARBARACLE", "BARBOACH", "BASCULIN", "BIBAREL", "BINACLE", "BLASTOISE", "BLASTOISE-MEGA", "BUIZEL", "CARRACOSTA", "CARVANHA", "CASTFORM", "CHINCHOU", "CLAMPERL", "CLAUNCHER", "CLAWITZER", "CLOYSTER", "CORPHISH", "CORSOLA", "CRAWDAUNT", "CROCONAW", "DEWGONG", "DEWOTT", "DUCKLETT", "EMPOLEON", "FEEBAS", "FERALIGATR", "FINNEON", "FLOATZEL", "FRILLISH", "FROAKIE", "FROGADIER", "GASTRODON", "GOLDEEN", "GOLDUCK", "GOREBYSS", "GRENINJA", "GYARADOS", "GYARADOS-MEGA", "HORSEA", "HUNTAIL", "JELLICENT", "KABUTO", "KABUTOPS", "KELDEO", "KINGDRA", "KINGLER", "KRABBY", "KYOGRE", "LANTURN", "LAPRAS", "LOMBRE", "LOTAD", "LUDICOLO", "LUMINEON", "LUVDISC", "MAGIKARP", "MANAPHY", "MANTINE", "MANTYKE", "MARILL", "MARSHTOMP", "MILOTIC", "MUDKIP", "OCTILLERY", "OMANYTE", "OMASTAR", "OSHAWOTT", "PALKIA", "PALPITOAD", "PANPOUR", "PELIPPER", "PHIONE", "PIPLUP", "POLITOED", "POLIWAG", "POLIWHIRL", "POLIWRATH", "PRINPLUP", "PSYDUCK", "QUAGSIRE", "QWILFISH", "RELICANTH", "REMORAID", "ROTOM-WASH", "SAMUROTT", "SEADRA", "SEAKING", "SEALEO", "SEEL", "SEISMITOAD", "SHARPEDO", "SHARPEDO-MEGA", "SHELLDER", "SHELLOS", "SIMIPOUR", "SKRELP", "SLOWBRO", "SLOWBRO-MEGA", "SLOWKING", "SLOWPOKE", "SPHEAL", "SQUIRTLE", "STARMIE", "STARYU", "SUICUNE", "SURSKIT", "SWAMPERT", "SWAMPERT-MEGA", "SWANNA", "TENTACOOL", "TENTACRUEL", "TIRTOUGA", "TOTODILE", "TYMPOLE", "VAPOREON", "VOLCANION", "WAILMER", "WAILORD", "WALREIN", "WARTORTLE", "WHISCASH", "WINGULL", "WOOPER"});
-            pokemonTypes.Add("Electric", new string[] { "AMPHAROS", "AMPHAROS-MEGA", "BLITZLE", "CHINCHOU", "DEDENNE", "EELEKTRIK", "EELEKTROSS", "ELECTABUZZ", "ELECTIVIRE", "ELECTRIKE", "ELECTRODE", "ELEKID", "EMOLGA", "FLAAFFY", "GALVANTULA", "HELIOLISK", "HELIOPTILE", "JOLTEON", "JOLTIK", "LANTURN", "LUXIO", "LUXRAY", "MAGNEMITE", "MAGNETON", "MAGNEZONE", "MANECTRIC", "MANECTRIC-MEGA", "MAREEP", "MINUN", "PACHIRISU", "PICHU", "PIKACHU", "PLUSLE", "RAICHU", "RAIKOU", "ROTOM", "ROTOM-FAN", "ROTOM-FROST", "ROTOM-HEAT", "ROTOM-MOW", "ROTOM-WASH", "SHINX", "STUNFISK", "THUNDURUS", "TYNAMO", "VOLTORB", "ZAPDOS", "ZEBSTRIKA", "ZEKROM" });
-            pokemonTypes.Add("Grass", new string[] { "ABOMASNOW", "ABOMASNOW-MEGA", "AMOONGUSS", "BAYLEEF", "BELLOSSOM", "BELLSPROUT", "BRELOOM", "BUDEW", "BULBASAUR", "CACNEA", "CACTURNE", "CARNIVINE", "CELEBI", "CHERRIM", "CHERUBI", "CHESNAUGHT", "CHESPIN", "CHIKORITA", "COTTONEE", "CRADILY", "DEERLING", "EXEGGCUTE", "EXEGGUTOR", "FERROSEED", "FERROTHORN", "FOONGUS", "GLOOM", "GOGOAT", "GOURGEIST", "GROTLE", "GROVYLE", "HOPPIP", "IVYSAUR", "JUMPLUFF", "LEAFEON", "LEAVANNY", "LILEEP", "LILLIGANT", "LOMBRE", "LOTAD", "LUDICOLO", "MARACTUS", "MEGANIUM", "NUZLEAF", "ODDISH", "PANSAGE", "PARAS", "PARASECT", "PETILIL", "PHANTUMP", "PUMPKABOO", "QUILLADIN", "ROSELIA", "ROSERADE", "ROTOM-MOW", "SAWSBUCK", "SCEPTILE", "SCEPTILE-MEGA", "SEEDOT", "SERPERIOR", "SERVINE", "SEWADDLE", "SHAYMIN", "SHAYMIN-SKY", "SHIFTRY", "SHROOMISH", "SIMISAGE", "SKIDDO", "SKIPLOOM", "SNIVY", "SNOVER", "SUNFLORA", "SUNKERN", "SWADLOON", "TANGELA", "TANGROWTH", "TORTERRA", "TREECKO", "TREVENANT", "TROPIUS", "TURTWIG", "VENUSAUR", "VENUSAUR-MEGA", "VICTREEBEL", "VILEPLUME", "VIRIZION", "WEEPINBELL", "WHIMSICOTT", "WORMADAM"});
-            pokemonTypes.Add("Ice", new string[] { "ABOMASNOW", "ABOMASNOW-MEGA", "AMAURA", "ARTICUNO", "AURORUS", "AVALUGG", "BEARTIC", "BERGMITE", "CASTFORM", "CLOYSTER", "CRYOGONAL", "CUBCHOO", "DELIBIRD", "DEWGONG", "FROSLASS", "GLACEON", "GLALIE", "GLALIE-MEGA", "JYNX", "KYUREM", "LAPRAS", "MAMOSWINE", "PILOSWINE", "REGICE", "ROTOM-FROST", "SEALEO", "SMOOCHUM", "SNEASEL", "SNORUNT", "SNOVER", "SPHEAL", "SWINUB", "VANILLISH", "VANILLITE", "VANILLUXE", "WALREIN", "WEAVILE"});
-            pokemonTypes.Add("Fighting", new string[] { "BLAZIKEN", "BLAZIKEN-MEGA", "BRELOOM", "CHESNAUGHT", "COBALION", "COMBUSKEN", "CONKELDURR", "CROAGUNK", "EMBOAR", "GALLADE", "GALLADE-MEGA", "GURDURR", "HARIYAMA", "HAWLUCHA", "HERACROSS", "HERACROSS-MEGA", "HITMONCHAN", "HITMONLEE", "HITMONTOP", "INFERNAPE", "KELDEO", "LOPUNNY-MEGA", "LUCARIO", "LUCARIO-MEGA", "MACHAMP", "MACHOKE", "MACHOP", "MAKUHITA", "MANKEY", "MEDICHAM", "MEDICHAM-MEGA", "MEDITITE", "MEWTWO-MEGA", "MIENFOO", "MIENSHAO", "MONFERNO", "PANCHAM", "PANGORO", "PIGNITE", "POLIWRATH", "PRIMEAPE", "RIOLU", "SAWK", "SCRAFTY", "SCRAGGY", "TERRAKION", "THROH", "TIMBURR", "TOXICROAK", "TYROGUE", "VIRIZION"});
-            pokemonTypes.Add("Poison", new string[] { "AMOONGUSS", "ARBOK", "ARIADOS", "BEEDRILL", "BEEDRILL-MEGA", "BELLSPROUT", "BUDEW", "BULBASAUR", "CROAGUNK", "CROBAT", "DRAGALGE", "DRAPION", "DUSTOX", "EKANS", "FOONGUS", "GARBODOR", "GASTLY", "GENGAR", "GENGAR-MEGA", "GLOOM", "GOLBAT", "GRIMER", "GULPIN", "HAUNTER", "IVYSAUR", "KAKUNA", "KOFFING", "MUK", "NIDOKING", "NIDOQUEEN", "NIDORANM", "NIDORANF", "NIDORINA", "NIDORINO", "ODDISH", "QWILFISH", "ROSELIA", "ROSERADE", "SCOLIPEDE", "SEVIPER", "SKORUPI", "SKRELP", "SKUNTANK", "SPINARAK", "STUNKY", "SWALOT", "TENTACOOL", "TENTACRUEL", "TOXICROAK", "TRUBBISH", "VENIPEDE", "VENOMOTH", "VENONAT", "VENUSAUR", "VENUSAUR-MEGA", "VICTREEBEL", "VILEPLUME", "WEEDLE", "WEEPINBELL", "WEEZING", "WHIRLIPEDE", "ZUBAT" });
-            pokemonTypes.Add("Ground", new string[] { "BALTOY", "BARBOACH", "CAMERUPT", "CAMERUPT-MEGA", "CLAYDOL", "CUBONE", "DIGGERSBY", "DIGLETT", "DONPHAN", "DRILBUR", "DUGTRIO", "EXCADRILL", "FLYGON", "GABITE", "GARCHOMP", "GARCHOMP-MEGA", "GASTRODON", "GEODUDE", "GIBLE", "GLIGAR", "GLISCOR", "GOLEM", "GOLETT", "GOLURK", "GRAVELER", "GROUDON", "HIPPOPOTAS", "HIPPOWDON", "KROKOROK", "KROOKODILE", "LANDORUS", "LARVITAR", "MAMOSWINE", "MAROWAK", "MARSHTOMP", "NIDOKING", "NIDOQUEEN", "NINCADA", "NUMEL", "ONIX", "PALPITOAD", "PHANPY", "PILOSWINE", "PUPITAR", "QUAGSIRE", "RHYDON", "RHYHORN", "RHYPERIOR", "SANDILE", "SANDSHREW", "SANDSLASH", "SEISMITOAD", "STEELIX", "STEELIX-MEGA", "STUNFISK", "SWAMPERT", "SWAMPERT-MEGA", "SWINUB", "TORTERRA", "TRAPINCH", "VIBRAVA", "WHISCASH", "WOOPER", "WORMADAM", "ZYGARDE" });
-            pokemonTypes.Add("Flying", new string[]{"AERODACTYL", "AERODACTYL-MEGA", "ALTARIA", "ARCHEN", "ARCHEOPS", "ARTICUNO", "BEAUTIFLY", "BRAVIARY", "BUTTERFREE", "CHARIZARD", "CHATOT", "COMBEE", "CROBAT", "DELIBIRD", "DODRIO", "DODUO", "DRAGONITE", "DRIFBLIM", "DRIFLOON", "DUCKLETT", "EMOLGA", "FAN ROTOM", "FARFETCH'D", "FEAROW", "FLETCHINDER", "FLETCHLING", "GLIGAR", "GLISCOR", "GOLBAT", "GYARADOS", "HAWLUCHA", "HO-OH", "HONCHKROW", "HOOTHOOT", "HOPPIP", "JUMPLUFF", "LANDORUS", "LEDIAN", "LEDYBA", "LUGIA", "MANDIBUZZ", "MANTINE", "MANTYKE", "MASQUERAIN", "MOLTRES", "MOTHIM", "MURKROW", "NATU", "NINJASK", "NOCTOWL", "NOIBAT", "NOIVERN", "PELIPPER", "PIDGEOT", "PIDGEOT-MEGA", "PIDGEOTTO", "PIDGEY", "PIDOVE", "PINSIR-MEGA", "RAYQUAZA", "RAYQUAZA-MEGA", "RUFFLET", "SALAMENCE", "SALAMENCE-MEGA", "SCYTHER", "SHAYMIN", "SIGILYPH", "SKARMORY", "SKIPLOOM", "SKY FORME", "SPEAROW", "STARAPTOR", "STARAVIA", "STARLY", "SWABLU", "SWANNA", "SWELLOW", "SWOOBAT", "TAILLOW", "TALONFLAME", "THUNDURUS", "TOGEKISS", "TOGETIC", "TORNADUS", "TRANQUILL", "TROPIUS", "UNFEZANT", "VESPIQUEN", "VIVILLON", "VULLABY", "WINGULL", "WOOBAT", "XATU", "YANMA", "YANMEGA", "YVELTAL", "ZAPDOS", "ZUBAT"});
-            pokemonTypes.Add("Psychic", new string[]{"ABRA", "ALAKAZAM", "ALAKAZAM-MEGA", "AZELF", "BALTOY", "BEHEEYEM", "BELDUM", "BRONZONG", "BRONZOR", "CELEBI", "CHIMECHO", "CHINGLING", "CLAYDOL", "CRESSELIA", "DARMANITAN", "DELPHOX", "DEOXYS", "DROWZEE", "DUOSION", "ELGYEM", "ESPEON", "ESPURR", "EXEGGCUTE", "EXEGGUTOR", "GALLADE", "GALLADE-MEGA", "GARDEVOIR", "GARDEVOIR-MEGA", "GIRAFARIG", "GOTHITA", "GOTHITELLE", "GOTHORITA", "GRUMPIG", "HOOPA", "HYPNO", "INKAY", "JIRACHI", "JYNX", "KADABRA", "KIRLIA", "LATIAS", "LATIAS-MEGA", "LATIOS", "LATIOS-MEGA", "LUGIA", "LUNATONE", "MALAMAR", "MEDICHAM", "MEDICHAM-MEGA", "MEDITITE", "MELOETTA", "MEOWSTIC", "MESPRIT", "METAGROSS", "METAGROSS-MEGA", "METANG", "MEW", "MEWTWO", "MEWTWO X", "MIME JR.", "MR. MIME", "MUNNA", "MUSHARNA", "NATU", "RALTS", "REUNICLUS", "SIGILYPH", "SLOWBRO", "SLOWBRO-MEGA", "SLOWKING", "SLOWPOKE", "SMOOCHUM", "SOLOSIS", "SOLROCK", "SPOINK", "STARMIE", "SWOOBAT", "UNOWN", "UXIE", "VICTINI", "WOBBUFFET", "WOOBAT", "WYNAUT", "XATU" });
-            pokemonTypes.Add("Bug", new string[]{"CATERPIE", "METAPOD", "PINSIR", "PINECO", "WURMPLE", "SILCOON", "CASCOON", "VOLBEAT", "ILLUMISE", "KRICKETOT", "KRICKETUNE", "BURMY", "KARRABLAST", "SHELMET", "ACCELGOR", "SCATTERBUG", "SPEWPA", "BUTTERFREE", "WEEDLE", "KAKUNA", "BEEDRILL", "BEEDRILL-MEGA", "PARAS", "PARASECT", "VENONAT", "VENOMOTH", "SCYTHER", "PINSIR", "LEDYBA", "LEDIAN", "SPINARAK", "ARIADOS", "YANMA", "FORRETRESS", "SCIZOR", "SCIZOR-MEGA", "SHUCKLE", "HERACROSS", "HERACROSS-MEGA", "BEAUTIFLY", "DUSTOX", "SURSKIT", "MASQUERAIN", "NINCADA", "NINJASK", "SHEDINJA", "WORMADAM", "MOTHIM", "COMBEE", "VESPIQUEN", "YANMEGA", "SEWADDLE", "SWADLOON", "LEAVANNY", "VENIPEDE", "WHIRLIPEDE", "SCOLIPEDE", "DWEBBLE", "CRUSTLE", "ESCAVALIER", "JOLTIK", "GALVANTULA", "DURANT", "LARVESTA", "VOLCARONA", "GENESECT", "VIVILLON", "ANORITH", "ARMALDO", "SKORUPI"});
-            pokemonTypes.Add("Rock", new string[]{"AERODACTYL", "AERODACTYL-MEGA", "AGGRON", "AMAURA", "ANORITH", "ARCHEN", "ARCHEOPS", "ARMALDO", "ARON", "AURORUS", "BARBARACLE", "BASTIODON", "BINACLE", "BOLDORE", "BONSLY", "CARBINK", "CARRACOSTA", "CORSOLA", "CRADILY", "CRANIDOS", "CRUSTLE", "DIANCIE", "DIANCIE-MEGA", "DWEBBLE", "GEODUDE", "GIGALITH", "GOLEM", "GRAVELER", "KABUTO", "KABUTOPS", "LAIRON", "LARVITAR", "LILEEP", "LUNATONE", "MAGCARGO", "NOSEPASS", "OMANYTE", "OMASTAR", "ONIX", "PROBOPASS", "PUPITAR", "RAMPARDOS", "REGIROCK", "RELICANTH", "RHYDON", "RHYHORN", "RHYPERIOR", "ROGGENROLA", "SHIELDON", "SHUCKLE", "SOLROCK", "SUDOWOODO", "TERRAKION", "TIRTOUGA", "TYRANITAR", "TYRANITAR-MEGA", "TYRANTRUM", "TYRUNT" });
-            pokemonTypes.Add("Ghost", new string[]{"AEGISLASH", "BANETTE", "BANETTE", "CHANDELURE", "COFAGRIGUS", "DOUBLADE", "DRIFBLIM", "DRIFLOON", "DUSCLOPS", "DUSKNOIR", "DUSKULL", "FRILLISH", "FROSLASS", "GASTLY", "GENGAR", "GENGAR-MEGA", "GIRATINA", "GOLETT", "GOLURK", "GOURGEIST", "HAUNTER", "HONEDGE", "HOOPA", "JELLICENT", "LAMPENT", "LITWICK", "MISDREAVUS", "MISMAGIUS", "PHANTUMP", "PUMPKABOO", "ROTOM", "SABLEYE", "SABLEYE", "SHEDINJA", "SHUPPET", "SPIRITOMB", "TREVENANT", "YAMASK"});
-            pokemonTypes.Add("Dragon", new string[]{"ALTARIA", "ALTARIA-MEGA", "AMPHAROS", "AXEW", "BAGON", "CHARIZARD-MEGA", "DEINO", "DIALGA", "DRAGALGE", "DRAGONAIR", "DRAGONITE", "DRATINI", "DRUDDIGON", "FLYGON", "FRAXURE", "GABITE", "GARCHOMP", "GARCHOMP-MEGA", "GIBLE", "GIRATINA", "GOODRA", "GOOMY", "HAXORUS", "HYDREIGON", "KINGDRA", "KYUREM", "LATIAS", "LATIAS-MEGA", "LATIOS", "LATIOS-MEGA", "NOIBAT", "NOIVERN", "PALKIA", "RAYQUAZA", "RAYQUAZA-MEGA", "RESHIRAM", "SALAMENCE", "SALAMENCE-MEGA", "SCEPTILE", "SHELGON", "SLIGGOO", "TYRANTRUM", "TYRUNT", "VIBRAVA", "ZEKROM", "ZWEILOUS", "ZYGARDE"});
-            pokemonTypes.Add("Dark", new string[]{"ABSOL", "ABSOL-MEGA", "BISHARP", "CACTURNE", "CARVANHA", "CRAWDAUNT", "DARKRAI", "DEINO", "DRAPION", "GRENINJA", "GYARADOS-MEGA", "HONCHKROW", "HOUNDOOM", "HOUNDOOM-MEGA", "HOUNDOUR", "HYDREIGON", "INKAY", "KROKOROK", "KROOKODILE", "LIEPARD", "MALAMAR", "MANDIBUZZ", "MIGHTYENA", "MURKROW", "NUZLEAF", "PANGORO", "PAWNIARD", "POOCHYENA", "PURRLOIN", "SABLEYE", "SABLEYE-MEGA", "SANDILE", "SCRAFTY", "SCRAGGY", "SHARPEDO", "SHARPEDO-MEGA", "SHIFTRY", "SKUNTANK", "SNEASEL", "SPIRITOMB", "STUNKY", "TYRANITAR", "TYRANITAR-MEGA", "UMBREON", "VULLABY", "WEAVILE", "YVELTAL", "ZOROARK", "ZORUA", "ZWEILOUS"});
-            pokemonTypes.Add("Steel", new string[]{"AEGISLASH", "AGGRON", "AGGRON-MEGA", "ARON", "BASTIODON", "BELDUM", "BISHARP", "BRONZONG", "BRONZOR", "COBALION", "DIALGA", "DOUBLADE", "DURANT", "EMPOLEON", "ESCAVALIER", "EXCADRILL", "FERROSEED", "FERROTHORN", "FORRETRESS", "GENESECT", "HEATRAN", "HONEDGE", "JIRACHI", "KLANG", "KLEFKI", "KLINK", "KLINKLANG", "LAIRON", "LUCARIO", "LUCARIO-MEGA", "MAGNEMITE", "MAGNETON", "MAGNEZONE", "MAWILE", "MAWILE-MEGA", "METAGROSS", "METAGROSS-MEGA", "METANG", "PAWNIARD", "PROBOPASS", "REGISTEEL", "SCIZOR", "SCIZOR-MEGA", "SHIELDON", "SKARMORY", "STEELIX", "STEELIX-MEGA", "WORMADAM"});
-            pokemonTypes.Add("Fairy", new string[]{"CLEFAIRY", "CLEFABLE", "CLEFFA", "TOGEPI", "SNUBBULL", "GRANBULL", "FLABÉBÉ", "FLOETTE", "FLORGES", "SPRITZEE", "AROMATISSE", "SWIRLIX", "SLURPUFF", "SYLVEON", "XERNEAS", "TOGETIC", "TOGEKISS", "JIGGLYPUFF", "WIGGLYTUFF", "MR. MIME", "IGGLYBUFF", "MARILL", "AZUMARILL", "RALTS", "KIRLIA", "GARDEVOIR", "GARDEVOIR-MEGA", "AZURILL", "MAWILE", "MAWILE-MEGA", "ALTARIA-MEGA", "MIME JR.", "AUDINO-MEGA", "COTTONEE", "WHIMSICOTT", "DEDENNE", "CARBINK", "KLEFKI", "DIANCIE", "DIANCIE-MEGA"});
         }
         // file path for pokemon sprites
         private string filePath = Path.Combine(Directory.GetParent(Directory.GetParent(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).FullName).FullName).FullName, "Resources", "Pokemon Sprites" + Path.DirectorySeparatorChar);
@@ -47,7 +23,6 @@ namespace Gen_1PokemonCaptureSimulation
         int MegaStone, PB, GB, UB, SB, MB;
         float money, N, statVal, currentBallShakes;
         Bitmap normalBall, rightBall, leftBall, caughtBall;
-        String types;
         String[] balls = { "PokeBall", "Master Ball", "Great Ball", "Ultra Ball", "Safari Ball" };
         String[] megaNames = { "ABOMASNOW-MEGA", "ABSOL-MEGA", "AERODACTYL-MEGA", "AGGRON-MEGA", "ALAKAZAM-MEGA", "ALTARIA-MEGA", "AMPHAROS-MEGA", "AUDINO-MEGA", "BANETTE-MEGA", "BEEDRILL-MEGA", "BLASTOISE-MEGA", "BLAZIKEN-MEGA", "CAMERUPT-MEGA", "CHARIZARD-MEGA", "DIANCIE-MEGA", "GALLADE-MEGA", "GARCHOMP-MEGA", "GARDEVOIR-MEGA", "GENGAR-MEGA", "GLALIE-MEGA", "GYARADOS-MEGA", "HERACROSS-MEGA", "HOUNDOOM-MEGA", "KANGASKHAN-MEGA", "LATIAS-MEGA", "LATIOS-MEGA", "LOPUNNY-MEGA", "LUCARIO-MEGA", "MANECTRIC-MEGA", "MAWILE-MEGA", "MEDICHAM-MEGA", "METAGROSS-MEGA", "MEWTWO-MEGA", "PIDGEOT-MEGA", "PINSIR-MEGA", "RAYQUAZA-MEGA", "SABLEYE-MEGA", "SALAMENCE-MEGA", "SCEPTILE-MEGA", "SCIZOR-MEGA", "SHARPEDO-MEGA", "SLOWBRO-MEGA", "STEELIX-MEGA", "SWAMPERT-MEGA", "TYRANITAR-MEGA", "VENUSAUR-MEGA" };
         String[] megas = { "ABOMASNOW", "ABSOL", "AERODACTYL", "AGGRON", "ALAKAZAM", "ALTARIA", "AMPHAROS", "AUDINO", "BANETTE", "BEEDRILL", "BLASTOISE", "BLAZIKEN", "CAMERUPT", "CHARIZARD", "DIANCIE", "GALLADE", "GARCHOMP", "GARDEVOIR", "GENGAR", "GLALIE", "GYARADOS", "HERACROSS", "HOUNDOOM", "KANGASKHAN", "LATIAS", "LATIOS", "LOPUNNY", "LUCARIO", "MANECTRIC", "MAWILE", "MEDICHAM", "METAGROSS", "MEWTWO", "PIDGEOT", "PINSIR", "RAYQUAZA", "SABLEYE", "SALAMENCE", "SCEPTILE", "SCIZOR", "SHARPEDO", "SLOWBRO", "STEELIX", "SWAMPERT", "TYRANITAR", "VENUSAUR" };
@@ -452,7 +427,6 @@ namespace Gen_1PokemonCaptureSimulation
             }
             else if (battleButton.Text == "Battle")
             {
-                types = "";
                 ballChosenBox.Clear();
                 pokStatusBox.Clear();
                 pokMaxHPBox.Clear();
@@ -469,23 +443,6 @@ namespace Gen_1PokemonCaptureSimulation
                 playCry(enteredPokemon);
                 
                 pokemonBox.Text = enteredPokemon;
-
-                List<string> typesList = new List<string>();
-
-                foreach (var kvp in pokemonTypes)
-                {
-                    if (Array.Exists(kvp.Value, pokemon => pokemon == enteredPokemon))
-                    {
-                        typesList.Add(kvp.Key);
-                    }
-                }
-
-                types = string.Join(" / ", typesList);
-
-                if (typesList.Count == 1)
-                    types = typesList[0];
-
-
                 int catchRate;
 
                 switch (enteredPokemon)
@@ -674,7 +631,7 @@ namespace Gen_1PokemonCaptureSimulation
                 pokemonTeamBox.SelectedIndex = -1;
                 
                 string selectedItem = pcBox.SelectedItem.ToString();
-                if (pokemon.Contains(selectedItem))
+                if (pokemon.Contains(selectedItem) || megaNames.Contains(selectedItem.ToUpper()))
                 {
                     pokeBallBox.Image = Image.FromFile(filePath + selectedItem + ".gif");
                     playCry(selectedItem);
@@ -994,6 +951,7 @@ namespace Gen_1PokemonCaptureSimulation
             MessageBox.Show("Your game has been loaded!", "Load");
         }
 
+
         private void moneyLabel_TextChanged(object sender, EventArgs e)
         {
             // add commas to the money label
@@ -1008,11 +966,6 @@ namespace Gen_1PokemonCaptureSimulation
             {
                 money = 9999999999;
             }
-        }
-
-        private void randomBallButton_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void buyMegaStoneButton_MouseLeave(object sender, EventArgs e)
@@ -1048,47 +1001,6 @@ namespace Gen_1PokemonCaptureSimulation
         {
             pokemonTeamBox.SelectedIndex = -1;
             pcBox.SelectedIndex = -1;
-        }
-  
-        // Function that shows the type of the selected pokemon
-        private void pokeBallBox_Click(object sender, EventArgs e)
-        {
-            if (pokeBallBox.Image == null) return;
-
-            string selectedPokemon = "";
-            if (pokemonTeamBox.SelectedIndex != -1)
-            {
-                selectedPokemon = pokemonTeamBox.SelectedItem.ToString();
-            }
-            else if (pcBox.SelectedIndex != -1)
-            {
-                selectedPokemon = pcBox.SelectedItem.ToString();
-            }
-            else if (pokemonBox.Text != "")
-            {
-                selectedPokemon = pokemonBox.Text;
-            }
-            else
-            {
-                return;
-            }
-
-            List<string> typesList = new List<string>();
-
-            foreach (var kvp in pokemonTypes)
-            {
-                if (Array.Exists(kvp.Value, pokemon => pokemon == selectedPokemon))
-                {
-                    typesList.Add(kvp.Key);
-                }
-            }
-
-            string types = string.Join(" / ", typesList);
-
-            if (typesList.Count == 1)
-                types = typesList[0];
-
-            MessageBox.Show(types, selectedPokemon.ToUpper());
         }
 
     private void pokemonBox_KeyDown(object sender, KeyEventArgs e)
