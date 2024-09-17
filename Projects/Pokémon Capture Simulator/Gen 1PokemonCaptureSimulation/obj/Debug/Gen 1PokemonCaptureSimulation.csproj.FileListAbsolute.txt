@@ -1,0 +1,9 @@
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\bin\Debug\Gen 1PokemonCaptureSimulation.exe.config
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\bin\Debug\Gen 1PokemonCaptureSimulation.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\bin\Debug\Gen 1PokemonCaptureSimulation.pdb
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\obj\Debug\Gen 1PokemonCaptureSimulation.csprojResolveAssemblyReference.cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\obj\Debug\Gen_1PokemonCaptureSimulation.Form1.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\obj\Debug\Gen_1PokemonCaptureSimulation.Properties.Resources.resources
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\obj\Debug\Gen 1PokemonCaptureSimulation.csproj.GenerateResource.Cache
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\obj\Debug\Gen 1PokemonCaptureSimulation.exe
+c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Gen 1PokemonCaptureSimulation\Gen 1PokemonCaptureSimulation\obj\Debug\Gen 1PokemonCaptureSimulation.pdb
