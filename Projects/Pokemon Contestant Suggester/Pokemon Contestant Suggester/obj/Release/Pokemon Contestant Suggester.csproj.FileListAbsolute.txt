@@ -7,3 +7,13 @@ C:\Users\Jason Santos\documents\visual studio 2015\Projects\Pokemon Contestant S
 C:\Users\Jason Santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon Contestant Suggester.csproj.GenerateResource.Cache
 C:\Users\Jason Santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon Contestant Suggester.exe
 C:\Users\Jason Santos\documents\visual studio 2015\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon Contestant Suggester.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\bin\Release\Pokemon Contestant Suggester.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\bin\Release\Pokemon Contestant Suggester.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\bin\Release\Pokemon Contestant Suggester.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon Contestant Suggester.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon_Contestant_Suggester.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon_Contestant_Suggester.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon Contestant Suggester.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon Contestant Suggester.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon Contestant Suggester.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Pokemon Contestant Suggester\Pokemon Contestant Suggester\obj\Release\Pokemon Contestant Suggester.pdb
