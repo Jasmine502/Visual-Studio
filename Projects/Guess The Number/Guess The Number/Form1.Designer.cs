@@ -39,7 +39,7 @@
             this.result.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.result.Location = new System.Drawing.Point(12, 163);
             this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(260, 33);
+            this.result.Size = new System.Drawing.Size(260, 123);
             this.result.TabIndex = 0;
             this.result.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -70,13 +70,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 208);
+            this.ClientSize = new System.Drawing.Size(285, 295);
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.guess);
             this.Controls.Add(this.result);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(300, 247);
             this.MinimumSize = new System.Drawing.Size(300, 247);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -12,6 +12,12 @@ namespace Arm_Wrestle
 {
     public partial class Form1 : Form
     {
+        // Constants for power bar thresholds
+        private const int MaxPower = 100;
+        private const int NeutralPower = 50;
+        private const int PowerIncrement = 2;
+        private const int PowerDecrement = 1;
+
         public Form1()
         {
             InitializeComponent();
@@ -20,67 +26,79 @@ namespace Arm_Wrestle
         private void mashButton_Click(object sender, EventArgs e)
         {
             timer1.Start();
-            if (powerBar.Value <= 98)
+
+            if (powerBar.Value <= MaxPower - PowerIncrement)
             {
-                powerBar.Value += 2;
+                powerBar.Value += PowerIncrement;
             }
             else
             {
                 timer1.Stop();
-                powerBar.Value = 100;
-                MessageBox.Show("You Won!", "Congratulations!");
-                powerBar.Value = 50;
-                boardBox.Image = Properties.Resources.Neutral;
+                powerBar.Value = MaxPower;
+                ShowMessage("You Won!", "Congratulations!");
+                ResetGame();
             }
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
+        {
+            UpdateBoardImage();
+
+            if (powerBar.Value > 0)
+            {
+                powerBar.Value -= PowerDecrement;
+            }
+            else
+            {
+                timer1.Stop();
+                ShowMessage("You Lost!", "Sorry!");
+                ResetGame();
+            }
+        }
+
+        private void UpdateBoardImage()
         {
             if (powerBar.Value == 0)
             {
                 boardBox.Image = Properties.Resources.Lost;
             }
-            if (powerBar.Value > 0 && powerBar.Value <= 25)
+            else if (powerBar.Value <= 25)
             {
                 boardBox.Image = Properties.Resources.Losing2;
             }
-            if (powerBar.Value > 25 && powerBar.Value < 50)
+            else if (powerBar.Value <= 50)
             {
-                boardBox.Image = Properties.Resources.Losing1;
+                boardBox.Image = powerBar.Value == NeutralPower
+                    ? Properties.Resources.Neutral
+                    : Properties.Resources.Losing1;
             }
-            if (powerBar.Value == 50)
-            {
-                boardBox.Image = Properties.Resources.Neutral;
-            }
-            if (powerBar.Value > 50 && powerBar.Value <= 67)
+            else if (powerBar.Value <= 67)
             {
                 boardBox.Image = Properties.Resources.Winning1;
             }
-            if (powerBar.Value > 67 && powerBar.Value <= 84)
+            else if (powerBar.Value <= 84)
             {
                 boardBox.Image = Properties.Resources.Winning2;
             }
-            if (powerBar.Value > 84 && powerBar.Value < 100)
+            else if (powerBar.Value < MaxPower)
             {
                 boardBox.Image = Properties.Resources.Winning3;
             }
-            if (powerBar.Value == 100)
+            else
             {
                 boardBox.Image = Properties.Resources.Won;
             }
+        }
 
-            if (powerBar.Value > 0)
-            {
-                powerBar.Value--;
-            }
-            else
-            {
-                timer1.Stop();
-                MessageBox.Show("You Lost!", "Sorry!");
-                powerBar.Value = 50;
-                boardBox.Image = Properties.Resources.Neutral;
-            }
+        private void ShowMessage(string message, string title)
+        {
+            MessageBox.Show(message, title);
+        }
+
+        private void ResetGame()
+        {
+            powerBar.Value = NeutralPower;
+            boardBox.Image = Properties.Resources.Neutral;
         }
     }
 }

@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Windows.Forms;
-using static System.Windows.Forms.LinkLabel;
 
 namespace Citation_Formatting
 {
     public partial class Form1 : Form
     {
-        private string dev, year, title, pub, link, date, citation;
-
         public Form1()
         {
             InitializeComponent();
@@ -16,44 +13,60 @@ namespace Citation_Formatting
 
         private void searchBtn_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.google.com/search?q=" + titleTB.Text + " video game");
+            if (!string.IsNullOrWhiteSpace(titleTB.Text))
+            {
+                Process.Start("https://www.google.com/search?q=" + Uri.EscapeDataString(titleTB.Text + " video game"));
+            }
+            else
+            {
+                MessageBox.Show("Please enter a title to search.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void clearBtn_Click(object sender, EventArgs e)
         {
-            dev = "";
-            devTB.Clear();
-            year = "";
-            yearTB.Clear();
-            title = "";
-            titleTB.Clear();
-            pub = "";
-            pubTB.Clear();
-            link = "";
-            linkTB.Clear();
-            date = "";
-            datePkr.Value = DateTime.Today;
+            foreach (Control control in Controls)
+            {
+                if (control is TextBox textBox)
+                {
+                    textBox.Clear();
+                }
+                else if (control is DateTimePicker dateTimePicker)
+                {
+                    dateTimePicker.Value = DateTime.Today;
+                }
+            }
         }
 
         private void formatBtn_Click(object sender, EventArgs e)
         {
-            dev = devTB.Text;
-            year = yearTB.Text;
-            title = titleTB.Text;
-            pub = pubTB.Text;
-            link = linkTB.Text;
-            date = datePkr.Text;
+            string dev = devTB.Text.Trim();
+            string year = yearTB.Text.Trim();
+            string title = titleTB.Text.Trim();
+            string pub = pubTB.Text.Trim();
+            string link = linkTB.Text.Trim();
+            string date = datePkr.Text;
 
-            citation = $"{dev} ({year}) {title} [Video game]. {pub}. Available at: {link} (Accessed: {date}).";
+            if (string.IsNullOrWhiteSpace(dev) || string.IsNullOrWhiteSpace(year) || string.IsNullOrWhiteSpace(title) || string.IsNullOrWhiteSpace(pub) || string.IsNullOrWhiteSpace(link))
+            {
+                MessageBox.Show("All fields must be filled to format the citation.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            string citation = $"{dev} ({year}) {title} [Video game]. {pub}. Available at: {link} (Accessed: {date}).";
             citationTB.Text = citation;
         }
 
         private void copyBtn_Click(object sender, EventArgs e)
         {
-            if (citationTB.Text != "")
+            if (!string.IsNullOrWhiteSpace(citationTB.Text))
             {
-                Clipboard.SetText(citation);
-                MessageBox.Show("Citation Copied!");
+                Clipboard.SetText(citationTB.Text);
+                MessageBox.Show("Citation copied to clipboard!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("No citation to copy. Please format a citation first.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

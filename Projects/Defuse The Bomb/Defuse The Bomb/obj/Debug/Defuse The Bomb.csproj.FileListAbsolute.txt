@@ -7,3 +7,13 @@ c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Meth
 c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.csproj.GenerateResource.Cache
 c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.exe
 c:\users\jason santos\documents\visual studio 2012\Projects\Pokemon Capture Methods\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\bin\Debug\Defuse The Bomb.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\bin\Debug\Defuse The Bomb.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\bin\Debug\Defuse The Bomb.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse_The_Bomb.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse_The_Bomb.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Defuse The Bomb\Defuse The Bomb\obj\Debug\Defuse The Bomb.pdb

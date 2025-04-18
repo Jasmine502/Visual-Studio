@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Pokemon_Contestant_Suggester
@@ -18,34 +14,51 @@ namespace Pokemon_Contestant_Suggester
         }
 
         // Store Pokemon names and moves
-        private string[] pokemonNames = new string[6];
-        private string[][] pokemonMoves = new string[6][];
+        private readonly string[] pokemonNames = new string[6];
+        private readonly string[][] pokemonMoves = new string[6][];
 
         // Type list
-        private string[] types = { "NORMAL", "FIRE", "WATER", "ELECTRIC", "GRASS", "ICE", "FIGHTING", "POISON", "GROUND", "FLYING", "PSYCHIC", "BUG", "ROCK", "GHOST", "DRAGON", "DARK", "STEEL", "FAIRY" };
+        private readonly string[] types = { "NORMAL", "FIRE", "WATER", "ELECTRIC", "GRASS", "ICE", "FIGHTING", "POISON", "GROUND", "FLYING", "PSYCHIC", "BUG", "ROCK", "GHOST", "DRAGON", "DARK", "STEEL", "FAIRY" };
+
+        // Controls arrays for easier access
+        private TextBox[] pokemonBoxes;
+        private GroupBox[] pokemonGroupBoxes;
+        private TextBox[][] moveBoxes;
 
         private void Form1_Load(object sender, EventArgs e)
         {
             // Initialize Pokemon names
-            for (int i = 0; i < 6; i++)
+            for (var i = 0; i < 6; i++)
             {
                 pokemonNames[i] = $"Pokemon {i + 1}";
             }
+
+            // Initialize control arrays
+            pokemonBoxes = new[] { pokemon1Box, pokemon2Box, pokemon3Box, pokemon4Box, pokemon5Box, pokemon6Box };
+            pokemonGroupBoxes = new[] { pokemon1GroupBox, pokemon2GroupBox, pokemon3GroupBox, pokemon4GroupBox, pokemon5GroupBox, pokemon6GroupBox };
+            moveBoxes = new[]
+            {
+                new[] { pokemon1Move1Box, pokemon1Move2Box, pokemon1Move3Box, pokemon1Move4Box },
+                new[] { pokemon2Move1Box, pokemon2Move2Box, pokemon2Move3Box, pokemon2Move4Box },
+                new[] { pokemon3Move1Box, pokemon3Move2Box, pokemon3Move3Box, pokemon3Move4Box },
+                new[] { pokemon4Move1Box, pokemon4Move2Box, pokemon4Move3Box, pokemon4Move4Box },
+                new[] { pokemon5Move1Box, pokemon5Move2Box, pokemon5Move3Box, pokemon5Move4Box },
+                new[] { pokemon6Move1Box, pokemon6Move2Box, pokemon6Move3Box, pokemon6Move4Box }
+            };
         }
 
         private void submitTeamButton_Click(object sender, EventArgs e)
         {
-            // Reset colors
             ResetColors();
 
             // Store Pokemon names and moves
-            for (int i = 0; i < 6; i++)
+            for (var i = 0; i < 6; i++)
             {
-                if (!string.IsNullOrEmpty(GetPokemonBox(i).Text))
+                if (!string.IsNullOrEmpty(pokemonBoxes[i].Text))
                 {
-                    pokemonNames[i] = GetPokemonBox(i).Text;
+                    pokemonNames[i] = pokemonBoxes[i].Text;
                 }
-                pokemonMoves[i] = GetMoveBoxes(i).Select(box => box.Text.ToUpper()).ToArray();
+                pokemonMoves[i] = moveBoxes[i].Select(box => box.Text.ToUpper()).ToArray();
             }
 
             // Enable type selection and search
@@ -64,16 +77,19 @@ namespace Pokemon_Contestant_Suggester
             searchButton.Enabled = false;
 
             // Clear Pokemon names and moves
-            for (int i = 0; i < 6; i++)
+            foreach (var box in pokemonBoxes)
             {
-                GetPokemonBox(i).Clear();
-                foreach (var moveBox in GetMoveBoxes(i))
+                box.Clear();
+            }
+
+            foreach (var moves in moveBoxes)
+            {
+                foreach (var moveBox in moves)
                 {
                     moveBox.Clear();
                 }
             }
 
-            // Reset colors
             ResetColors();
         }
 
@@ -85,12 +101,11 @@ namespace Pokemon_Contestant_Suggester
 
         private void submitTypeButton_Click(object sender, EventArgs e)
         {
-            // Reset colors
             ResetColors();
 
             // Validate type input
             typeBox.Text = typeBox.Text.ToUpper();
-            if (types.Contains(typeBox.Text))
+            if (types.Contains(typeBox.Text, StringComparer.OrdinalIgnoreCase))
             {
                 // Highlight vulnerable Pokemon and moves
                 foreach (var type in GetVulnerableTypes(typeBox.Text))
@@ -106,14 +121,14 @@ namespace Pokemon_Contestant_Suggester
 
         private void ChangeBoxColor(string type)
         {
-            for (int i = 0; i < 6; i++)
+            for (var i = 0; i < 6; i++)
             {
-                if (pokemonMoves[i].Any(move => move.Contains(type)))
+                if (pokemonMoves[i].Any(move => move != null && move.IndexOf(type, StringComparison.OrdinalIgnoreCase) >= 0))
                 {
-                    GetPokemonGroupBox(i).BackColor = Color.LightGreen;
-                    foreach (var moveBox in GetMoveBoxes(i))
+                    pokemonGroupBoxes[i].BackColor = Color.LightGreen;
+                    foreach (var moveBox in moveBoxes[i])
                     {
-                        if (moveBox.Text.Contains(type))
+                        if (moveBox.Text.IndexOf(type, StringComparison.OrdinalIgnoreCase) >= 0)
                         {
                             moveBox.BackColor = Color.Yellow;
                         }
@@ -124,61 +139,27 @@ namespace Pokemon_Contestant_Suggester
 
         private void ResetColors()
         {
-            for (int i = 0; i < 6; i++)
+            foreach (var groupBox in pokemonGroupBoxes)
             {
-                GetPokemonGroupBox(i).BackColor = default(Color);
-                foreach (var moveBox in GetMoveBoxes(i))
+                groupBox.BackColor = Color.Empty;
+            }
+
+            foreach (var moves in moveBoxes)
+            {
+                foreach (var moveBox in moves)
                 {
-                    moveBox.BackColor = default(Color);
+                    moveBox.BackColor = Color.Empty;
                 }
             }
         }
 
-        // Helper methods to access controls
-        private TextBox GetPokemonBox(int index)
+        private string[] GetVulnerableTypes(string type)
         {
-            switch (index)
-            {
-                case 0: return pokemon1Box;
-                case 1: return pokemon2Box;
-                case 2: return pokemon3Box;
-                case 3: return pokemon4Box;
-                case 4: return pokemon5Box;
-                case 5: return pokemon6Box;
-                default: throw new ArgumentOutOfRangeException(nameof(index));
-            }
-        }
-
-        private GroupBox GetPokemonGroupBox(int index)
-        {
-            switch (index)
-            {
-                case 0: return pokemon1GroupBox;
-                case 1: return pokemon2GroupBox;
-                case 2: return pokemon3GroupBox;
-                case 3: return pokemon4GroupBox;
-                case 4: return pokemon5GroupBox;
-                case 5: return pokemon6GroupBox;
-                default: throw new ArgumentOutOfRangeException(nameof(index));
-            }
-        }
-
-        private TextBox[] GetMoveBoxes(int index)
-        {
-            switch (index)
-            {
-                case 0: return new[] { pokemon1Move1Box, pokemon1Move2Box, pokemon1Move3Box, pokemon1Move4Box };
-                case 1: return new[] { pokemon2Move1Box, pokemon2Move2Box, pokemon2Move3Box, pokemon2Move4Box };
-                case 2: return new[] { pokemon3Move1Box, pokemon3Move2Box, pokemon3Move3Box, pokemon3Move4Box };
-                case 3: return new[] { pokemon4Move1Box, pokemon4Move2Box, pokemon4Move3Box, pokemon4Move4Box };
-                case 4: return new[] { pokemon5Move1Box, pokemon5Move2Box, pokemon5Move3Box, pokemon5Move4Box };
-                case 5: return new[] { pokemon6Move1Box, pokemon6Move2Box, pokemon6Move3Box, pokemon6Move4Box };
-                default: throw new ArgumentOutOfRangeException(nameof(index));
-            }
+            return typeEffectiveness.TryGetValue(type, out var vulnerableTypes) ? vulnerableTypes : Array.Empty<string>();
         }
 
         // Type effectiveness dictionary
-        private Dictionary<string, string[]> typeEffectiveness = new Dictionary<string, string[]>
+        private readonly Dictionary<string, string[]> typeEffectiveness = new Dictionary<string, string[]>
         {
             { "NORMAL", new[] { "FIGHTING" } },
             { "FIRE", new[] { "WATER", "GROUND", "ROCK" } },
@@ -199,13 +180,5 @@ namespace Pokemon_Contestant_Suggester
             { "STEEL", new[] { "FIRE", "FIGHTING", "GROUND" } },
             { "FAIRY", new[] { "POISON", "STEEL" } }
         };
-
-        private string[] GetVulnerableTypes(string type)
-        {
-            // Replace GetValueOrDefault with TryGetValue
-            string[] vulnerableTypes;
-            typeEffectiveness.TryGetValue(type, out vulnerableTypes);
-            return vulnerableTypes; // Return the result
-        }
     }
 }

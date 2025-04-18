@@ -6,3 +6,13 @@ c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Gue
 c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.csproj.GenerateResource.Cache
 c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.exe
 c:\users\jason santos\documents\visual studio 2012\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\obj\Debug\Guess_The_Number.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\obj\Debug\Guess_The_Number.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\obj\Debug\Guess The Number.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\bin\Debug\Guess The Number.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\bin\Debug\Guess The Number.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Guess The Number\Guess The Number\bin\Debug\Guess The Number.pdb

@@ -1,0 +1,80 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jay_d\\Documents\\GitHub\\Visual-Studio\\Projects\\Arm Wrestle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0259E8-243A-4210-A39C-72E7874EA6FE}|Arm Wrestle\\Arm Wrestle.csproj|c:\\users\\jay_d\\documents\\github\\visual-studio\\projects\\arm wrestle\\arm wrestle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0259E8-243A-4210-A39C-72E7874EA6FE}|Arm Wrestle\\Arm Wrestle.csproj|solutionrelative:arm wrestle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0259E8-243A-4210-A39C-72E7874EA6FE}|Arm Wrestle\\Arm Wrestle.csproj|C:\\Users\\jay_d\\Documents\\GitHub\\Visual-Studio\\Projects\\Arm Wrestle\\arm wrestle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F0259E8-243A-4210-A39C-72E7874EA6FE}|Arm Wrestle\\Arm Wrestle.csproj|solutionrelative:arm wrestle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0259E8-243A-4210-A39C-72E7874EA6FE}|Arm Wrestle\\Arm Wrestle.csproj|C:\\Users\\jay_d\\Documents\\GitHub\\Visual-Studio\\Projects\\Arm Wrestle\\arm wrestle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0259E8-243A-4210-A39C-72E7874EA6FE}|Arm Wrestle\\Arm Wrestle.csproj|solutionrelative:arm wrestle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jay_d\\Documents\\GitHub\\Visual-Studio\\Projects\\Arm Wrestle\\Arm Wrestle\\Program.cs",
+              "RelativeDocumentMoniker": "Arm Wrestle\\Program.cs",
+              "ToolTip": "C:\\Users\\jay_d\\Documents\\GitHub\\Visual-Studio\\Projects\\Arm Wrestle\\Arm Wrestle\\Program.cs",
+              "RelativeToolTip": "Arm Wrestle\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T05:16:31.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jay_d\\Documents\\GitHub\\Visual-Studio\\Projects\\Arm Wrestle\\Arm Wrestle\\Form1.cs",
+              "RelativeDocumentMoniker": "Arm Wrestle\\Form1.cs",
+              "ToolTip": "C:\\Users\\jay_d\\Documents\\GitHub\\Visual-Studio\\Projects\\Arm Wrestle\\Arm Wrestle\\Form1.cs",
+              "RelativeToolTip": "Arm Wrestle\\Form1.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwFAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T05:16:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jay_d\\Documents\\GitHub\\Visual-Studio\\Projects\\Arm Wrestle\\Arm Wrestle\\Form1.cs",
+              "RelativeDocumentMoniker": "Arm Wrestle\\Form1.cs",
+              "ToolTip": "C:\\Users\\jay_d\\Documents\\GitHub\\Visual Studio\\Projects\\Arm Wrestle\\Arm Wrestle\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Visual Studio\\Projects\\Arm Wrestle\\Arm Wrestle\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-18T05:16:31.114Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

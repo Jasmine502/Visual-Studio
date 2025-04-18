@@ -97,7 +97,6 @@
             this.wordBox.TabIndex = 1;
             this.wordBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.wordBox.UseSystemPasswordChar = true;
-            this.wordBox.TextChanged += new System.EventHandler(this.wordBox_TextChanged);
             this.wordBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.wordBox_KeyDown);
             // 
             // playButton
@@ -238,7 +237,6 @@
             this.newWordToolStripMenuItem.Name = "newWordToolStripMenuItem";
             this.newWordToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.newWordToolStripMenuItem.Text = "File";
-            this.newWordToolStripMenuItem.Click += new System.EventHandler(this.newWordToolStripMenuItem_Click);
             // 
             // newWordToolStripMenuItem1
             // 

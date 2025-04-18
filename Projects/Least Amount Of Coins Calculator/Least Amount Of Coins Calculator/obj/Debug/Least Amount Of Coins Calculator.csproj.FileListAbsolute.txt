@@ -7,3 +7,13 @@ c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coin
 c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.csproj.GenerateResource.Cache
 c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.exe
 c:\users\jason santos\documents\visual studio 2012\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least_Amount_Of_Coins_Calculator.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least_Amount_Of_Coins_Calculator.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\obj\Debug\Least Amount Of Coins Calculator.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Debug\Least Amount Of Coins Calculator.exe.config
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Debug\Least Amount Of Coins Calculator.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Least Amount Of Coins Calculator\Least Amount Of Coins Calculator\bin\Debug\Least Amount Of Coins Calculator.pdb
