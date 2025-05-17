@@ -7,3 +7,10 @@ C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Soundboard\Soundboar
 C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.csproj.GenerateResource.Cache
 C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.exe
 C:\Users\Jason Santos\Documents\Visual Studio 2012\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.pdb
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.csproj.AssemblyReference.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.Form1.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.Properties.Resources.resources
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.csproj.GenerateResource.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.csproj.CoreCompileInputs.cache
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.exe
+C:\Users\jay_d\Documents\GitHub\Visual-Studio\Projects\Soundboard\Soundboard\obj\Debug\Soundboard.pdb

@@ -10,166 +10,244 @@ namespace Gen_1PokemonCaptureSimulation
 {
     public partial class Form1 : Form
     {
+        // Constants
+        private const int DEFAULT_MONEY = 500;
+        private const int DEFAULT_POKEBALLS = 10;
+        private const int DEFAULT_GREATBALLS = 5;
+        private const int DEFAULT_ULTRABALLS = 3;
+        private const int DEFAULT_SAFARIBALLS = 3;
+        private const int DEFAULT_MASTERBALLS = 1;
+        private const int DEFAULT_MEGASTONES = 0;
+        private const long MAX_MONEY = 9999999999;
+        private const int MIN_MONEY = 0;
+        private const int MAX_HP = 255;
+        private const int POKEBALL_COST = 200;
+        private const int GREATBALL_COST = 600;
+        private const int ULTRABALL_COST = 1200;
+        private const int SAFARIBALL_COST = 1700;
+        private const int MASTERBALL_COST = 3400;
+        private const int MEGASTONE_COST = 10000;
+        private const int MIN_CATCH_MONEY = 200;
+        private const int MAX_CATCH_MONEY = 1001;
+        private const int MAX_BALL_SHAKES = 400;
+        private const int FREE_BALL_SHAKES = 250;
+        private const int SHAKE_INCREMENT = 6;
+
+        // File paths
+        private readonly string filePath = Path.Combine(
+            Directory.GetParent(Directory.GetParent(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).FullName).FullName).FullName,
+            "Resources",
+            "Pokemon Sprites" + Path.DirectorySeparatorChar);
+
+        // Game state
+        private readonly Random rnd = new Random();
+        private bool hintShown;
+        private int MegaStone, PB, GB, UB, SB, MB;
+        private float money, N, statVal, currentBallShakes;
+        private Bitmap normalBall, rightBall, leftBall, caughtBall;
+
+        // Game data
+        private readonly string[] balls = { "PokeBall", "Master Ball", "Great Ball", "Ultra Ball", "Safari Ball" };
+        private readonly string[] megaNames = PokemonData.MegaNames;
+        private readonly string[] megas = PokemonData.Megas;
+        private readonly string[] pokemon = PokemonData.Pokemon;
+        private readonly string[] catchRate3 = PokemonData.CatchRate3;
+        private readonly string[] catchRate25 = PokemonData.CatchRate25;
+        private readonly string[] catchRate30 = PokemonData.CatchRate30;
+        private readonly string[] catchRate45 = PokemonData.CatchRate45;
+        private readonly string[] catchRate50 = PokemonData.CatchRate50;
+        private readonly string[] catchRate55 = PokemonData.CatchRate55;
+        private readonly string[] catchRate60 = PokemonData.CatchRate60;
+        private readonly string[] catchRate65 = PokemonData.CatchRate65;
+        private readonly string[] catchRate75 = PokemonData.CatchRate75;
+        private readonly string[] catchRate90 = PokemonData.CatchRate90;
+        private readonly string[] catchRate100 = PokemonData.CatchRate100;
+        private readonly string[] catchRate120 = PokemonData.CatchRate120;
+        private readonly string[] catchRate125 = PokemonData.CatchRate125;
+        private readonly string[] catchRate127 = PokemonData.CatchRate127;
+        private readonly string[] catchRate130 = PokemonData.CatchRate130;
+        private readonly string[] catchRate140 = PokemonData.CatchRate140;
+        private readonly string[] catchRate150 = PokemonData.CatchRate150;
+        private readonly string[] catchRate170 = PokemonData.CatchRate170;
+        private readonly string[] catchRate180 = PokemonData.CatchRate180;
+        private readonly string[] catchRate190 = PokemonData.CatchRate190;
+        private readonly string[] catchRate200 = PokemonData.CatchRate200;
+        private readonly string[] catchRate220 = PokemonData.CatchRate220;
+        private readonly string[] catchRate225 = PokemonData.CatchRate225;
+        private readonly string[] catchRate235 = PokemonData.CatchRate235;
+        private readonly string[] catchRate255 = PokemonData.CatchRate255;
+
+        // Sound effects
+        private readonly SoundPlayer ballToss = new SoundPlayer(Properties.Resources.BALL_TOSS);
+        private readonly SoundPlayer ballPoof = new SoundPlayer(Properties.Resources.BALL_POOF);
+        private readonly SoundPlayer tink = new SoundPlayer(Properties.Resources.TINK);
+        private readonly SoundPlayer denied = new SoundPlayer(Properties.Resources.DENIED);
+        private readonly SoundPlayer caughtMon = new SoundPlayer(Properties.Resources.CAUGHT_MON);
+        private readonly SoundPlayer purchase = new SoundPlayer(Properties.Resources.PURCHASE);
+        private readonly SoundPlayer megaEvolve = new SoundPlayer(Properties.Resources.MEGA_EVOLVE);
+        private readonly SoundPlayer withdrawDeposit = new SoundPlayer(Properties.Resources.WITHDRAW_DEPOSIT);
+        private readonly SoundPlayer run = new SoundPlayer(Properties.Resources.RUN);
+
         public Form1()
         {
             InitializeComponent();
         }
-        // file path for pokemon sprites
-        private string filePath = Path.Combine(Directory.GetParent(Directory.GetParent(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).FullName).FullName).FullName, "Resources", "Pokemon Sprites" + Path.DirectorySeparatorChar);
-        
-        //GLOBAL VARIABLES
-        Random rnd = new Random();
-        bool hintShown = false;
-        int MegaStone, PB, GB, UB, SB, MB;
-        float money, N, statVal, currentBallShakes;
-        Bitmap normalBall, rightBall, leftBall, caughtBall;
-        String[] balls = { "PokeBall", "Master Ball", "Great Ball", "Ultra Ball", "Safari Ball" };
-        String[] megaNames = PokemonData.MegaNames;
-        String[] megas = PokemonData.Megas;
-        String[] pokemon = PokemonData.Pokemon;
 
-        //SOUNDS
-        SoundPlayer ballToss = new SoundPlayer(Properties.Resources.BALL_TOSS);
-        SoundPlayer ballPoof = new SoundPlayer(Properties.Resources.BALL_POOF);
-        SoundPlayer tink = new SoundPlayer(Properties.Resources.TINK);
-        SoundPlayer denied = new SoundPlayer(Properties.Resources.DENIED);
-        SoundPlayer caughtMon = new SoundPlayer(Properties.Resources.CAUGHT_MON);
-        SoundPlayer purchase = new SoundPlayer(Properties.Resources.PURCHASE);
-        SoundPlayer megaEvolve = new SoundPlayer(Properties.Resources.MEGA_EVOLVE);
-        SoundPlayer withdrawDeposit = new SoundPlayer(Properties.Resources.WITHDRAW_DEPOSIT);
-        SoundPlayer run = new SoundPlayer(Properties.Resources.RUN);
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            InitializeGameState();
+        }
 
-        String[] catchRate3 = PokemonData.CatchRate3;
-        String[] catchRate25 = PokemonData.CatchRate25;
-        String[] catchRate30 = PokemonData.CatchRate30;
-        String[] catchRate45 = PokemonData.CatchRate45;
-        String[] catchRate50 = PokemonData.CatchRate50;
-        String[] catchRate55 = PokemonData.CatchRate55;
-        String[] catchRate60 = PokemonData.CatchRate60;
-        String[] catchRate65 = PokemonData.CatchRate65;
-        String[] catchRate75 = PokemonData.CatchRate75;
-        String[] catchRate90 = PokemonData.CatchRate90;
-        String[] catchRate100 = PokemonData.CatchRate100;
-        String[] catchRate120 = PokemonData.CatchRate120;
-        String[] catchRate125 = PokemonData.CatchRate125;
-        String[] catchRate127 = PokemonData.CatchRate127;
-        String[] catchRate130 = PokemonData.CatchRate130;
-        String[] catchRate140 = PokemonData.CatchRate140;
-        String[] catchRate150 = PokemonData.CatchRate150;
-        String[] catchRate170 = PokemonData.CatchRate170;
-        String[] catchRate180 = PokemonData.CatchRate180;
-        String[] catchRate190 = PokemonData.CatchRate190;
-        String[] catchRate200 = PokemonData.CatchRate200;
-        String[] catchRate220 = PokemonData.CatchRate220;
-        String[] catchRate225 = PokemonData.CatchRate225;
-        String[] catchRate235 = PokemonData.CatchRate235;
-        String[] catchRate255 = PokemonData.CatchRate255;
-
+        private void InitializeGameState()
+        {
+            MegaStone = DEFAULT_MEGASTONES;
+            PB = DEFAULT_POKEBALLS;
+            GB = DEFAULT_GREATBALLS;
+            SB = DEFAULT_SAFARIBALLS;
+            UB = DEFAULT_ULTRABALLS;
+            MB = DEFAULT_MASTERBALLS;
+            money = DEFAULT_MONEY;
+            moneyLabel.Text = money.ToString();
+        }
 
         private void throwBallButton_Click(object sender, EventArgs e)
         {
-            if (pokemonBox.Text == "")
+            if (!ValidateThrowBallInput())
+            {
+                return;
+            }
+
+            SetStatusValue();
+            if (!SelectBallAndResources())
+            {
+                return;
+            }
+
+            DetermineCatch();
+            DisableControls(true);
+            ballToss.Play();
+        }
+
+        private bool ValidateThrowBallInput()
+        {
+            if (string.IsNullOrEmpty(pokemonBox.Text))
             {
                 denied.Play();
                 MessageBox.Show("Please enter an existing Pokémon into the textbox.", "Battle Error");
-                return;
+                return false;
             }
 
-            if (ballChosenBox.Text == "")
+            if (string.IsNullOrEmpty(ballChosenBox.Text))
             {
                 denied.Play();
                 MessageBox.Show("Please enter the type of ball you are using to attempt to catch the Pokémon.");
-                return;
+                return false;
             }
 
-            if (pokMaxHPBox.Text == "" || float.Parse(pokMaxHPBox.Text) > 255)
+            if (!ValidateHPInput())
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        private bool ValidateHPInput()
+        {
+            if (string.IsNullOrEmpty(pokMaxHPBox.Text) || float.Parse(pokMaxHPBox.Text) > MAX_HP)
             {
                 denied.Play();
                 MessageBox.Show("Please enter a valid maximum HP for the Pokémon.");
-                return;
+                return false;
             }
 
-            if (pokCurrentHPBox.Text == "" || float.Parse(pokCurrentHPBox.Text) > float.Parse(pokMaxHPBox.Text))
+            if (string.IsNullOrEmpty(pokCurrentHPBox.Text) || float.Parse(pokCurrentHPBox.Text) > float.Parse(pokMaxHPBox.Text))
             {
                 denied.Play();
                 MessageBox.Show("Please enter a valid current HP for the Pokémon that does not exceed the maximum HP.");
-                return;
+                return false;
             }
 
+            return true;
+        }
 
-            // Use actual capture method to determine statVal
-            if (pokStatusBox.Text.ToUpper() == "SLP" || pokStatusBox.Text.ToUpper() == "FRZ")
+        private void SetStatusValue()
+        {
+            string status = pokStatusBox.Text.ToUpper();
+            statVal = status switch
             {
-                statVal = 25;
-            }
-            else if (pokStatusBox.Text.ToUpper() == "PAR" || pokStatusBox.Text.ToUpper() == "BRN" || pokStatusBox.Text.ToUpper() == "PSN")
-            {
-                statVal = 12;
-            }
-            else
-            {
-                statVal = 0;
-            }
+                "SLP" or "FRZ" => 25,
+                "PAR" or "BRN" or "PSN" => 12,
+                _ => 0
+            };
+        }
 
-            if (ballChosenBox.Text.ToUpper().Contains("POK") && PB > 0)
+        private bool SelectBallAndResources()
+        {
+            string ballType = ballChosenBox.Text.ToUpper();
+            
+            if (ballType.Contains("POK") && PB > 0)
             {
                 PB--;
                 N = rnd.Next(0, 255);
-                normalBall = Properties.Resources.PokeBall_normal;
-                rightBall = Properties.Resources.PokeBall_right;
-                leftBall = Properties.Resources.PokeBall_left;
-                caughtBall = Properties.Resources.PokeBall_caught;
+                SetBallImages(Properties.Resources.PokeBall_normal, Properties.Resources.PokeBall_right,
+                            Properties.Resources.PokeBall_left, Properties.Resources.PokeBall_caught);
             }
-            else if (ballChosenBox.Text.ToUpper().Contains("GRE") && GB > 0)
+            else if (ballType.Contains("GRE") && GB > 0)
             {
                 GB--;
                 N = rnd.Next(0, 200);
-                currentBallShakes = 0;
-                normalBall = Properties.Resources.Great_Ball_normal;
-                rightBall = Properties.Resources.Great_Ball_right;
-                leftBall = Properties.Resources.Great_Ball_left;
-                caughtBall = Properties.Resources.Great_Ball_caught;
+                SetBallImages(Properties.Resources.Great_Ball_normal, Properties.Resources.Great_Ball_right,
+                            Properties.Resources.Great_Ball_left, Properties.Resources.Great_Ball_caught);
             }
-            else if (ballChosenBox.Text.ToUpper().Contains("ULT") && UB > 0)
+            else if (ballType.Contains("ULT") && UB > 0)
             {
                 UB--;
-                normalBall = Properties.Resources.Ultra_Ball_normal;
-                rightBall = Properties.Resources.Ultra_Ball_right;
-                leftBall = Properties.Resources.Ultra_Ball_left;
-                caughtBall = Properties.Resources.Ultra_Ball_caught;
                 N = rnd.Next(0, 150);
+                SetBallImages(Properties.Resources.Ultra_Ball_normal, Properties.Resources.Ultra_Ball_right,
+                            Properties.Resources.Ultra_Ball_left, Properties.Resources.Ultra_Ball_caught);
             }
-            else if (ballChosenBox.Text.ToUpper().Contains("SAF") && SB > 0)
+            else if (ballType.Contains("SAF") && SB > 0)
             {
                 SB--;
-                normalBall = Properties.Resources.Safari_Ball;
-                rightBall = Properties.Resources.Safari_Ball_right;
-                leftBall = Properties.Resources.Safari_Ball_left;
-                caughtBall = Properties.Resources.Safari_Ball_caught;
                 N = rnd.Next(0, 150);
+                SetBallImages(Properties.Resources.Safari_Ball, Properties.Resources.Safari_Ball_right,
+                            Properties.Resources.Safari_Ball_left, Properties.Resources.Safari_Ball_caught);
             }
-            else if (ballChosenBox.Text.ToUpper().Contains("MAS") && MB > 0)
+            else if (ballType.Contains("MAS") && MB > 0)
             {
                 MB--;
                 caughtTimer.Start();
                 currentBallShakes = 0;
-                rightBall = Properties.Resources.Master_Ball_right;
-                leftBall = Properties.Resources.Master_Ball_left;
-                normalBall = Properties.Resources.Master_Ball_normal;
-                caughtBall = Properties.Resources.Master_Ball_caught;
+                SetBallImages(Properties.Resources.Master_Ball_normal, Properties.Resources.Master_Ball_right,
+                            Properties.Resources.Master_Ball_left, Properties.Resources.Master_Ball_caught);
             }
             else
             {
                 MessageBox.Show("You don't have enough of the chosen ball type.");
-                return;
+                return false;
             }
 
-            // Determine if the Pokémon will be caught
-            if (N < (int)((3 * float.Parse(pokMaxHPBox.Text) - 2 * float.Parse(pokCurrentHPBox.Text)) * float.Parse(catchRateBox.Text) * statVal / (3 * float.Parse(pokMaxHPBox.Text))) && !ballChosenBox.Text.ToUpper().Contains("MAS"))
-            {
-                caughtTimer.Start();
-            }
-            else if (ballChosenBox.Text.ToUpper().Contains("MAS"))
+            return true;
+        }
+
+        private void SetBallImages(Bitmap normal, Bitmap right, Bitmap left, Bitmap caught)
+        {
+            normalBall = normal;
+            rightBall = right;
+            leftBall = left;
+            caughtBall = caught;
+        }
+
+        private void DetermineCatch()
+        {
+            float maxHP = float.Parse(pokMaxHPBox.Text);
+            float currentHP = float.Parse(pokCurrentHPBox.Text);
+            float catchRate = float.Parse(catchRateBox.Text);
+
+            bool willCatch = N < (3 * maxHP - 2 * currentHP) * catchRate * statVal / (3 * maxHP);
+            
+            if (willCatch || ballChosenBox.Text.ToUpper().Contains("MAS"))
             {
                 caughtTimer.Start();
             }
@@ -177,76 +255,97 @@ namespace Gen_1PokemonCaptureSimulation
             {
                 freeTimer.Start();
             }
+            
             currentBallShakes = 0;
-
-            // Disable UI elements
-            battleButton.Enabled = false;
-            randomPokemonButton.Enabled = false;
-            disableControls(true);
-
-            // Play sound
-            ballToss.Play();
         }
-
 
         private void caughtTimer_Tick(object sender, EventArgs e)
         {
-            int maxBallShakes = 400;
-            int minMoneyToAdd = 200;
-            int maxMoneyToAdd = 1001;
-            
-            currentBallShakes += 6;
+            currentBallShakes += SHAKE_INCREMENT;
 
-            if (currentBallShakes >= maxBallShakes)
+            if (currentBallShakes >= MAX_BALL_SHAKES)
             {
-                caughtTimer.Stop();
-                
-                int moneyToAdd = rnd.Next(minMoneyToAdd, maxMoneyToAdd);
-                // multiplier for moneyToAdd with catch rate (higher catch rate = less money, lower catch rate = more money)
-                moneyToAdd *= (int)(255 / float.Parse(catchRateBox.Text));
-
-                // if the pokemon was caught with a master ball, reduce the money gained
-                if (ballChosenBox.Text.ToUpper().Contains("MAS"))
-                {
-                    moneyToAdd /= 10;
-                }
-
-                money += moneyToAdd;
-                moneyLabel.Text = money.ToString();
-                moneyLabel.Text = money.ToString();
-
-                caughtLabel.Text = pokemonBox.Text.ToUpper() + " Caught!";
-                caughtMon.Play();
-                pokeBallBox.Image = caughtBall;
-
-                if (pokemonTeamBox.Items.Count < 6)
-                {
-                    pokemonTeamBox.Items.Add(pokemonBox.Text.ToUpper());
-                }
-                else
-                {
-                    pcBox.Items.Add(pokemonBox.Text.ToUpper());
-                }
-
-                ballChosenBox.Clear();
-                pokStatusBox.Clear();
-                catchRateBox.Clear();
-                pokMaxHPBox.Clear();
-                pokCurrentHPBox.Clear();
-                pokemonBox.Clear();
-
-                battleButton.Enabled = true;
-                battleButton.Text = "Battle";
-                randomPokemonButton.Enabled = true;
-                pokemonBox.Enabled = true;
-                pokemonTeamBox.Enabled = true;
-                pcBox.Enabled = true;
+                HandleSuccessfulCatch();
             }
-            else if (currentBallShakes < 50)
+            else
+            {
+                UpdateBallAnimation();
+            }
+        }
+
+        private void HandleSuccessfulCatch()
+        {
+            caughtTimer.Stop();
+            
+            int moneyToAdd = CalculateCatchReward();
+            money += moneyToAdd;
+            UpdateMoneyDisplay();
+
+            caughtLabel.Text = pokemonBox.Text.ToUpper() + " Caught!";
+            caughtMon.Play();
+            pokeBallBox.Image = caughtBall;
+
+            AddPokemonToTeam();
+            ResetInputFields();
+            EnableControls();
+        }
+
+        private int CalculateCatchReward()
+        {
+            int moneyToAdd = rnd.Next(MIN_CATCH_MONEY, MAX_CATCH_MONEY);
+            moneyToAdd *= (int)(255 / float.Parse(catchRateBox.Text));
+
+            if (ballChosenBox.Text.ToUpper().Contains("MAS"))
+            {
+                moneyToAdd /= 10;
+            }
+
+            return moneyToAdd;
+        }
+
+        private void UpdateMoneyDisplay()
+        {
+            moneyLabel.Text = money.ToString();
+        }
+
+        private void AddPokemonToTeam()
+        {
+            if (pokemonTeamBox.Items.Count < 6)
+            {
+                pokemonTeamBox.Items.Add(pokemonBox.Text.ToUpper());
+            }
+            else
+            {
+                pcBox.Items.Add(pokemonBox.Text.ToUpper());
+            }
+        }
+
+        private void ResetInputFields()
+        {
+            ballChosenBox.Clear();
+            pokStatusBox.Clear();
+            catchRateBox.Clear();
+            pokMaxHPBox.Clear();
+            pokCurrentHPBox.Clear();
+            pokemonBox.Clear();
+        }
+
+        private void EnableControls()
+        {
+            battleButton.Enabled = true;
+            battleButton.Text = "Battle";
+            randomPokemonButton.Enabled = true;
+            pokemonBox.Enabled = true;
+            pokemonTeamBox.Enabled = true;
+            pcBox.Enabled = true;
+        }
+
+        private void UpdateBallAnimation()
+        {
+            if (currentBallShakes < 50)
             {
                 caughtLabel.Text = "Good aim!";
                 pokeBallBox.Image = normalBall;
-
             }
             else if (currentBallShakes < 100)
             {
@@ -275,30 +374,39 @@ namespace Gen_1PokemonCaptureSimulation
             {
                 pokeBallBox.Image = normalBall;
             }
-
         }
 
-        // Timer for when the pokemon breaks free
         private void freeTimer_Tick(object sender, EventArgs e)
         {
-            //ball will shake 2 times, using normalBall, leftBall and rightBall
-            const int maxBallShakes = 250;
-            currentBallShakes += 6;
+            currentBallShakes += SHAKE_INCREMENT;
 
-            if (currentBallShakes >= maxBallShakes)
+            if (currentBallShakes >= FREE_BALL_SHAKES)
             {
-                ballPoof.Play();
-                freeTimer.Stop();
-                // convert to Title case
-                caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
-                pokeBallBox.Image = Image.FromFile(filePath + pokemonBox.Text.ToLower() + ".gif");
-                battleButton.Enabled = true;
-                battleButton.Text = "Run";
-                disableControls(false);
-                pokemonTeamBox.Enabled = true;
-                pcBox.Enabled = true;
+                HandleFailedCatch();
             }
-            else if (currentBallShakes < 50)
+            else
+            {
+                UpdateFreeBallAnimation();
+            }
+        }
+
+        private void HandleFailedCatch()
+        {
+            ballPoof.Play();
+            freeTimer.Stop();
+            caughtLabel.Text = pokemonBox.Text.ToUpper() + " Broke Free!";
+            pokeBallBox.Image = Image.FromFile(filePath + pokemonBox.Text.ToLower() + ".gif");
+            
+            battleButton.Enabled = true;
+            battleButton.Text = "Run";
+            DisableControls(false);
+            pokemonTeamBox.Enabled = true;
+            pcBox.Enabled = true;
+        }
+
+        private void UpdateFreeBallAnimation()
+        {
+            if (currentBallShakes < 50)
             {
                 caughtLabel.Text = "Good aim!";
                 pokeBallBox.Image = normalBall;
@@ -320,9 +428,7 @@ namespace Gen_1PokemonCaptureSimulation
                 caughtLabel.Text = "Almost there!";
                 pokeBallBox.Image = normalBall;
             }
-
         }
-
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -334,7 +440,6 @@ namespace Gen_1PokemonCaptureSimulation
                 hintShown = true;
             }
         }
-
 
         private void label2_Click(object sender, EventArgs e) //Pokemon Status Label
         {
@@ -366,7 +471,7 @@ namespace Gen_1PokemonCaptureSimulation
         }
 
         //function that disables/enables the controls for the random buttons and the textboxes
-        private void disableControls(bool disable)
+        private void DisableControls(bool disable)
         {
             if (disable)
             {
@@ -405,7 +510,6 @@ namespace Gen_1PokemonCaptureSimulation
             crySound.Play();
         }
 
-
         // Function for the Battle Button
         private void Search_Click(object sender, EventArgs e)
         {
@@ -436,7 +540,7 @@ namespace Gen_1PokemonCaptureSimulation
                 pokemonBox.Enabled = false;
                 pokemonTeamBox.Enabled = false;
                 pcBox.Enabled = false;
-                disableControls(false);
+                DisableControls(false);
 
                 
                 pokeBallBox.Image = Image.FromFile(filePath + enteredPokemon.ToLower() + ".gif");
@@ -525,7 +629,6 @@ namespace Gen_1PokemonCaptureSimulation
                         break;
                 }
 
-
                 catchRateBox.Text = catchRate.ToString();
 
             }
@@ -545,10 +648,9 @@ namespace Gen_1PokemonCaptureSimulation
                 pokemonTeamBox.Enabled = true;
                 pcBox.Enabled = true;
                 pokeBallBox.Image = null;
-                disableControls(true);
+                DisableControls(true);
             }
         }
-
 
         private void label5_Click(object sender, EventArgs e) //Pokemon Name Label
         {
@@ -576,7 +678,6 @@ namespace Gen_1PokemonCaptureSimulation
 
             pokemonBox.Clear();
         }
-
 
         private void pokemonTeamBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -653,7 +754,6 @@ namespace Gen_1PokemonCaptureSimulation
             }
         }
 
-
         private void addToPCButton_Click(object sender, EventArgs e)
         {
             if (pokemonTeamBox.SelectedItem != null)
@@ -683,38 +783,15 @@ namespace Gen_1PokemonCaptureSimulation
             }
         }
 
-
-
         private void label6_Click(object sender, EventArgs e) //Current Team Label
         {
             MessageBox.Show("Pokémon in your party to carry.", "Team Help");
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            MegaStone = 0; //default=0
-            PB = 10; //default=10
-            GB = 5; //default=5
-            SB = 3; //default=3
-            UB = 3; //default=3
-            MB = 1; //default=1
-            money = 500; //default=500
-            moneyLabel.Text = money.ToString();
-        }
-
         private void buyPBButton_Click(object sender, EventArgs e)
         {
-            const int pokeBallCost = 200;
-
-            if (money >= pokeBallCost)
-            {
-                purchase.Play();
-                PB++;
-                money -= pokeBallCost;
-                moneyLabel.Text = money.ToString();
-            }
+            PurchaseItem(POKEBALL_COST, () => PB++);
         }
-
 
         private void buyPBButton_MouseHover(object sender, EventArgs e)
         {
@@ -775,6 +852,7 @@ namespace Gen_1PokemonCaptureSimulation
             pointer5.Hide();
             martLogo.Image = Properties.Resources.PokeMart_Icon;
         }
+
         private void label8_Click(object sender, EventArgs e)
         {
             string message = "Buy more balls if you run out, or buy a Mega Stone to Mega Evolve your Pokémon!" + Environment.NewLine;
@@ -786,7 +864,6 @@ namespace Gen_1PokemonCaptureSimulation
 
             MessageBox.Show(message, "Shop Help");
         }
-
 
         private void moneyBorder_Click(object sender, EventArgs e)
         {
@@ -806,67 +883,27 @@ namespace Gen_1PokemonCaptureSimulation
 
         private void buyGBButton_Click(object sender, EventArgs e)
         {
-            const int greatBallCost = 600;
-
-            if (money >= greatBallCost)
-            {
-                purchase.Play();
-                GB++;
-                money -= greatBallCost;
-                moneyLabel.Text = money.ToString();
-            }
+            PurchaseItem(GREATBALL_COST, () => GB++);
         }
 
         private void buyUBButton_Click(object sender, EventArgs e)
         {
-            const int ultraBallCost = 1200;
-
-            if (money >= ultraBallCost)
-            {
-                purchase.Play();
-                UB++;
-                money -= ultraBallCost;
-                moneyLabel.Text = money.ToString();
-            }
+            PurchaseItem(ULTRABALL_COST, () => UB++);
         }
 
         private void buySBButton_Click(object sender, EventArgs e)
         {
-            const int safariBallCost = 1700;
-
-            if (money >= safariBallCost)
-            {
-                purchase.Play();
-                SB++;
-                money -= safariBallCost;
-                moneyLabel.Text = money.ToString();
-            }
+            PurchaseItem(SAFARIBALL_COST, () => SB++);
         }
 
         private void buyMBButton_Click(object sender, EventArgs e)
         {
-            const int masterBallCost = 3400;
-
-            if (money >= masterBallCost)
-            {
-                purchase.Play();
-                MB++;
-                money -= masterBallCost;
-                moneyLabel.Text = money.ToString();
-            }
+            PurchaseItem(MASTERBALL_COST, () => MB++);
         }
 
         private void buyMegaStoneButton_Click(object sender, EventArgs e)
         {
-            const int megaStoneCost = 10000;
-
-            if (money >= megaStoneCost)
-            {
-                purchase.Play();
-                MegaStone++;
-                money -= megaStoneCost;
-                moneyLabel.Text = money.ToString();
-            }
+            PurchaseItem(MEGASTONE_COST, () => MegaStone++);
         }
 
         private void buyMegaStoneButton_MouseHover(object sender, EventArgs e)
@@ -877,80 +914,65 @@ namespace Gen_1PokemonCaptureSimulation
 
         private void saveButton_Click(object sender, EventArgs e)
         {
+            SaveGameData();
+            MessageBox.Show("Your game has been saved!", "Save");
+        }
+
+        private void SaveGameData()
+        {
             string saveData = $"{PB},{GB},{UB},{SB},{MB},{MegaStone},{money}";
-            string teamData = "";
-            string pcData = "";
+            string teamData = string.Join(",", pokemonTeamBox.Items.Cast<string>());
+            string pcData = string.Join(",", pcBox.Items.Cast<string>());
 
-            //save pokemon in team to another file
-            foreach (string pokemon in pokemonTeamBox.Items)
-            {
-                teamData += pokemon + ",";
-            }
-
-            //save pokemon in pc to another file
-            foreach (string pokemon in pcBox.Items)
-            {
-                pcData += pokemon + ",";
-            }
-
-            //save the data to a file, not using filePath since it's not a pokemon
             File.WriteAllText("saveData.txt", saveData);
             File.WriteAllText("teamData.txt", teamData);
             File.WriteAllText("pcData.txt", pcData);
-            
-            MessageBox.Show("Your game has been saved!", "Save");
-
         }
 
         private void loadButton_Click(object sender, EventArgs e)
         {
-            //load the data from the file
-            string saveData = File.ReadAllText("saveData.txt");
-            string teamData = File.ReadAllText("teamData.txt");
-            string pcData = File.ReadAllText("pcData.txt");
+            LoadGameData();
+            MessageBox.Show("Your game has been loaded!", "Load");
+        }
 
-            //split the data into an array
-            string[] saveDataArray = saveData.Split(',');
-            string[] teamDataArray = teamData.Split(',');
-            string[] pcDataArray = pcData.Split(',');
+        private void LoadGameData()
+        {
+            string[] saveData = File.ReadAllText("saveData.txt").Split(',');
+            string[] teamData = File.ReadAllText("teamData.txt").Split(',');
+            string[] pcData = File.ReadAllText("pcData.txt").Split(',');
 
-            //set the variables to the data in the array
-            PB = int.Parse(saveDataArray[0]);
-            GB = int.Parse(saveDataArray[1]);
-            UB = int.Parse(saveDataArray[2]);
-            SB = int.Parse(saveDataArray[3]);
-            MB = int.Parse(saveDataArray[4]);
-            MegaStone = int.Parse(saveDataArray[5]);
-            money = int.Parse(saveDataArray[6]);
+            LoadGameState(saveData);
+            LoadPokemonData(teamData, pcData);
+        }
 
-            //set the textboxes to the data in the array
-            moneyLabel.Text = money.ToString();
+        private void LoadGameState(string[] saveData)
+        {
+            PB = int.Parse(saveData[0]);
+            GB = int.Parse(saveData[1]);
+            UB = int.Parse(saveData[2]);
+            SB = int.Parse(saveData[3]);
+            MB = int.Parse(saveData[4]);
+            MegaStone = int.Parse(saveData[5]);
+            money = int.Parse(saveData[6]);
+            UpdateMoneyDisplay();
+        }
 
-            //clear the listboxes and the picturebox
+        private void LoadPokemonData(string[] teamData, string[] pcData)
+        {
             pokemonTeamBox.Items.Clear();
             pcBox.Items.Clear();
             pokeBallBox.Image = null;
 
-            //add the pokemon to the listboxes
-            foreach (string pokemon in teamDataArray)
+            foreach (string pokemon in teamData.Where(p => !string.IsNullOrEmpty(p)))
             {
-                if (pokemon != "")
-                {
-                    pokemonTeamBox.Items.Add(pokemon);
-                }
+                pokemonTeamBox.Items.Add(pokemon);
             }
 
-            foreach (string pokemon in pcDataArray)
+            foreach (string pokemon in pcData.Where(p => !string.IsNullOrEmpty(p)))
             {
-                if (pokemon != "")
-                {
-                    pcBox.Items.Add(pokemon);
-                }
+                pcBox.Items.Add(pokemon);
             }
-
-            MessageBox.Show("Your game has been loaded!", "Load");
         }
-
 
         private void moneyLabel_TextChanged(object sender, EventArgs e)
         {
@@ -996,14 +1018,13 @@ namespace Gen_1PokemonCaptureSimulation
             }
         }
 
-
         private void deselectButton_Click(object sender, EventArgs e)
         {
             pokemonTeamBox.SelectedIndex = -1;
             pcBox.SelectedIndex = -1;
         }
 
-    private void pokemonBox_KeyDown(object sender, KeyEventArgs e)
+        private void pokemonBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
@@ -1023,7 +1044,6 @@ namespace Gen_1PokemonCaptureSimulation
         private void randomPokemonButton_MouseDown(object sender, MouseEventArgs e)
         {
             pokemonBox.Text = pokemon[rnd.Next(pokemon.Count())].ToString();
-
         }
 
         private void randomBallButton_MouseDown(object sender, MouseEventArgs e)
@@ -1044,8 +1064,6 @@ namespace Gen_1PokemonCaptureSimulation
                 ballChosenBox.Text = ballNo;
             }
         }
-
-
 
         private void randomStatusButton_MouseDown(object sender, MouseEventArgs e)
         {
@@ -1074,5 +1092,15 @@ namespace Gen_1PokemonCaptureSimulation
             }
         }
 
+        private void PurchaseItem(int cost, Action onSuccess)
+        {
+            if (money >= cost)
+            {
+                purchase.Play();
+                onSuccess();
+                money -= cost;
+                UpdateMoneyDisplay();
+            }
+        }
     }
 }
